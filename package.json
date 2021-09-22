@@ -108,11 +108,14 @@
     "yauzl": "^2.10.0",
     "yazl": "^2.5.1"
   },
+
   "scripts": {
     "test-headless": "npx playwright test --reporter=line,experimental-allure-playwright",
     "test-headed": "npx playwright test --headed --browser=chromium --reporter=line,experimental-allure-playwright",
-    "report": "npx allure generate ./allure-results --clean && npx allure open ./allure-report"
+    "allure-generate": "npx allure generate ./allure-results --clean",
+    "allure-open": "npx allure open ./allure-report"
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",

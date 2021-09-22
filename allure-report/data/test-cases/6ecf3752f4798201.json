@@ -1,12 +1,12 @@
 {
-  "uid" : "37fd10f0ad93e641",
+  "uid" : "6ecf3752f4798201",
   "name" : "basic test",
   "fullName" : "basic test",
   "historyId" : " tests/first.test.ts basic test",
   "time" : {
-    "start" : 1632298417949,
-    "stop" : 1632298422493,
-    "duration" : 4544
+    "start" : 1632301144049,
+    "stop" : 1632301146748,
+    "duration" : 2699
   },
   "status" : "passed",
   "flaky" : false,
@@ -28,14 +28,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "37fd10f0ad93e641.json",
+  "source" : "6ecf3752f4798201.json",
   "parameterValues" : [ ]
 }
