@@ -1,0 +1,21 @@
+{
+  " tests/first.test.ts basic test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "37fd10f0ad93e641",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632298417949,
+        "stop" : 1632298422493,
+        "duration" : 4544
+      }
+    } ]
+  }
+}
