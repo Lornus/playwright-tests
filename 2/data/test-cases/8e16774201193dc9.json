@@ -1,0 +1,39 @@
+{
+  "uid" : "8e16774201193dc9",
+  "name" : "basic test",
+  "fullName" : "basic test",
+  "historyId" : " tests/first.test.ts basic test",
+  "time" : {
+    "start" : 1632300998784,
+    "stop" : 1632301001918,
+    "duration" : 3134
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "tests/first.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8e16774201193dc9.json",
+  "parameterValues" : [ ]
+}
