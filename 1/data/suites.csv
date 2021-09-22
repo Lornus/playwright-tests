@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Sep 22 09:07:13 GMT 2021","Wed Sep 22 09:07:14 GMT 2021","968","","tests/first.test.ts","","","","basic test",""

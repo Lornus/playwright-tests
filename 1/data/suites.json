@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests/first.test.ts",
+    "children" : [ {
+      "name" : "basic test",
+      "uid" : "ed1706ce39a8e962",
+      "parentUid" : "44da84cce15981919eb786a171e8037f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632301633340,
+        "stop" : 1632301634308,
+        "duration" : 968
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "44da84cce15981919eb786a171e8037f"
+  } ],
+  "name" : "suites"
+}
