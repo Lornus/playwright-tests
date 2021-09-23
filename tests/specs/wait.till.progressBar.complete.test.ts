@@ -17,7 +17,7 @@ test('stop progressbar on 75% and get value from it', async function ({page}) {
 
     await stopButton.click();
 
-    // console.log(await result.innerText()); For debugging
+    console.log("RESULTS -> ", await result.innerText());// For debugging
 
     expect(await result.innerText()).toContain("Result: 0")
 
