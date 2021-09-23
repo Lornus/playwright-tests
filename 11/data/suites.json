@@ -1,0 +1,316 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "specs/check.button.innerText.test.ts",
+    "children" : [ {
+      "name" : "the button name is changing",
+      "uid" : "5847af8a0b4acd4e",
+      "parentUid" : "19264d625c1e9c968b83a3e485270ee6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632426346162,
+        "stop" : 1632426348109,
+        "duration" : 1947
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "19264d625c1e9c968b83a3e485270ee6"
+  }, {
+    "name" : "specs/check.click.test.ts",
+    "children" : [ {
+      "name" : "it is able to click the button",
+      "uid" : "ed7347c563d87962",
+      "parentUid" : "2ae190f7a7c7a3bdcb4d6c4da5c13182",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632426346577,
+        "stop" : 1632426348092,
+        "duration" : 1515
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2ae190f7a7c7a3bdcb4d6c4da5c13182"
+  }, {
+    "name" : "specs/click.count.test.ts",
+    "children" : [ {
+      "name" : "click count increased",
+      "uid" : "68e3140533f90758",
+      "parentUid" : "8f9376c8ea0c8b08ae1305e283e76e26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632426347052,
+        "stop" : 1632426349202,
+        "duration" : 2150
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8f9376c8ea0c8b08ae1305e283e76e26"
+  }, {
+    "name" : "specs/find.text.out.of.tags.test.ts",
+    "children" : [ {
+      "name" : "find an element with Welcome text",
+      "uid" : "aedd791798667fba",
+      "parentUid" : "d87e284b11167c8c81d50046372aec26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632426348199,
+        "stop" : 1632426349340,
+        "duration" : 1141
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d87e284b11167c8c81d50046372aec26"
+  }, {
+    "name" : "specs/sample-app/functional/login.positive.test.ts",
+    "children" : [ {
+      "name" : "login with correct login and password",
+      "uid" : "4b81e57590f27249",
+      "parentUid" : "02ca426997870653e42f60046feb9c6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632426348202,
+        "stop" : 1632426349827,
+        "duration" : 1625
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "02ca426997870653e42f60046feb9c6e"
+  }, {
+    "name" : "specs/find.column.after.reload.test.ts",
+    "children" : [ {
+      "name" : "value of cpu in table that each reload renders equals to text",
+      "uid" : "d578043e88e494bb",
+      "parentUid" : "c1e99b2f2ce7830eabeb0f2c30c8bf53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632426348298,
+        "stop" : 1632426350351,
+        "duration" : 2053
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c1e99b2f2ce7830eabeb0f2c30c8bf53"
+  }, {
+    "name" : "specs/sample-app/functional/negative.cases/all.fields.empty.test.ts",
+    "children" : [ {
+      "name" : "demonstration warning when all fields are empty",
+      "uid" : "867f91f3f8133c28",
+      "parentUid" : "5097926f266d7e9b6e7da8dcb7da11dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632426349205,
+        "stop" : 1632426350509,
+        "duration" : 1304
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5097926f266d7e9b6e7da8dcb7da11dd"
+  }, {
+    "name" : "specs/sample-app/functional/negative.cases/incorrect.password.case.test.ts",
+    "children" : [ {
+      "name" : "demonstrating error when password is incorrect, login correct",
+      "uid" : "ce2a4d4591aafdb2",
+      "parentUid" : "9dec7b46639860ff384bdcca19ff4743",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632426349361,
+        "stop" : 1632426351176,
+        "duration" : 1815
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9dec7b46639860ff384bdcca19ff4743"
+  }, {
+    "name" : "specs/sample-app/functional/negative.cases/password.empty.test.ts",
+    "children" : [ {
+      "name" : "demonstrate error when password is empty",
+      "uid" : "ac767a8209af9868",
+      "parentUid" : "15f461f49f459f775a63da07830201e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632426349831,
+        "stop" : 1632426351486,
+        "duration" : 1655
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "15f461f49f459f775a63da07830201e7"
+  }, {
+    "name" : "specs/sample-app/functional/negative.cases/username.empty.test.ts",
+    "children" : [ {
+      "name" : "demonstrate error when login is empty",
+      "uid" : "e830ce504994a0d0",
+      "parentUid" : "80e955d8a3bdd433eb7a654af0176f9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632426350354,
+        "stop" : 1632426351648,
+        "duration" : 1294
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "80e955d8a3bdd433eb7a654af0176f9a"
+  }, {
+    "name" : "specs/sample-app/ui/all.elements.visible.test.ts",
+    "children" : [ {
+      "name" : "On page is visible:",
+      "children" : [ {
+        "name" : "h3 tag",
+        "uid" : "df1999cbae435826",
+        "parentUid" : "641475e86fa00c7e62000f58c962410f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632426350516,
+          "stop" : 1632426351887,
+          "duration" : 1371
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "description",
+        "uid" : "bc32d0104f85362c",
+        "parentUid" : "641475e86fa00c7e62000f58c962410f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632426351887,
+          "stop" : 1632426353070,
+          "duration" : 1183
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "login status",
+        "uid" : "bd363574c47d3c7d",
+        "parentUid" : "641475e86fa00c7e62000f58c962410f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632426353070,
+          "stop" : 1632426353939,
+          "duration" : 869
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "username input",
+        "uid" : "4143aa7115217f9e",
+        "parentUid" : "641475e86fa00c7e62000f58c962410f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632426353940,
+          "stop" : 1632426354875,
+          "duration" : 935
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "password input",
+        "uid" : "1ab150dc780ff10c",
+        "parentUid" : "641475e86fa00c7e62000f58c962410f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632426354874,
+          "stop" : 1632426355872,
+          "duration" : 998
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "641475e86fa00c7e62000f58c962410f"
+    } ],
+    "uid" : "db5eaef237dc8b011863a4d25dd89f6f"
+  }, {
+    "name" : "specs/scroll.to.button.test.ts",
+    "children" : [ {
+      "name" : "the button name is changing",
+      "uid" : "6b059147b50937d6",
+      "parentUid" : "af715002e344a812a19aeff2750064cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632426351178,
+        "stop" : 1632426352459,
+        "duration" : 1281
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "af715002e344a812a19aeff2750064cd"
+  }, {
+    "name" : "specs/visibility.buttons.test.ts",
+    "children" : [ {
+      "name" : "must determine hidden buttons",
+      "uid" : "fba96aedd23ae702",
+      "parentUid" : "8c00609c381d42bd398c158e2ab6a663",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632426351490,
+        "stop" : 1632426353038,
+        "duration" : 1548
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8c00609c381d42bd398c158e2ab6a663"
+  }, {
+    "name" : "specs/wait.for.ajax.test.ts",
+    "children" : [ {
+      "name" : "waiting for an element to show up after AJAX",
+      "uid" : "cb1907d839f9b515",
+      "parentUid" : "084854f3310e24be07b768486b7e4383",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632426351651,
+        "stop" : 1632426368234,
+        "duration" : 16583
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "084854f3310e24be07b768486b7e4383"
+  }, {
+    "name" : "specs/wait.for.load.page.test.ts",
+    "children" : [ {
+      "name" : "waiting for a page to load",
+      "uid" : "b169ae832eb69ff2",
+      "parentUid" : "720445c3388038e818f0507f7337fc12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632426352462,
+        "stop" : 1632426358751,
+        "duration" : 6289
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "720445c3388038e818f0507f7337fc12"
+  } ],
+  "name" : "suites"
+}

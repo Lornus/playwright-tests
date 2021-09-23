@@ -1,0 +1,53 @@
+{
+  "uid" : "175e552ea4df7dbe",
+  "name" : "demonstrate error when login is empty",
+  "fullName" : "demonstrate error when login is empty",
+  "historyId" : " specs/sample-app/functional/negative.cases/username.empty.test.ts demonstrate error when login is empty",
+  "time" : {
+    "start" : 1632425855164,
+    "stop" : 1632425858109,
+    "duration" : 2945
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "screenshot",
+      "type" : "image/png",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs/sample-app/functional/negative.cases/username.empty.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "175e552ea4df7dbe.json",
+  "parameterValues" : [ ]
+}
