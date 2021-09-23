@@ -1,0 +1,41 @@
+{
+  "uid" : "6c42bd6d3316a219",
+  "name" : "waiting for a page to load",
+  "fullName" : "waiting for a page to load",
+  "historyId" : " specs/wait.for.load.page.test.ts waiting for a page to load",
+  "time" : {
+    "start" : 1632419353216,
+    "stop" : 1632419360846,
+    "duration" : 7630
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs/wait.for.load.page.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c42bd6d3316a219.json",
+  "parameterValues" : [ ]
+}

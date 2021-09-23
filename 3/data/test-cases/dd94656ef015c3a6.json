@@ -1,0 +1,41 @@
+{
+  "uid" : "dd94656ef015c3a6",
+  "name" : "it is able to click the button",
+  "fullName" : "it is able to click the button",
+  "historyId" : " specs/check.click.test.ts it is able to click the button",
+  "time" : {
+    "start" : 1632419345578,
+    "stop" : 1632419347642,
+    "duration" : 2064
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs/check.click.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dd94656ef015c3a6.json",
+  "parameterValues" : [ ]
+}

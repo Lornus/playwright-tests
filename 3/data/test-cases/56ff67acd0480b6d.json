@@ -1,0 +1,44 @@
+{
+  "uid" : "56ff67acd0480b6d",
+  "name" : "username input",
+  "fullName" : "username input",
+  "historyId" : " specs/sample-app/ui/all.elements.visible.test.ts On page is visible: username input",
+  "time" : {
+    "start" : 1632419356581,
+    "stop" : 1632419358186,
+    "duration" : 1605
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs/sample-app/ui/all.elements.visible.test.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "On page is visible:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "56ff67acd0480b6d.json",
+  "parameterValues" : [ ]
+}

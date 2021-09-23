@@ -1,0 +1,44 @@
+{
+  "uid" : "f0950425614809be",
+  "name" : "description",
+  "fullName" : "description",
+  "historyId" : " specs/sample-app/ui/all.elements.visible.test.ts On page is visible: description",
+  "time" : {
+    "start" : 1632419353110,
+    "stop" : 1632419355210,
+    "duration" : 2100
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs/sample-app/ui/all.elements.visible.test.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "On page is visible:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f0950425614809be.json",
+  "parameterValues" : [ ]
+}

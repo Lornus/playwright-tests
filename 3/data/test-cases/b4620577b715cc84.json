@@ -1,0 +1,41 @@
+{
+  "uid" : "b4620577b715cc84",
+  "name" : "the button name is changing",
+  "fullName" : "the button name is changing",
+  "historyId" : " specs/scroll.to.button.test.ts the button name is changing",
+  "time" : {
+    "start" : 1632419351432,
+    "stop" : 1632419353205,
+    "duration" : 1773
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs/scroll.to.button.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b4620577b715cc84.json",
+  "parameterValues" : [ ]
+}

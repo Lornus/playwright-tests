@@ -1,0 +1,41 @@
+{
+  "uid" : "392373e3202803e4",
+  "name" : "stop progressbar on 75% and get value from it",
+  "fullName" : "stop progressbar on 75% and get value from it",
+  "historyId" : " specs/wait.till.progressBar.complete.test.ts stop progressbar on 75% and get value from it",
+  "time" : {
+    "start" : 1632419353421,
+    "stop" : 1632419373211,
+    "duration" : 19790
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs/wait.till.progressBar.complete.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "392373e3202803e4.json",
+  "parameterValues" : [ ]
+}
