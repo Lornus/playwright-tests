@@ -1041,11 +1041,20 @@
       "failed" : 3,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "ad3edda2416fe260",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/7//#testresult/ad3edda2416fe260",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632422021695,
+        "stop" : 1632422035987,
+        "duration" : 14292
+      }
+    }, {
       "uid" : "2308fba4a460e246",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/7//#testresult/2308fba4a460e246",
       "status" : "failed",

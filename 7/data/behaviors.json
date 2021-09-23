@@ -2,16 +2,16 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "stop progressbar on 75% and get value from it",
-    "uid" : "2308fba4a460e246",
+    "uid" : "ad3edda2416fe260",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
+    "status" : "passed",
     "time" : {
-      "start" : 1632421581930,
-      "stop" : 1632421585023,
-      "duration" : 3093
+      "start" : 1632422021695,
+      "stop" : 1632422035987,
+      "duration" : 14292
     },
-    "flaky" : true,
-    "newFailed" : true,
+    "flaky" : false,
+    "newFailed" : false,
     "parameters" : [ ]
   } ],
   "name" : "behaviors"

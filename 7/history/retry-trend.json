@@ -7,6 +7,14 @@
     "retry" : 0
   }
 }, {
+  "buildOrder" : 7,
+  "reportUrl" : "https://Lornus.github.io/playwright-tests/7/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 1,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 6,
   "reportUrl" : "https://Lornus.github.io/playwright-tests/6/",
   "reportName" : "Allure Report with history",

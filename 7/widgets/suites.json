@@ -4,10 +4,10 @@
     "uid" : "f2417f661c950a44a796bb3733f30d88",
     "name" : "specs/wait.till.progressBar.complete.test.ts",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     }
