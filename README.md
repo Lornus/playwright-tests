@@ -13,4 +13,3 @@
 6. npm run allure-generate - for generating report 
 7. npm run allure-open - for opening 
 
-# Deployed html allure report - https://lornus.github.io/playwright-tests 
