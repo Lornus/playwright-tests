@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "specs/wait.till.progressBar.complete.test.ts",
+    "children" : [ {
+      "name" : "stop progressbar on 75% and get value from it",
+      "uid" : "2308fba4a460e246",
+      "parentUid" : "f2417f661c950a44a796bb3733f30d88",
+      "status" : "failed",
+      "time" : {
+        "start" : 1632421581930,
+        "stop" : 1632421585023,
+        "duration" : 3093
+      },
+      "flaky" : true,
+      "newFailed" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f2417f661c950a44a796bb3733f30d88"
+  } ],
+  "name" : "suites"
+}

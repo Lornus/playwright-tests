@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Sep 23 18:26:21 GMT 2021","Thu Sep 23 18:26:25 GMT 2021","3093","","specs/wait.till.progressBar.complete.test.ts","","","","stop progressbar on 75% and get value from it",""
