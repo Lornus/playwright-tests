@@ -5,7 +5,7 @@ const config: PlaywrightTestConfig = {
     testDir: "./tests/",
 
     use: {
-        screenshot:"only-on-failure",
+        screenshot:"on",
         video:"retain-on-failure",
         baseURL: "http://uitestingplayground.com",
         browserName: 'chromium'

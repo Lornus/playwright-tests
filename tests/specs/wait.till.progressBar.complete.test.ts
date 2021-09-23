@@ -1,7 +1,7 @@
 import {test, expect} from '@playwright/test';
 import {BasePage} from "../pages/base.page";
 
-test('stop progressbar on 75% and get value from it', async function ({page}) {
+test.only('stop progressbar on 75% and get value from it', async function ({page}) {
     const basePage = new BasePage(page);
     await basePage.goto('/progressbar');
 
