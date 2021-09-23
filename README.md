@@ -1,4 +1,8 @@
-# Repo with playwright tests || almost all tasks from http://uitestingplayground.com/ done, for sample app created isolated directory 
+# Repo with playwright tests 
+
+# What is here: 
+1. almost all tasks from http://uitestingplayground.com/ done
+2. for sample app created isolated directory 
 
 # Installation 
 1. git clone 
