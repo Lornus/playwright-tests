@@ -1,0 +1,57 @@
+{
+  "uid" : "9850c31eebb8dcbe",
+  "name" : "demonstration warning when all fields are empty",
+  "fullName" : "demonstration warning when all fields are empty",
+  "historyId" : " specs/sample-app/functional/negative.cases/all.fields.empty.test.ts demonstration warning when all fields are empty",
+  "time" : {
+    "start" : 1632426571144,
+    "stop" : 1632426573715,
+    "duration" : 2571
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bf8132222a185310",
+      "name" : "screenshot",
+      "source" : "bf8132222a185310.png",
+      "type" : "image/png",
+      "size" : 46773
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs/sample-app/functional/negative.cases/all.fields.empty.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9850c31eebb8dcbe.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,57 @@
+{
+  "uid" : "5532bf144436306b",
+  "name" : "must determine hidden buttons",
+  "fullName" : "must determine hidden buttons",
+  "historyId" : " specs/visibility.buttons.test.ts must determine hidden buttons",
+  "time" : {
+    "start" : 1632426575455,
+    "stop" : 1632426579653,
+    "duration" : 4198
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7f412426b6903fda",
+      "name" : "screenshot",
+      "source" : "7f412426b6903fda.png",
+      "type" : "image/png",
+      "size" : 80782
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs/visibility.buttons.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5532bf144436306b.json",
+  "parameterValues" : [ ]
+}

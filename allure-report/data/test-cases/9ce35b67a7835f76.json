@@ -1,0 +1,57 @@
+{
+  "uid" : "9ce35b67a7835f76",
+  "name" : "demonstrate error when password is empty",
+  "fullName" : "demonstrate error when password is empty",
+  "historyId" : " specs/sample-app/functional/negative.cases/password.empty.test.ts demonstrate error when password is empty",
+  "time" : {
+    "start" : 1632426572061,
+    "stop" : 1632426575447,
+    "duration" : 3386
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7e5c8cb36f930c39",
+      "name" : "screenshot",
+      "source" : "7e5c8cb36f930c39.png",
+      "type" : "image/png",
+      "size" : 46773
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs/sample-app/functional/negative.cases/password.empty.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ce35b67a7835f76.json",
+  "parameterValues" : [ ]
+}

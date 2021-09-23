@@ -1,0 +1,57 @@
+{
+  "uid" : "ddb24554f001e563",
+  "name" : "waiting for an element to show up after AJAX",
+  "fullName" : "waiting for an element to show up after AJAX",
+  "historyId" : " specs/wait.for.ajax.test.ts waiting for an element to show up after AJAX",
+  "time" : {
+    "start" : 1632426575926,
+    "stop" : 1632426594931,
+    "duration" : 19005
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f144f1843cda7052",
+      "name" : "screenshot",
+      "source" : "f144f1843cda7052.png",
+      "type" : "image/png",
+      "size" : 74271
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs/wait.for.ajax.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ddb24554f001e563.json",
+  "parameterValues" : [ ]
+}
