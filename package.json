@@ -1,8 +1,16 @@
 {
+  "scripts": {
+    "test-headless": "npx playwright test --reporter=list,experimental-allure-playwright --workers 4",
+    "test-headed": "npx playwright test --headed --reporter=line,experimental-allure-playwright",
+    "allure-generate": "npx allure generate ./allure-results --clean",
+    "allure-open": "npx allure open ./allure-report"
+  },
   "devDependencies": {
     "@playwright/test": "^1.15.0",
     "allure-commandline": "^2.13.8",
-    "experimental-allure-playwright": "^0.0.3"
+    "experimental-allure-playwright": "^0.0.3",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
   },
   "name": "plwrt",
   "version": "1.0.0",
@@ -108,14 +116,6 @@
     "yauzl": "^2.10.0",
     "yazl": "^2.5.1"
   },
-
-  "scripts": {
-    "test-headless": "npx playwright test --reporter=line,experimental-allure-playwright",
-    "test-headed": "npx playwright test --headed --browser=chromium --reporter=line,experimental-allure-playwright",
-    "allure-generate": "npx allure generate ./allure-results --clean",
-    "allure-open": "npx allure open ./allure-report"
-  },
-
   "keywords": [],
   "author": "",
   "license": "ISC",

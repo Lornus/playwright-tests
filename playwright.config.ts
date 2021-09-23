@@ -1,13 +1,15 @@
 import { PlaywrightTestConfig } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
+
+    testDir: "./tests/",
+
     use: {
-        screenshot:"only-on-failure"
+        screenshot:"only-on-failure",
+        video:"retain-on-failure",
+        baseURL: "http://uitestingplayground.com",
+        browserName: 'chromium'
     },
-    reporter: [
-        ['line'],
-        ['experimental-allure-playwright']
-    ],
 };
 
 export default config;
