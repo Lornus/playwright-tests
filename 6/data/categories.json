@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "expect(received).toContain(expected) // indexOf\n\nExpected substring: \"Result: 0\"\nReceived string:    \"Result: 1, duration: 6260\"",
-      "children" : [ {
-        "name" : "stop progressbar on 75% and get value from it",
-        "uid" : "3503da1a39226843",
-        "parentUid" : "871c571bdb0fd31b9e04ce22babed6e1",
-        "status" : "failed",
-        "time" : {
-          "start" : 1632420450401,
-          "stop" : 1632420457799,
-          "duration" : 7398
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "871c571bdb0fd31b9e04ce22babed6e1"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }

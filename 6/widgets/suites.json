@@ -1,17 +1,6 @@
 {
   "total" : 16,
   "items" : [ {
-    "uid" : "f2417f661c950a44a796bb3733f30d88",
-    "name" : "specs/wait.till.progressBar.complete.test.ts",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
     "uid" : "db5eaef237dc8b011863a4d25dd89f6f",
     "name" : "specs/sample-app/ui/all.elements.visible.test.ts",
     "statistic" : {
@@ -67,8 +56,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "c1e99b2f2ce7830eabeb0f2c30c8bf53",
-    "name" : "specs/find.column.after.reload.test.ts",
+    "uid" : "02ca426997870653e42f60046feb9c6e",
+    "name" : "specs/sample-app/functional/login.positive.test.ts",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -78,8 +67,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "02ca426997870653e42f60046feb9c6e",
-    "name" : "specs/sample-app/functional/login.positive.test.ts",
+    "uid" : "c1e99b2f2ce7830eabeb0f2c30c8bf53",
+    "name" : "specs/find.column.after.reload.test.ts",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -102,6 +91,17 @@
   }, {
     "uid" : "9dec7b46639860ff384bdcca19ff4743",
     "name" : "specs/sample-app/functional/negative.cases/incorrect.password.case.test.ts",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "15f461f49f459f775a63da07830201e7",
+    "name" : "specs/sample-app/functional/negative.cases/password.empty.test.ts",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

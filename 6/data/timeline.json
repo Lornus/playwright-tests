@@ -1,261 +1,261 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "stop progressbar on 75% and get value from it",
-    "uid" : "3503da1a39226843",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1632420450401,
-      "stop" : 1632420457799,
-      "duration" : 7398
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "login status",
-    "uid" : "5d6fbabc1cae862a",
+    "name" : "demonstrate error when password is empty",
+    "uid" : "7133862341cd9d1f",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1632420449808,
-      "stop" : 1632420451053,
-      "duration" : 1245
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "description",
-    "uid" : "21f90211877ef56",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1632420448671,
-      "stop" : 1632420449808,
-      "duration" : 1137
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "must determine hidden buttons",
-    "uid" : "259bb3e51cbdc94e",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1632420448783,
-      "stop" : 1632420450398,
-      "duration" : 1615
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "login with correct login and password",
-    "uid" : "6baa77470e31ce3f",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1632420445475,
-      "stop" : 1632420447236,
-      "duration" : 1761
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "demonstration warning when all fields are empty",
-    "uid" : "fb650258372b62b6",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1632420445787,
-      "stop" : 1632420447226,
-      "duration" : 1439
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "demonstrate error when login is empty",
-    "uid" : "64ea465d27b50e5d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1632420447239,
-      "stop" : 1632420448854,
-      "duration" : 1615
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "click count increased",
-    "uid" : "39cb92cca98e90bb",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1632420444290,
-      "stop" : 1632420445785,
-      "duration" : 1495
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "it is able to click the button",
-    "uid" : "dc766007aeab0729",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1632420443575,
-      "stop" : 1632420445472,
-      "duration" : 1897
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "waiting for an element to show up after AJAX",
-    "uid" : "66cb3efaef2c5a39",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1632420448804,
-      "stop" : 1632420465645,
-      "duration" : 16841
+      "start" : 1632420662307,
+      "stop" : 1632420664161,
+      "duration" : 1854
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "h3 tag",
-    "uid" : "f668af0f5ba098d0",
+    "uid" : "39042f25d04b61b5",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1632420447271,
-      "stop" : 1632420448671,
-      "duration" : 1400
+      "start" : 1632420663581,
+      "stop" : 1632420665153,
+      "duration" : 1572
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "demonstrate error when password is empty",
-    "uid" : "dcfa1fd9e53d0ed1",
+    "name" : "login with correct login and password",
+    "uid" : "b566cda482d468a3",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1632420447230,
-      "stop" : 1632420448801,
-      "duration" : 1571
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "the button name is changing",
-    "uid" : "99ad5b1b0e22844e",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1632420447604,
-      "stop" : 1632420448776,
-      "duration" : 1172
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "find an element with Welcome text",
-    "uid" : "535decd9476bb869",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1632420444946,
-      "stop" : 1632420446115,
-      "duration" : 1169
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "waiting for a page to load",
-    "uid" : "88f69c1f23979766",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1632420448856,
-      "stop" : 1632420455683,
-      "duration" : 6827
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "the button name is changing",
-    "uid" : "2953b1391da16574",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1632420443109,
-      "stop" : 1632420444633,
-      "duration" : 1524
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "username input",
-    "uid" : "aec5e91f0664ba1d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1632420451053,
-      "stop" : 1632420451908,
-      "duration" : 855
+      "start" : 1632420660198,
+      "stop" : 1632420662304,
+      "duration" : 2106
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "value of cpu in table that each reload renders equals to text",
-    "uid" : "64ec3bb2d8c8598f",
+    "uid" : "52a2fd331cb8a71a",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1632420445027,
-      "stop" : 1632420447262,
-      "duration" : 2235
+      "start" : 1632420660259,
+      "stop" : 1632420662854,
+      "duration" : 2595
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "password input",
-    "uid" : "6cf835e11c669a97",
+    "name" : "description",
+    "uid" : "949ab4369a8dcf2a",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1632420451907,
-      "stop" : 1632420453136,
-      "duration" : 1229
+      "start" : 1632420665153,
+      "stop" : 1632420666856,
+      "duration" : 1703
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "the button name is changing",
+    "uid" : "9fc53473c94bed4f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1632420664164,
+      "stop" : 1632420665485,
+      "duration" : 1321
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "demonstrating error when password is incorrect, login correct",
-    "uid" : "f24f88b0cd19a343",
+    "uid" : "27dd8b6aeb163f71",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1632420446118,
-      "stop" : 1632420447601,
-      "duration" : 1483
+      "start" : 1632420661953,
+      "stop" : 1632420664477,
+      "duration" : 2524
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "find an element with Welcome text",
+    "uid" : "50d55d697f0f980b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1632420660197,
+      "stop" : 1632420661949,
+      "duration" : 1752
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "login status",
+    "uid" : "df24029ec627c2bf",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1632420666856,
+      "stop" : 1632420668467,
+      "duration" : 1611
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "waiting for an element to show up after AJAX",
+    "uid" : "5a0ff9fc750c24f3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1632420664905,
+      "stop" : 1632420681860,
+      "duration" : 16955
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "must determine hidden buttons",
+    "uid" : "70bc69cbc48d149f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1632420664482,
+      "stop" : 1632420666482,
+      "duration" : 2000
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "username input",
+    "uid" : "2f5e666aa180fa34",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1632420668467,
+      "stop" : 1632420670111,
+      "duration" : 1644
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "password input",
+    "uid" : "9a440fa65c4047eb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1632420670111,
+      "stop" : 1632420671840,
+      "duration" : 1729
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "the button name is changing",
+    "uid" : "f7377751f9daf9ea",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1632420657705,
+      "stop" : 1632420659929,
+      "duration" : 2224
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "it is able to click the button",
+    "uid" : "9ac404a3d833e302",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1632420658242,
+      "stop" : 1632420659980,
+      "duration" : 1738
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "stop progressbar on 75% and get value from it",
+    "uid" : "1113833af229ca63",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1632420666488,
+      "stop" : 1632420683423,
+      "duration" : 16935
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "click count increased",
+    "uid" : "5ab84497d1ecda46",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1632420659021,
+      "stop" : 1632420661523,
+      "duration" : 2502
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "demonstrate error when login is empty",
+    "uid" : "89148290a25dfa76",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1632420662859,
+      "stop" : 1632420664894,
+      "duration" : 2035
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "waiting for a page to load",
+    "uid" : "354b96ac8ea05989",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1632420665492,
+      "stop" : 1632420672636,
+      "duration" : 7144
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "demonstration warning when all fields are empty",
+    "uid" : "cf7dbab65d2ed75f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1632420661526,
+      "stop" : 1632420663571,
+      "duration" : 2045
     },
     "flaky" : false,
     "newFailed" : false,

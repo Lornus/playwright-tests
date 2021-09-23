@@ -1,0 +1,88 @@
+{
+  "uid" : "354b96ac8ea05989",
+  "name" : "waiting for a page to load",
+  "fullName" : "waiting for a page to load",
+  "historyId" : " specs/wait.for.load.page.test.ts waiting for a page to load",
+  "time" : {
+    "start" : 1632420665492,
+    "stop" : 1632420672636,
+    "duration" : 7144
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs/wait.for.load.page.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "88f69c1f23979766",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/6//#testresult/88f69c1f23979766",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632420448856,
+          "stop" : 1632420455683,
+          "duration" : 6827
+        }
+      }, {
+        "uid" : "fdbc1a2ac0aee673",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/5//#testresult/fdbc1a2ac0aee673",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632420152053,
+          "stop" : 1632420158929,
+          "duration" : 6876
+        }
+      }, {
+        "uid" : "3c5281ecc5469784",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/4//#testresult/3c5281ecc5469784",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632420078300,
+          "stop" : 1632420085257,
+          "duration" : 6957
+        }
+      }, {
+        "uid" : "6c42bd6d3316a219",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/3//#testresult/6c42bd6d3316a219",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632419353216,
+          "stop" : 1632419360846,
+          "duration" : 7630
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "354b96ac8ea05989.json",
+  "parameterValues" : [ ]
+}
