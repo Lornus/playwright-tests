@@ -1,0 +1,55 @@
+{
+  "uid" : "90c99fcbdd0f6862",
+  "name" : "demonstrating error when password is incorrect, login correct",
+  "fullName" : "demonstrating error when password is incorrect, login correct",
+  "historyId" : " specs/sample-app/functional/negative.cases/incorrect.password.case.test.ts demonstrating error when password is incorrect, login correct",
+  "time" : {
+    "start" : 1632424977100,
+    "stop" : 1632424978664,
+    "duration" : 1564
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "screenshot",
+      "type" : "image/png",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs/sample-app/functional/negative.cases/incorrect.password.case.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90c99fcbdd0f6862.json",
+  "parameterValues" : [ ]
+}
