@@ -1,0 +1,191 @@
+[ {
+  "uid" : "cf0e658b940d88c0",
+  "name" : "the button name is changing",
+  "time" : {
+    "start" : 1632425845862,
+    "stop" : 1632425850611,
+    "duration" : 4749
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d98ae5c632b19808",
+  "name" : "login with correct login and password",
+  "time" : {
+    "start" : 1632425850650,
+    "stop" : 1632425856729,
+    "duration" : 6079
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c655e12dc4ff2f3f",
+  "name" : "h3 tag",
+  "time" : {
+    "start" : 1632425856740,
+    "stop" : 1632425859003,
+    "duration" : 2263
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10db547a26533305",
+  "name" : "password input",
+  "time" : {
+    "start" : 1632425863610,
+    "stop" : 1632425864950,
+    "duration" : 1340
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cb296c6fdfd6bf",
+  "name" : "the button name is changing",
+  "time" : {
+    "start" : 1632425858115,
+    "stop" : 1632425860188,
+    "duration" : 2073
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2051605d09d1dfdd",
+  "name" : "must determine hidden buttons",
+  "time" : {
+    "start" : 1632425858342,
+    "stop" : 1632425861197,
+    "duration" : 2855
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9e3d8978912e5c2",
+  "name" : "demonstration warning when all fields are empty",
+  "time" : {
+    "start" : 1632425851307,
+    "stop" : 1632425855054,
+    "duration" : 3747
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8769c2c2aef56902",
+  "name" : "login status",
+  "time" : {
+    "start" : 1632425860824,
+    "stop" : 1632425862381,
+    "duration" : 1557
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "364145d2f1b83078",
+  "name" : "click count increased",
+  "time" : {
+    "start" : 1632425847513,
+    "stop" : 1632425851302,
+    "duration" : 3789
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7bda47d68a6ef05e",
+  "name" : "waiting for a page to load",
+  "time" : {
+    "start" : 1632425860192,
+    "stop" : 1632425867565,
+    "duration" : 7373
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b22534e7be7265a",
+  "name" : "demonstrate error when login is empty",
+  "time" : {
+    "start" : 1632425855164,
+    "stop" : 1632425858109,
+    "duration" : 2945
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c89ceeb39c1ac2e9",
+  "name" : "value of cpu in table that each reload renders equals to text",
+  "time" : {
+    "start" : 1632425850556,
+    "stop" : 1632425854598,
+    "duration" : 4042
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4bdd1c1e979a4da",
+  "name" : "waiting for an element to show up after AJAX",
+  "time" : {
+    "start" : 1632425858456,
+    "stop" : 1632425876230,
+    "duration" : 17774
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c55c46240346802",
+  "name" : "description",
+  "time" : {
+    "start" : 1632425859003,
+    "stop" : 1632425860824,
+    "duration" : 1821
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aff7c7ceea42ca52",
+  "name" : "username input",
+  "time" : {
+    "start" : 1632425862381,
+    "stop" : 1632425863610,
+    "duration" : 1229
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73905a1b21e1bb73",
+  "name" : "find an element with Welcome text",
+  "time" : {
+    "start" : 1632425850599,
+    "stop" : 1632425855146,
+    "duration" : 4547
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98df60e333bd3459",
+  "name" : "demonstrating error when password is incorrect, login correct",
+  "time" : {
+    "start" : 1632425854611,
+    "stop" : 1632425858333,
+    "duration" : 3722
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33adca26405a6cdd",
+  "name" : "it is able to click the button",
+  "time" : {
+    "start" : 1632425846379,
+    "stop" : 1632425850577,
+    "duration" : 4198
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e5ec153cb9c9d6d",
+  "name" : "demonstrate error when password is empty",
+  "time" : {
+    "start" : 1632425855066,
+    "stop" : 1632425858450,
+    "duration" : 3384
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

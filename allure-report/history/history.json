@@ -1,0 +1,363 @@
+{
+  " specs/visibility.buttons.test.ts must determine hidden buttons" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2051605d09d1dfdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632425858342,
+        "stop" : 1632425861197,
+        "duration" : 2855
+      }
+    } ]
+  },
+  " specs/wait.for.load.page.test.ts waiting for a page to load" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7bda47d68a6ef05e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632425860192,
+        "stop" : 1632425867565,
+        "duration" : 7373
+      }
+    } ]
+  },
+  " specs/check.button.innerText.test.ts the button name is changing" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cf0e658b940d88c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632425845862,
+        "stop" : 1632425850611,
+        "duration" : 4749
+      }
+    } ]
+  },
+  " specs/check.click.test.ts it is able to click the button" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "33adca26405a6cdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632425846379,
+        "stop" : 1632425850577,
+        "duration" : 4198
+      }
+    } ]
+  },
+  " specs/sample-app/functional/negative.cases/incorrect.password.case.test.ts demonstrating error when password is incorrect, login correct" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "98df60e333bd3459",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632425854611,
+        "stop" : 1632425858333,
+        "duration" : 3722
+      }
+    } ]
+  },
+  " specs/wait.for.ajax.test.ts waiting for an element to show up after AJAX" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f4bdd1c1e979a4da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632425858456,
+        "stop" : 1632425876230,
+        "duration" : 17774
+      }
+    } ]
+  },
+  " specs/sample-app/ui/all.elements.visible.test.ts On page is visible: password input" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "10db547a26533305",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632425863610,
+        "stop" : 1632425864950,
+        "duration" : 1340
+      }
+    } ]
+  },
+  " specs/sample-app/ui/all.elements.visible.test.ts On page is visible: h3 tag" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c655e12dc4ff2f3f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632425856740,
+        "stop" : 1632425859003,
+        "duration" : 2263
+      }
+    } ]
+  },
+  " specs/sample-app/functional/negative.cases/username.empty.test.ts demonstrate error when login is empty" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b22534e7be7265a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632425855164,
+        "stop" : 1632425858109,
+        "duration" : 2945
+      }
+    } ]
+  },
+  " specs/sample-app/ui/all.elements.visible.test.ts On page is visible: username input" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aff7c7ceea42ca52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632425862381,
+        "stop" : 1632425863610,
+        "duration" : 1229
+      }
+    } ]
+  },
+  " specs/sample-app/functional/negative.cases/all.fields.empty.test.ts demonstration warning when all fields are empty" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f9e3d8978912e5c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632425851307,
+        "stop" : 1632425855054,
+        "duration" : 3747
+      }
+    } ]
+  },
+  " specs/sample-app/ui/all.elements.visible.test.ts On page is visible: login status" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8769c2c2aef56902",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632425860824,
+        "stop" : 1632425862381,
+        "duration" : 1557
+      }
+    } ]
+  },
+  " specs/scroll.to.button.test.ts the button name is changing" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7cb296c6fdfd6bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632425858115,
+        "stop" : 1632425860188,
+        "duration" : 2073
+      }
+    } ]
+  },
+  " specs/sample-app/functional/login.positive.test.ts login with correct login and password" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d98ae5c632b19808",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632425850650,
+        "stop" : 1632425856729,
+        "duration" : 6079
+      }
+    } ]
+  },
+  " specs/sample-app/ui/all.elements.visible.test.ts On page is visible: description" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1c55c46240346802",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632425859003,
+        "stop" : 1632425860824,
+        "duration" : 1821
+      }
+    } ]
+  },
+  " specs/find.column.after.reload.test.ts value of cpu in table that each reload renders equals to text" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c89ceeb39c1ac2e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632425850556,
+        "stop" : 1632425854598,
+        "duration" : 4042
+      }
+    } ]
+  },
+  " specs/click.count.test.ts click count increased" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "364145d2f1b83078",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632425847513,
+        "stop" : 1632425851302,
+        "duration" : 3789
+      }
+    } ]
+  },
+  " specs/find.text.out.of.tags.test.ts find an element with Welcome text" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "73905a1b21e1bb73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632425850599,
+        "stop" : 1632425855146,
+        "duration" : 4547
+      }
+    } ]
+  },
+  " specs/sample-app/functional/negative.cases/password.empty.test.ts demonstrate error when password is empty" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4e5ec153cb9c9d6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632425855066,
+        "stop" : 1632425858450,
+        "duration" : 3384
+      }
+    } ]
+  }
+}
