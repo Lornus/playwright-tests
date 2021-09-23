@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Pending operations:\n  - page.innerText at tests/specs/wait.till.progressBar.complete.test.ts:16:16\n\npage.innerText: Target closed\n=========================== logs ===========================\n  retrieving innerText from \"#progressBar[aria-valuenow='75']\"\n============================================================",
+      "children" : [ {
+        "name" : "stop progressbar on 75% and get value from it",
+        "uid" : "e15744bd20e98e6c",
+        "parentUid" : "4e74213d1024f74e7d82c7d995b0892f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632420079076,
+          "stop" : 1632420112504,
+          "duration" : 33428
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4e74213d1024f74e7d82c7d995b0892f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
