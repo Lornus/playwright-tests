@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test-headless": "npx playwright test --reporter=list,experimental-allure-playwright --workers 4",
+    "test-headless": "npx playwright test --reporter=list,experimental-allure-playwright --workers 4 --grep-invert @flacky",
     "test-headed": "npx playwright test --headed --reporter=line,experimental-allure-playwright",
     "allure-generate": "npx allure generate ./allure-results --clean",
     "allure-open": "npx allure open ./allure-report"
