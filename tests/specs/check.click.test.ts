@@ -10,7 +10,7 @@ test('it is able to click the button', async function ({page}) {
 
     await blueButton.click();
 
-   expect(await blueButton.isEnabled()).toBeTruthy();
+    expect(await blueButton.isEnabled()).toBeTruthy();
 
 
 })
