@@ -1,0 +1,114 @@
+{
+  "total" : 15,
+  "items" : [ {
+    "uid" : "db5eaef237dc8b011863a4d25dd89f6f",
+    "name" : "specs/sample-app/ui/all.elements.visible.test.ts",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "19264d625c1e9c968b83a3e485270ee6",
+    "name" : "specs/check.button.innerText.test.ts",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "2ae190f7a7c7a3bdcb4d6c4da5c13182",
+    "name" : "specs/check.click.test.ts",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "8f9376c8ea0c8b08ae1305e283e76e26",
+    "name" : "specs/click.count.test.ts",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "d87e284b11167c8c81d50046372aec26",
+    "name" : "specs/find.text.out.of.tags.test.ts",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "c1e99b2f2ce7830eabeb0f2c30c8bf53",
+    "name" : "specs/find.column.after.reload.test.ts",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "02ca426997870653e42f60046feb9c6e",
+    "name" : "specs/sample-app/functional/login.positive.test.ts",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "5097926f266d7e9b6e7da8dcb7da11dd",
+    "name" : "specs/sample-app/functional/negative.cases/all.fields.empty.test.ts",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "9dec7b46639860ff384bdcca19ff4743",
+    "name" : "specs/sample-app/functional/negative.cases/incorrect.password.case.test.ts",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "15f461f49f459f775a63da07830201e7",
+    "name" : "specs/sample-app/functional/negative.cases/password.empty.test.ts",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}
