@@ -1,7 +1,5 @@
 /node_modules/
 /.idea/
-./allure-report/
-./allure-results/
 /test-results/
+.DS_Store
 /allure-report/
-/allure-results/
