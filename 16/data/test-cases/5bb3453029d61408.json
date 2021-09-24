@@ -1,0 +1,78 @@
+{
+  "uid" : "5bb3453029d61408",
+  "name" : "[name=\"UserName\"] input",
+  "fullName" : "[name=\"UserName\"] input",
+  "historyId" : " specs/sample-app/ui/all.elements.visible.test.ts On page is visible: [name=\"UserName\"] input",
+  "time" : {
+    "start" : 1632474869112,
+    "stop" : 1632474870167,
+    "duration" : 1055
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "screenshot",
+      "type" : "image/png",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs/sample-app/ui/all.elements.visible.test.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "On page is visible:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "4df00529a18e604c",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/15//#testresult/4df00529a18e604c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632474463651,
+          "stop" : 1632474465427,
+          "duration" : 1776
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5bb3453029d61408.json",
+  "parameterValues" : [ ]
+}
