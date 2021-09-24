@@ -1,4 +1,4 @@
-import {test, expect} from '@playwright/test';
+import {test, expect, Page} from '@playwright/test';
 import {BasePage} from "../pages/base.page";
 
 test('click count increased', async function ({page}) {
@@ -13,5 +13,3 @@ test('click count increased', async function ({page}) {
     expect(await clickCount.innerText()).toEqual("2");
 
 })
-
-

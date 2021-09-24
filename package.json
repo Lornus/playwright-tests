@@ -19,6 +19,7 @@
     "test": "tests"
   },
   "dependencies": {
+    "@types/mocha": "^9.0.0",
     "agent-base": "^6.0.2",
     "ansi-regex": "^5.0.1",
     "ansi-styles": "^3.2.1",

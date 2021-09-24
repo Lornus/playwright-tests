@@ -34,24 +34,19 @@ test.describe('On page is visible:', function () {
         expect(await status.innerText()).toEqual('User logged out.');
     })
 
-    test("username input", async function ({page}) {
-        const basePage = new BasePage(page);
-        await basePage.goto('/sampleapp')
+    //Little data provider
 
-        const input = await basePage.selectElement('[name="UserName"]');
+    const inputs = ['[name="UserName"]', '[name="Password"]']
+    inputs.map(input => {
+        test(`${input} input`, async function ({page}) {
+            const basePage = new BasePage(page);
+            await basePage.goto('/sampleapp')
 
-        expect(await input.isVisible()).toBeTruthy();
-        expect(await input.isEditable()).toBeTruthy();
-    })
+            const inputArea = await basePage.selectElement(`${input}`);
 
-    test("password input", async function ({page}) {
-        const basePage = new BasePage(page);
-        await basePage.goto('/sampleapp')
-
-        const input = await basePage.selectElement('[name="Password"]');
-
-        expect(await input.isVisible()).toBeTruthy();
-        expect(await input.isEditable()).toBeTruthy();
+            expect(await inputArea.isVisible()).toBeTruthy();
+            expect(await inputArea.isEditable()).toBeTruthy();
+        })
     })
 
 })
