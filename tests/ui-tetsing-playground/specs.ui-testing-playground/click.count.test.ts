@@ -12,4 +12,5 @@ test('click count increased', async function ({page}) {
 
     expect(await clickCount.innerText()).toEqual("2");
 
+
 })

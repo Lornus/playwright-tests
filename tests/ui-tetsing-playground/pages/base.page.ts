@@ -1,5 +1,4 @@
 import {ElementHandle, Page} from "@playwright/test";
-import * as url from "url";
 
 export class BasePage {
     private page: Page;

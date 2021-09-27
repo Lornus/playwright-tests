@@ -1,7 +1,11 @@
 {
   "scripts": {
-    "test-headless": "npx playwright test --reporter=list,experimental-allure-playwright",
-    "test-headed": "npx playwright test --headed --reporter=line,experimental-allure-playwright",
+    "ui-playground-test-headless": "npx playwright test --reporter=list,experimental-allure-playwright --config=tests/ui-tetsing-playground/ui-test-playground.config.ts",
+    "ui-playground-test-headed": "npx playwright test --headed --reporter=line,experimental-allure-playwright --config=tests/ui-testing-playground/ui-test-playground.config.ts",
+
+    "souce-labs-test-headless": "npx playwright test --reporter=list,experimental-allure-playwright --config=tests/souce-labs-tests/souce-labs.config.ts",
+    "souce-labs-test-headed": "npx playwright test --headed --reporter=line,experimental-allure-playwright --config=tests/souce-labs-tests/souce-labs.config.ts",
+
     "allure-generate": "npx allure generate ./allure-results --clean",
     "allure-open": "npx allure open ./allure-report"
   },

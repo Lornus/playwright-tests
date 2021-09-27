@@ -1,7 +1,7 @@
 import {test, expect, ElementHandle, Locator, Page} from '@playwright/test';
-import {BasePage} from "../../../pages/base.page";
+import {BasePage} from "../../pages/base.page";
 //TODO refactor
-test.describe('On page is visible:', function () {
+test.describe('On page are visible:', function () {
 
     test("h3 tag", async function ({page}) {
         const basePage = new BasePage(page);
@@ -44,7 +44,6 @@ test.describe('On page is visible:', function () {
 
             const inputArea = await basePage.selectElement(`${input}`);
 
-            expect(await inputArea.isVisible()).toBeTruthy();
             expect(await inputArea.isEditable()).toBeTruthy();
         })
     })

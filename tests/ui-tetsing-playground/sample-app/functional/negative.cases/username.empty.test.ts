@@ -1,9 +1,12 @@
 import {test, expect} from '@playwright/test';
-import {BasePage} from "../../../../pages/base.page";
+import {BasePage} from "../../../pages/base.page";
+import {enterPassword} from "../../../for-sample-app/sample-app.helper";
 
-test('demonstration warning when all fields are empty', async function ({page}) {
+test('demonstrate error when login is empty', async function ({page}) {
     const basePage = new BasePage(page);
     await basePage.goto('/sampleapp');
+
+    await enterPassword(page, 'pwd')
 
     const loginStatus = await basePage.selectElement('#loginstatus');
 

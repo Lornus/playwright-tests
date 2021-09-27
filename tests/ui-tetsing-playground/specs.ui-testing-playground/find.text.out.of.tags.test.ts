@@ -7,6 +7,7 @@ test('find an element with Welcome text', async function ({page}) {
 
     const stringWithWelcome = await basePage.selectElement('.bg-primary .badge-secondary:text("Welcome")')
 
+
     expect(await stringWithWelcome.innerHTML()).toContain("Welcome");
 })
 

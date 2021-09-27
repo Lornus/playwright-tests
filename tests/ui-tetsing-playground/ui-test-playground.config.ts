@@ -2,17 +2,19 @@ import { PlaywrightTestConfig } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
 
-    testDir: "./tests/",
+    testDir: ".",
 
     use: {
-        screenshot:"on",
+        screenshot:"only-on-failure",
         video:"retain-on-failure",
         baseURL: "http://uitestingplayground.com",
         browserName: 'chromium',
 
     },
     grepInvert: [new RegExp("@flaky")],
-    workers:4
+    workers:4,
+    preserveOutput : "failures-only",
+
 };
 
 export default config;

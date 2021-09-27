@@ -1,6 +1,6 @@
 import {test, expect} from '@playwright/test';
-import {BasePage} from "../../../pages/base.page";
-import {enterPassword, enterRandomUserName} from "../../../helpers/for-sample-app/sample-app.helper";
+import {BasePage} from "../../pages/base.page";
+import {enterPassword, enterRandomUserName} from "../../for-sample-app/sample-app.helper";
 
 test('login with correct login and password', async function ({page}) {
     const basePage = new BasePage(page);
