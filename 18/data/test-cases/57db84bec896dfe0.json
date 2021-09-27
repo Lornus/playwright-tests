@@ -1,0 +1,61 @@
+{
+  "uid" : "57db84bec896dfe0",
+  "name" : "waiting for an element to show up after AJAX",
+  "fullName" : "waiting for an element to show up after AJAX",
+  "historyId" : " specs.ui-testing-playground/wait.for.ajax.test.ts waiting for an element to show up after AJAX",
+  "time" : {
+    "start" : 1632736432424,
+    "stop" : 1632736449271,
+    "duration" : 16847
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.ui-testing-playground/wait.for.ajax.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6f4b3907bbc3e094",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/17//#testresult/6f4b3907bbc3e094",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632735744054,
+          "stop" : 1632735760870,
+          "duration" : 16816
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "57db84bec896dfe0.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,61 @@
+{
+  "uid" : "cb790120314a973a",
+  "name" : "login with correct login and password",
+  "fullName" : "login with correct login and password",
+  "historyId" : " sample-app/functional/login.positive.test.ts login with correct login and password",
+  "time" : {
+    "start" : 1632736425340,
+    "stop" : 1632736426677,
+    "duration" : 1337
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "sample-app/functional/login.positive.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a2c0f351ea45cd25",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/17//#testresult/a2c0f351ea45cd25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632735736568,
+          "stop" : 1632735738256,
+          "duration" : 1688
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cb790120314a973a.json",
+  "parameterValues" : [ ]
+}
