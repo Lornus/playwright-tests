@@ -1,0 +1,41 @@
+{
+  "uid" : "6650c0d9aa370580",
+  "name" : "the button name is changing",
+  "fullName" : "the button name is changing",
+  "historyId" : " specs.ui-testing-playground/check.button.innerText.test.ts the button name is changing",
+  "time" : {
+    "start" : 1632735740729,
+    "stop" : 1632735742528,
+    "duration" : 1799
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.ui-testing-playground/check.button.innerText.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6650c0d9aa370580.json",
+  "parameterValues" : [ ]
+}
