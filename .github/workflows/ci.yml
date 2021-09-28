@@ -18,7 +18,7 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npx playwright install
-    - run: npm run souce-labs-test-headless && npm run ui-playground-test-headless
+    - run: npm test
     - run: npm run allure-generate
   
     - uses: actions/upload-artifact@master

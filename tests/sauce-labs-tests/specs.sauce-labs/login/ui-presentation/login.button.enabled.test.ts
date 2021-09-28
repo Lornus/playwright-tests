@@ -1,10 +1,12 @@
-import {test, expect, ElementHandle, Locator, Page} from '@playwright/test';
+import {test} from '@playwright/test';
 import {LoginPage} from "../../../pages/login.page";
+import {checkButtonIsEnabled} from "../../../helpers/expects";
+
 
 test('login button is enabled', async function ({page}) {
     const loginPage = new LoginPage(page);
     await loginPage.openUrl();
 
-    await loginPage.checkButtonIsEnabled('[name="login-button"]');
+    await checkButtonIsEnabled(page, '[name="login-button"]');
 
 })

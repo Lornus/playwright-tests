@@ -9,8 +9,9 @@ const config: PlaywrightTestConfig = {
         video: "retain-on-failure",
         baseURL: "https://www.saucedemo.com/",
         browserName: 'chromium',
-
+        colorScheme: "dark",
     },
+
     grepInvert: [new RegExp("@flaky")],
     workers: 4,
     preserveOutput: "always",
