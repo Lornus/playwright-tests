@@ -1,0 +1,61 @@
+{
+  "uid" : "981d9550be8561aa",
+  "name" : "Elements should be on page like on the \"golden\" screenshot",
+  "fullName" : "Elements should be on page like on the \"golden\" screenshot",
+  "historyId" : " specs.sauce-labs/login/ui-presentation/all.elements.visible.test.ts Elements should be on page like on the \"golden\" screenshot",
+  "time" : {
+    "start" : 1632844085264,
+    "stop" : 1632844087873,
+    "duration" : 2609
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "screenshot",
+      "type" : "image/png",
+      "size" : 0
+    }, {
+      "uid" : "95c5972e6c2291ca",
+      "name" : "stdout",
+      "source" : "95c5972e6c2291ca.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.sauce-labs/login/ui-presentation/all.elements.visible.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "981d9550be8561aa.json",
+  "parameterValues" : [ ]
+}

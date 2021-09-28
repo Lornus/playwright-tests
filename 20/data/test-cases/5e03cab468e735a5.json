@@ -1,0 +1,55 @@
+{
+  "uid" : "5e03cab468e735a5",
+  "name" : "appears error when clicking on login without filling any input",
+  "fullName" : "appears error when clicking on login without filling any input",
+  "historyId" : " specs.sauce-labs/login/negative.cases/all.inputs.missed.test.ts appears error when clicking on login without filling any input",
+  "time" : {
+    "start" : 1632844079922,
+    "stop" : 1632844081572,
+    "duration" : 1650
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "screenshot",
+      "type" : "image/png",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.sauce-labs/login/negative.cases/all.inputs.missed.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5e03cab468e735a5.json",
+  "parameterValues" : [ ]
+}

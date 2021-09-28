@@ -1,0 +1,61 @@
+{
+  "uid" : "1b4b22b7ca2f31ef",
+  "name" : "appears message about locked user",
+  "fullName" : "appears message about locked user",
+  "historyId" : " specs.sauce-labs/login/positive.cases/login.locked.user.test.ts appears message about locked user",
+  "time" : {
+    "start" : 1632844084765,
+    "stop" : 1632844087744,
+    "duration" : 2979
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "screenshot",
+      "type" : "image/png",
+      "size" : 0
+    }, {
+      "uid" : "29822d3960fa97fb",
+      "name" : "stdout",
+      "source" : "29822d3960fa97fb.txt",
+      "type" : "text/plain",
+      "size" : 218
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.sauce-labs/login/positive.cases/login.locked.user.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1b4b22b7ca2f31ef.json",
+  "parameterValues" : [ ]
+}

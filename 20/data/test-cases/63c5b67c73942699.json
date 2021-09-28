@@ -1,0 +1,61 @@
+{
+  "uid" : "63c5b67c73942699",
+  "name" : "login as standard user if username and password is for standard",
+  "fullName" : "login as standard user if username and password is for standard",
+  "historyId" : " specs.sauce-labs/login/positive.cases/login.standard.user.test.ts login as standard user if username and password is for standard",
+  "time" : {
+    "start" : 1632844085215,
+    "stop" : 1632844088766,
+    "duration" : 3551
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "screenshot",
+      "type" : "image/png",
+      "size" : 0
+    }, {
+      "uid" : "916f9c2e325fce66",
+      "name" : "stdout",
+      "source" : "916f9c2e325fce66.txt",
+      "type" : "text/plain",
+      "size" : 221
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.sauce-labs/login/positive.cases/login.standard.user.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "63c5b67c73942699.json",
+  "parameterValues" : [ ]
+}

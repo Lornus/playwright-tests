@@ -1,0 +1,114 @@
+{
+  "total" : 26,
+  "items" : [ {
+    "uid" : "77ed2aa794b31773da4fc6dc61a2cacc",
+    "name" : "sample-app/ui/all.elements.visible.test.ts",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "bd04146d0aa32e27cfbd5cfb572a9a97",
+    "name" : "sample-app/functional/login.positive.test.ts",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "b6eec75fcf7b4d91182989a55acedcf5",
+    "name" : "sample-app/functional/negative.cases/all.fields.empty.test.ts",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "78193897c5d9e2ea195faa6eaac1d098",
+    "name" : "sample-app/functional/negative.cases/incorrect.password.case.test.ts",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "bbf127c9a1ee1f923c5d37f4c93fca5c",
+    "name" : "sample-app/functional/negative.cases/username.empty.test.ts",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "dc6ac4d1f77dc4f0b2fbc304c824d206",
+    "name" : "sample-app/functional/negative.cases/password.empty.test.ts",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "fe5c1708b99181e1d55eec76f8333280",
+    "name" : "specs.ui-testing-playground/check.button.innerText.test.ts",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "9f153e0e21de395818b7f22d2e6a2d64",
+    "name" : "specs.ui-testing-playground/check.click.test.ts",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "5d8b05b751f56d2f12a7e82a45386f0d",
+    "name" : "specs.ui-testing-playground/click.count.test.ts",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a27a2266f397005ba15309f1f72adae0",
+    "name" : "specs.ui-testing-playground/find.column.after.reload.test.ts",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}
