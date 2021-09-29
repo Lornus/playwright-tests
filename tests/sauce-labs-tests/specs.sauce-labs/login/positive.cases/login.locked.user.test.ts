@@ -8,6 +8,7 @@ test('appears message about locked user', async function ({page}) {
 
     await loginPage.loginAsBlockedUser();
 
-    await expects.compareWithScreenshot(page, "tests/sauce-labs-tests/golden-screenshots/blocked-user-page.png", 'blocked-user-page.png');
+    await expects.compareWithScreenshot(page, "tests/sauce-labs-tests/golden-screenshots/blocked-user-page.png",
+        'blocked-user-page.png');
 
 })
