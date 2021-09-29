@@ -1,0 +1,520 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "sample-app/functional/login.positive.test.ts",
+    "children" : [ {
+      "name" : "login with correct login and password",
+      "uid" : "6fedde4034d5f804",
+      "parentUid" : "bd04146d0aa32e27cfbd5cfb572a9a97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937241197,
+        "stop" : 1632937243014,
+        "duration" : 1817
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bd04146d0aa32e27cfbd5cfb572a9a97"
+  }, {
+    "name" : "sample-app/functional/negative.cases/all.fields.empty.test.ts",
+    "children" : [ {
+      "name" : "demonstration warning when all fields are empty",
+      "uid" : "120148039e67c9ad",
+      "parentUid" : "b6eec75fcf7b4d91182989a55acedcf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937241649,
+        "stop" : 1632937243507,
+        "duration" : 1858
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b6eec75fcf7b4d91182989a55acedcf5"
+  }, {
+    "name" : "sample-app/functional/negative.cases/incorrect.password.case.test.ts",
+    "children" : [ {
+      "name" : "demonstrating error when password is incorrect, login correct",
+      "uid" : "3a66e208dc65db70",
+      "parentUid" : "78193897c5d9e2ea195faa6eaac1d098",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937242310,
+        "stop" : 1632937243961,
+        "duration" : 1651
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "78193897c5d9e2ea195faa6eaac1d098"
+  }, {
+    "name" : "sample-app/functional/negative.cases/username.empty.test.ts",
+    "children" : [ {
+      "name" : "demonstrate error when login is empty",
+      "uid" : "f4a51125719c4214",
+      "parentUid" : "bbf127c9a1ee1f923c5d37f4c93fca5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937243307,
+        "stop" : 1632937244873,
+        "duration" : 1566
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bbf127c9a1ee1f923c5d37f4c93fca5c"
+  }, {
+    "name" : "sample-app/functional/negative.cases/password.empty.test.ts",
+    "children" : [ {
+      "name" : "demonstrate error when password is empty",
+      "uid" : "1ec2afa3a654c135",
+      "parentUid" : "dc6ac4d1f77dc4f0b2fbc304c824d206",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937243402,
+        "stop" : 1632937245785,
+        "duration" : 2383
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "dc6ac4d1f77dc4f0b2fbc304c824d206"
+  }, {
+    "name" : "sample-app/ui/all.elements.visible.test.ts",
+    "children" : [ {
+      "name" : "On page are visible:",
+      "children" : [ {
+        "name" : "h3 tag",
+        "uid" : "f1d25ac401701b5e",
+        "parentUid" : "faf106a235e87d36119bea397efbe94b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632937243523,
+          "stop" : 1632937244947,
+          "duration" : 1424
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "description",
+        "uid" : "e39f63d36e2779d1",
+        "parentUid" : "faf106a235e87d36119bea397efbe94b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632937244948,
+          "stop" : 1632937246040,
+          "duration" : 1092
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "login status",
+        "uid" : "ac44f839903bb44f",
+        "parentUid" : "faf106a235e87d36119bea397efbe94b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632937246040,
+          "stop" : 1632937247197,
+          "duration" : 1157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[name=\"UserName\"] input",
+        "uid" : "8fd5c5b82e38300",
+        "parentUid" : "faf106a235e87d36119bea397efbe94b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632937247198,
+          "stop" : 1632937248279,
+          "duration" : 1081
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[name=\"Password\"] input",
+        "uid" : "7151ca6a6c4b82c2",
+        "parentUid" : "faf106a235e87d36119bea397efbe94b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632937248279,
+          "stop" : 1632937249356,
+          "duration" : 1077
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "faf106a235e87d36119bea397efbe94b"
+    } ],
+    "uid" : "77ed2aa794b31773da4fc6dc61a2cacc"
+  }, {
+    "name" : "specs.ui-testing-playground/check.button.innerText.test.ts",
+    "children" : [ {
+      "name" : "the button name is changing",
+      "uid" : "dd29c85b867795b5",
+      "parentUid" : "fe5c1708b99181e1d55eec76f8333280",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937243965,
+        "stop" : 1632937245850,
+        "duration" : 1885
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fe5c1708b99181e1d55eec76f8333280"
+  }, {
+    "name" : "specs.ui-testing-playground/check.click.test.ts",
+    "children" : [ {
+      "name" : "it is able to click the button",
+      "uid" : "df3459d6d1f24e39",
+      "parentUid" : "9f153e0e21de395818b7f22d2e6a2d64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937244877,
+        "stop" : 1632937246187,
+        "duration" : 1310
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9f153e0e21de395818b7f22d2e6a2d64"
+  }, {
+    "name" : "specs.ui-testing-playground/click.count.test.ts",
+    "children" : [ {
+      "name" : "click count increased",
+      "uid" : "89c357feba32e7a4",
+      "parentUid" : "5d8b05b751f56d2f12a7e82a45386f0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937245797,
+        "stop" : 1632937247168,
+        "duration" : 1371
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5d8b05b751f56d2f12a7e82a45386f0d"
+  }, {
+    "name" : "specs.ui-testing-playground/find.column.after.reload.test.ts",
+    "children" : [ {
+      "name" : "value of cpu in table that each reload renders equals to text",
+      "uid" : "e30c342471bda55b",
+      "parentUid" : "a27a2266f397005ba15309f1f72adae0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937245854,
+        "stop" : 1632937247035,
+        "duration" : 1181
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a27a2266f397005ba15309f1f72adae0"
+  }, {
+    "name" : "specs.ui-testing-playground/find.text.out.of.tags.test.ts",
+    "children" : [ {
+      "name" : "find an element with Welcome text",
+      "uid" : "b51380728684e6a3",
+      "parentUid" : "60f66a5a14099d9c1889fb0bfa518f37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937246190,
+        "stop" : 1632937247267,
+        "duration" : 1077
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "60f66a5a14099d9c1889fb0bfa518f37"
+  }, {
+    "name" : "specs.ui-testing-playground/scroll.to.button.test.ts",
+    "children" : [ {
+      "name" : "the button name is changing",
+      "uid" : "99f4497cd7d46c78",
+      "parentUid" : "b98b1d3052165bd953dc1cfbd1dc1ab8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937247041,
+        "stop" : 1632937248493,
+        "duration" : 1452
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b98b1d3052165bd953dc1cfbd1dc1ab8"
+  }, {
+    "name" : "specs.ui-testing-playground/visibility.buttons.test.ts",
+    "children" : [ {
+      "name" : "must determine hidden buttons",
+      "uid" : "5cae3b7109b85f1d",
+      "parentUid" : "6f3877b7372b2e73e8ed7a6fb3f6adb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937247170,
+        "stop" : 1632937249054,
+        "duration" : 1884
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6f3877b7372b2e73e8ed7a6fb3f6adb0"
+  }, {
+    "name" : "specs.ui-testing-playground/wait.for.ajax.test.ts",
+    "children" : [ {
+      "name" : "waiting for an element to show up after AJAX",
+      "uid" : "c578816076e9082a",
+      "parentUid" : "f43930f11b709c157d558d7b93781b92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937247283,
+        "stop" : 1632937264171,
+        "duration" : 16888
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f43930f11b709c157d558d7b93781b92"
+  }, {
+    "name" : "specs.ui-testing-playground/wait.for.load.page.test.ts",
+    "children" : [ {
+      "name" : "waiting for a page to load",
+      "uid" : "fb5dd5aff6fc122",
+      "parentUid" : "1de5eb95dc61ee310f97d528d7b38691",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937248503,
+        "stop" : 1632937254962,
+        "duration" : 6459
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1de5eb95dc61ee310f97d528d7b38691"
+  }, {
+    "name" : "specs.sauce-labs/login/negative.cases/all.inputs.missed.test.ts",
+    "children" : [ {
+      "name" : "appears error when clicking on login without filling any input",
+      "uid" : "c976c7c01255e5dd",
+      "parentUid" : "2f4775888134cdb5e345c2964d62f782",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937265701,
+        "stop" : 1632937266958,
+        "duration" : 1257
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2f4775888134cdb5e345c2964d62f782"
+  }, {
+    "name" : "specs.sauce-labs/login/negative.cases/password.dosnt.match.username.test.ts",
+    "children" : [ {
+      "name" : "appears error when clicking on login with username doesnt match password",
+      "uid" : "155bfae13bb4c562",
+      "parentUid" : "1c13eb60c1d9e8d47d80e1cf297bb11c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937266151,
+        "stop" : 1632937268127,
+        "duration" : 1976
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1c13eb60c1d9e8d47d80e1cf297bb11c"
+  }, {
+    "name" : "specs.sauce-labs/login/negative.cases/unregistered.user.login.test.ts",
+    "children" : [ {
+      "name" : "appears error when unregistered user clicking on login",
+      "uid" : "efa584b2afd813f3",
+      "parentUid" : "05b7cc353aeb923308e53a030a54edfe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937266970,
+        "stop" : 1632937268377,
+        "duration" : 1407
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "05b7cc353aeb923308e53a030a54edfe"
+  }, {
+    "name" : "specs.sauce-labs/login/negative.cases/password.missing.test.ts",
+    "children" : [ {
+      "name" : "appears error when clicking on login with only username entered",
+      "uid" : "613a1a08a10035a9",
+      "parentUid" : "239683855c620fbd074f9eb22f6ff542",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937267024,
+        "stop" : 1632937269398,
+        "duration" : 2374
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "239683855c620fbd074f9eb22f6ff542"
+  }, {
+    "name" : "specs.sauce-labs/login/negative.cases/username.missing.test.ts",
+    "children" : [ {
+      "name" : "appears error when clicking on login with only password entered",
+      "uid" : "c98ec863672ec309",
+      "parentUid" : "745bb573fc935fe6d4acd98c29fd6172",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937268344,
+        "stop" : 1632937270565,
+        "duration" : 2221
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "745bb573fc935fe6d4acd98c29fd6172"
+  }, {
+    "name" : "specs.sauce-labs/login/positive.cases/login.locked.user.test.ts",
+    "children" : [ {
+      "name" : "appears message about locked user",
+      "uid" : "8861686d26536d28",
+      "parentUid" : "f0332ac036380c4577747f5d5c47ad29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937268381,
+        "stop" : 1632937271177,
+        "duration" : 2796
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f0332ac036380c4577747f5d5c47ad29"
+  }, {
+    "name" : "specs.sauce-labs/login/negative.cases/username.doesnt.match.password.test.ts",
+    "children" : [ {
+      "name" : "appears error when clicking on login with username doesnt match password",
+      "uid" : "822a0e27603455f6",
+      "parentUid" : "cd408b6c1bf933c59276fbc4af4f89c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937268420,
+        "stop" : 1632937271498,
+        "duration" : 3078
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cd408b6c1bf933c59276fbc4af4f89c9"
+  }, {
+    "name" : "specs.sauce-labs/login/positive.cases/login.standard.user.test.ts",
+    "children" : [ {
+      "name" : "login as standard user if username and password is for standard",
+      "uid" : "bef229934e57105c",
+      "parentUid" : "63c1bf0fd964b030b4ff01c13eee0e99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937269402,
+        "stop" : 1632937273586,
+        "duration" : 4184
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "63c1bf0fd964b030b4ff01c13eee0e99"
+  }, {
+    "name" : "specs.sauce-labs/login/ui-presentation/login.page/all.elements.visible.test.ts",
+    "children" : [ {
+      "name" : "Elements should be on page like on the \"golden\" screenshot",
+      "uid" : "555063762ae23ed4",
+      "parentUid" : "12de9410c24e0f12c183f82379fc6dbd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937270568,
+        "stop" : 1632937272573,
+        "duration" : 2005
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "12de9410c24e0f12c183f82379fc6dbd"
+  }, {
+    "name" : "specs.sauce-labs/login/ui-presentation/login.page/input.fields.editable.test.ts",
+    "children" : [ {
+      "name" : "input fields are editable",
+      "uid" : "89f6ac084f436544",
+      "parentUid" : "87b16fd6b225c5720c5a248225461e45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937271188,
+        "stop" : 1632937272921,
+        "duration" : 1733
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "87b16fd6b225c5720c5a248225461e45"
+  }, {
+    "name" : "specs.sauce-labs/login/ui-presentation/login.page/login.button.enabled.test.ts",
+    "children" : [ {
+      "name" : "login button is enabled",
+      "uid" : "a4856b0535867546",
+      "parentUid" : "dd1b66ca64a59c7ed6f3d9229012def8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937271501,
+        "stop" : 1632937272836,
+        "duration" : 1335
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "dd1b66ca64a59c7ed6f3d9229012def8"
+  }, {
+    "name" : "specs.sauce-labs/login/ui-presentation/main.page/all.elements.visible.test.ts",
+    "children" : [ {
+      "name" : "Elements on the main page should be like on the \"golden\" screenshot",
+      "uid" : "480de782147f91e",
+      "parentUid" : "3cc1338b19b6d262920874e755d9059a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632937272594,
+        "stop" : 1632937274398,
+        "duration" : 1804
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3cc1338b19b6d262920874e755d9059a"
+  } ],
+  "name" : "suites"
+}

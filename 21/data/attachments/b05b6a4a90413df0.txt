@@ -1,0 +1,1 @@
+/home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/specs.sauce-labs/login/positive.cases/login.locked.user.test.ts-snapshots/blocked-user-page-linux.png is missing in snapshots, writing actual.

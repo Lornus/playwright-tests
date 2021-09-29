@@ -1,0 +1,75 @@
+{
+  "uid" : "822a0e27603455f6",
+  "name" : "appears error when clicking on login with username doesnt match password",
+  "fullName" : "appears error when clicking on login with username doesnt match password",
+  "historyId" : " specs.sauce-labs/login/negative.cases/username.doesnt.match.password.test.ts appears error when clicking on login with username doesnt match password",
+  "time" : {
+    "start" : 1632937268420,
+    "stop" : 1632937271498,
+    "duration" : 3078
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "screenshot",
+      "type" : "image/png",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.sauce-labs/login/negative.cases/username.doesnt.match.password.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "77dad7bc79ac9681",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/20//#testresult/77dad7bc79ac9681",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632844082495,
+          "stop" : 1632844085210,
+          "duration" : 2715
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "822a0e27603455f6.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,81 @@
+{
+  "uid" : "8861686d26536d28",
+  "name" : "appears message about locked user",
+  "fullName" : "appears message about locked user",
+  "historyId" : " specs.sauce-labs/login/positive.cases/login.locked.user.test.ts appears message about locked user",
+  "time" : {
+    "start" : 1632937268381,
+    "stop" : 1632937271177,
+    "duration" : 2796
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "screenshot",
+      "type" : "image/png",
+      "size" : 0
+    }, {
+      "uid" : "b05b6a4a90413df0",
+      "name" : "stdout",
+      "source" : "b05b6a4a90413df0.txt",
+      "type" : "text/plain",
+      "size" : 218
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.sauce-labs/login/positive.cases/login.locked.user.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "1b4b22b7ca2f31ef",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/20//#testresult/1b4b22b7ca2f31ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632844084765,
+          "stop" : 1632844087744,
+          "duration" : 2979
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8861686d26536d28.json",
+  "parameterValues" : [ ]
+}
