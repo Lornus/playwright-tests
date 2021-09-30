@@ -11,11 +11,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-      env: 
-          SECRET_PASSWORD: ${{  secrets.SECRET_PASSWORD  }}
     - run: |
           echo $SECRET_PASSWORD
           echo HEREEE
+      env: 
+          SECRET_PASSWORD: ${{  secrets.SECRET_PASSWORD  }}
     - name: Use Node.js
       uses: actions/setup-node@v2
       with:
