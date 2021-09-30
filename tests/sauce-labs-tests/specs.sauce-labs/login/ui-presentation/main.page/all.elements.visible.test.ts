@@ -6,7 +6,7 @@ import * as expects from "../../../../helpers/expects";
 
 test.use({storageState: 'tests/sauce-labs-tests/specs.sauce-labs/login/states/state.standard.json'})
 
-test.only('Elements on the main page should be like on the "golden" screenshot', async function ({page, context}) {
+test('Elements on the main page should be like on the "golden" screenshot', async function ({page, context}) {
     const mainPage = new MainPage(page, context);
 
     await mainPage.openUrl();
