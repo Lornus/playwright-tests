@@ -1,0 +1,81 @@
+{
+  "uid" : "6d1c067e264013bc",
+  "name" : "Elements should be on page like on the \"golden\" screenshot",
+  "fullName" : "Elements should be on page like on the \"golden\" screenshot",
+  "historyId" : " specs.sauce-labs/ui-presentation/login.page/all.elements.visible.test.ts Elements should be on page like on the \"golden\" screenshot",
+  "time" : {
+    "start" : 1633000127410,
+    "stop" : 1633000129219,
+    "duration" : 1809
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "screenshot",
+      "type" : "image/png",
+      "size" : 0
+    }, {
+      "uid" : "4711d7663644fa20",
+      "name" : "stdout",
+      "source" : "4711d7663644fa20.txt",
+      "type" : "text/plain",
+      "size" : 220
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.sauce-labs/ui-presentation/login.page/all.elements.visible.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "dafdb49be40e125",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/29//#testresult/dafdb49be40e125",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632999553562,
+          "stop" : 1632999555727,
+          "duration" : 2165
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6d1c067e264013bc.json",
+  "parameterValues" : [ ]
+}

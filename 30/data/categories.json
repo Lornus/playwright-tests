@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "elementHandle.fill: value: expected string, got undefined",
+      "children" : [ {
+        "name" : "appears message about locked user",
+        "uid" : "a8324708e0df7500",
+        "parentUid" : "91f96e5e7f1f2400422c50865391a4ce",
+        "status" : "failed",
+        "time" : {
+          "start" : 1633000126910,
+          "stop" : 1633000128458,
+          "duration" : 1548
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "login as standard user if username and password is for standard",
+        "uid" : "d233efb7f0ec63c6",
+        "parentUid" : "91f96e5e7f1f2400422c50865391a4ce",
+        "status" : "failed",
+        "time" : {
+          "start" : 1633000127099,
+          "stop" : 1633000128951,
+          "duration" : 1852
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "91f96e5e7f1f2400422c50865391a4ce"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
