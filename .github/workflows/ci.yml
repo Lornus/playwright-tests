@@ -18,11 +18,10 @@ jobs:
         cache: 'npm'
     - run: |
           echo $SECRET_PASSWORD > .env
-          cat .env
           npm ci 
           npx playwright install 
           npm test
-          npm allure-generate
+          npm run allure-generate
       env: 
           SECRET_PASSWORD: ${{  secrets.SECRET_PASSWORD  }}
   
