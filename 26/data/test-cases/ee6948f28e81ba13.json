@@ -1,0 +1,79 @@
+{
+  "uid" : "ee6948f28e81ba13",
+  "name" : "waiting for an element to show up after AJAX",
+  "fullName" : "waiting for an element to show up after AJAX",
+  "historyId" : " specs.ui-testing-playground/wait.for.ajax.test.ts waiting for an element to show up after AJAX",
+  "time" : {
+    "start" : 1632995922078,
+    "stop" : 1632995939245,
+    "duration" : 17167
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.ui-testing-playground/wait.for.ajax.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "619bde1178336223",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/25//#testresult/619bde1178336223",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632995863302,
+          "stop" : 1632995880158,
+          "duration" : 16856
+        }
+      }, {
+        "uid" : "c2eb29df2e78e352",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/24//#testresult/c2eb29df2e78e352",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632995843140,
+          "stop" : 1632995860022,
+          "duration" : 16882
+        }
+      }, {
+        "uid" : "6bf79ea7af153945",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/23//#testresult/6bf79ea7af153945",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632995804678,
+          "stop" : 1632995821380,
+          "duration" : 16702
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ee6948f28e81ba13.json",
+  "parameterValues" : [ ]
+}
