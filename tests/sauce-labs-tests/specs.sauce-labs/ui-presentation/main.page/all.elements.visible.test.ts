@@ -1,7 +1,7 @@
 import {test, expect} from '@playwright/test';
-import {MainPage} from "../../../../pages/main.page";
-import * as manipulations from "../../../../helpers/elements.manipulation";
-import * as expects from "../../../../helpers/expects";
+import {MainPage} from "../../../pages/main.page";
+import * as manipulations from "../../../helpers/elements.manipulation";
+import * as expects from "../../../helpers/expects";
 
 
 test.use({storageState: 'tests/sauce-labs-tests/specs.sauce-labs/login/states/state.standard.json'})

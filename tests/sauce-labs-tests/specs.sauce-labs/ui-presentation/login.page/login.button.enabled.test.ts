@@ -1,6 +1,6 @@
 import {test} from '@playwright/test';
-import {LoginPage} from "../../../../pages/login.page";
-import {checkButtonIsEnabled} from "../../../../helpers/expects";
+import {LoginPage} from "../../../pages/login.page";
+import {checkButtonIsEnabled} from "../../../helpers/expects";
 
 
 test('login button is enabled', async function ({page}) {

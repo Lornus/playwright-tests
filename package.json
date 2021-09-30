@@ -47,6 +47,7 @@
     "define-lazy-prop": "^2.0.0",
     "define-properties": "^1.1.3",
     "diff-sequences": "^26.6.2",
+    "dotenv": "^10.0.0",
     "electron-to-chromium": "^1.3.845",
     "end-of-stream": "^1.4.4",
     "escalade": "^3.1.1",

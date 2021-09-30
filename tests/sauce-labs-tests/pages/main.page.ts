@@ -1,6 +1,5 @@
 import {BrowserContext, ElementHandle, Page} from "@playwright/test";
 import {BasePage} from "./base.page";
-import {LoginPage} from "./login.page";
 
 import * as manipulations from "../helpers/elements.manipulation";
 import * as fs from "fs";

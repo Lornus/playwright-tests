@@ -1,6 +1,7 @@
 import {test, expect} from '@playwright/test';
 import {LoginPage} from "../../../pages/login.page";
 import * as manipulations from "../../../helpers/elements.manipulation"
+require('dotenv').config();
 
 test('login as standard user if username and password is for standard', async function ({page, context}) {
     const loginPage = new LoginPage(page);
@@ -9,6 +10,8 @@ test('login as standard user if username and password is for standard', async fu
     await loginPage.loginAsStandardUser();
 
     const logo = await manipulations.getElement(page, ".app_logo");
+
+    // console.log(process.env["SECRET_PASSWORD"])
 
     expect(await logo.isVisible()).toBeTruthy();
 
