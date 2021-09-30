@@ -1,4 +1,6 @@
-# Repo with playwright tests  ![workflow](https://img.shields.io/github/workflow/status/Lornus/playwright-tests/ci/master)
+# Repo with playwright tests 
+
+ ![workflow](https://img.shields.io/github/workflow/status/Lornus/playwright-tests/ci/master)
 
 ---
 
