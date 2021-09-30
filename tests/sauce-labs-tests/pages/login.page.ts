@@ -56,7 +56,7 @@ export class LoginPage extends BasePage {
     async loginAsBlockedUser(): Promise<void> {
         const loginBtn: ElementHandle<Node> | null = await manipulations.getElement(this.page, this.loginBtn);
         await manipulations.typeInput(this.page, this.inputUserNameField, this.lockedOutUser);
-        await manipulations.typeInput(this.page, this.inputPasswordField, this.secretPassword);
+        await manipulations.typeInput(this.page, this.inputPasswordField,  process.env['SECRET_PASSWORD']);
         await loginBtn.click();
     }
 

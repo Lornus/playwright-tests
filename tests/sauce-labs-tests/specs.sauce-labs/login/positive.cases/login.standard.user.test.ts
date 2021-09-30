@@ -11,8 +11,6 @@ test('login as standard user if username and password is for standard', async fu
 
     const logo = await manipulations.getElement(page, ".app_logo");
 
-    // console.log(process.env["SECRET_PASSWORD"])
-
     expect(await logo.isVisible()).toBeTruthy();
 
     await context.storageState({path: 'tests/sauce-labs-tests/specs.sauce-labs/login/states/state.standard.json'});
