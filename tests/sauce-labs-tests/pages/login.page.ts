@@ -49,14 +49,16 @@ export class LoginPage extends BasePage {
     async loginAsStandardUser(): Promise<void> {
         const loginBtn: ElementHandle<Node> | null = await manipulations.getElement(this.page, this.loginBtn);
         await manipulations.typeInput(this.page, this.inputUserNameField, this.standardUser);
-        await manipulations.typeInput(this.page, this.inputPasswordField, process.env['SECRET_PASSWORD']);
+        await manipulations.typeInput(this.page, this.inputPasswordField, process.env.SECRET_PASSWORD);
+        // @ts-ignore
         await loginBtn.click();
     }
 
     async loginAsBlockedUser(): Promise<void> {
         const loginBtn: ElementHandle<Node> | null = await manipulations.getElement(this.page, this.loginBtn);
         await manipulations.typeInput(this.page, this.inputUserNameField, this.lockedOutUser);
-        await manipulations.typeInput(this.page, this.inputPasswordField,  process.env['SECRET_PASSWORD']);
+        await manipulations.typeInput(this.page, this.inputPasswordField,  process.env.SECRET_PASSWORD);
+        // @ts-ignore
         await loginBtn.click();
     }
 
