@@ -1,17 +1,6 @@
 {
   "total" : 27,
   "items" : [ {
-    "uid" : "3cc1338b19b6d262920874e755d9059a",
-    "name" : "specs.sauce-labs/login/ui-presentation/main.page/all.elements.visible.test.ts",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
     "uid" : "77ed2aa794b31773da4fc6dc61a2cacc",
     "name" : "sample-app/ui/all.elements.visible.test.ts",
     "statistic" : {
@@ -102,6 +91,17 @@
   }, {
     "uid" : "5d8b05b751f56d2f12a7e82a45386f0d",
     "name" : "specs.ui-testing-playground/click.count.test.ts",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a27a2266f397005ba15309f1f72adae0",
+    "name" : "specs.ui-testing-playground/find.column.after.reload.test.ts",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
