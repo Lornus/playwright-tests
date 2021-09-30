@@ -1,0 +1,41 @@
+{
+  "uid" : "efa106cc25db780e",
+  "name" : "waiting for a page to load",
+  "fullName" : "waiting for a page to load",
+  "historyId" : " specs.ui-testing-playground/wait.for.load.page.test.ts waiting for a page to load",
+  "time" : {
+    "start" : 1632995806280,
+    "stop" : 1632995812747,
+    "duration" : 6467
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.ui-testing-playground/wait.for.load.page.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "efa106cc25db780e.json",
+  "parameterValues" : [ ]
+}

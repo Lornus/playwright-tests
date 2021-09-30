@@ -1,0 +1,41 @@
+{
+  "uid" : "dea4b53f4ab2d6b2",
+  "name" : "value of cpu in table that each reload renders equals to text",
+  "fullName" : "value of cpu in table that each reload renders equals to text",
+  "historyId" : " specs.ui-testing-playground/find.column.after.reload.test.ts value of cpu in table that each reload renders equals to text",
+  "time" : {
+    "start" : 1632995802993,
+    "stop" : 1632995804487,
+    "duration" : 1494
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.ui-testing-playground/find.column.after.reload.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dea4b53f4ab2d6b2.json",
+  "parameterValues" : [ ]
+}
