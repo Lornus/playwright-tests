@@ -20,9 +20,8 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npx playwright install
-    - run: touch .env
-    - run: echo $SECRET_PASSWORD
-    - run: $SECRET_PASSWORD >> .env
+    - run: |
+          echo $SECRET_PASSWORD
     - run: npm test
     - run: npm run allure-generate
   
