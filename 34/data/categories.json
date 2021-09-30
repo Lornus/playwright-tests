@@ -1,0 +1,73 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "elementHandle.fill: value: expected string, got undefined",
+      "children" : [ {
+        "name" : "appears message about locked user",
+        "uid" : "9b93e1f727ba6902",
+        "parentUid" : "91f96e5e7f1f2400422c50865391a4ce",
+        "status" : "failed",
+        "time" : {
+          "start" : 1633005158135,
+          "stop" : 1633005160047,
+          "duration" : 1912
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "login as standard user if username and password is for standard",
+        "uid" : "407cf85e3f566fc6",
+        "parentUid" : "91f96e5e7f1f2400422c50865391a4ce",
+        "status" : "failed",
+        "time" : {
+          "start" : 1633005158795,
+          "stop" : 1633005160692,
+          "duration" : 1897
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "91f96e5e7f1f2400422c50865391a4ce"
+    }, {
+      "name" : "elementHandle.isEditable: Target closed",
+      "children" : [ {
+        "name" : "input fields are editable",
+        "uid" : "15c37716d2811aa",
+        "parentUid" : "9131779824ba89dcd7bf7b39fed1777f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1633005161409,
+          "stop" : 1633005162916,
+          "duration" : 1507
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9131779824ba89dcd7bf7b39fed1777f"
+    }, {
+      "name" : "Cannot read property 'click' of null",
+      "children" : [ {
+        "name" : "Elements on the main page should be like on the \"golden\" screenshot",
+        "uid" : "4643f66e24c29e89",
+        "parentUid" : "c072ea7711350c5a1ce95d6a17853c94",
+        "status" : "failed",
+        "time" : {
+          "start" : 1633005162598,
+          "stop" : 1633005163710,
+          "duration" : 1112
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c072ea7711350c5a1ce95d6a17853c94"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
