@@ -8,6 +8,7 @@ export async function getElement(page: Page, selector: string): Promise<ElementH
 
 export async function typeInput(page: Page, selector: string, text: string): Promise<void> {
     const element:  ElementHandle<Node> | null = await getElement(page, selector)
+    // @ts-ignore
     await element.fill(text);
 }
 

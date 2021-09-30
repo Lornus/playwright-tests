@@ -1,9 +1,9 @@
 import {ElementHandle, Page} from "@playwright/test";
 import {BasePage} from "./base.page";
 import * as manipulations from "../helpers/elements.manipulation";
-require('dotenv').config();
+require('dotenv').config({path: '.env'});
 
-declare let process : {
+export declare let process : {
     env: {
         SECRET_PASSWORD: string
     }
