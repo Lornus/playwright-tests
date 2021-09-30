@@ -1,0 +1,311 @@
+[ {
+  "uid" : "e91f0763a9af1ffa",
+  "name" : "description",
+  "time" : {
+    "start" : 1633007283462,
+    "stop" : 1633007284931,
+    "duration" : 1469
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53e9e4b5b0c5288c",
+  "name" : "login with correct login and password",
+  "time" : {
+    "start" : 1633007278351,
+    "stop" : 1633007281827,
+    "duration" : 3476
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "785f17654438bc1d",
+  "name" : "appears error when unregistered user clicking on login",
+  "time" : {
+    "start" : 1633007307984,
+    "stop" : 1633007311269,
+    "duration" : 3285
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd2da2ceaeab0b3f",
+  "name" : "appears error when clicking on login with only password entered",
+  "time" : {
+    "start" : 1633007307844,
+    "stop" : 1633007310187,
+    "duration" : 2343
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "edd177347fe95ffe",
+  "name" : "login as standard user if username and password is for standard",
+  "time" : {
+    "start" : 1633007310191,
+    "stop" : 1633007314737,
+    "duration" : 4546
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9905883c1c131a8",
+  "name" : "[name=\"Password\"] input",
+  "time" : {
+    "start" : 1633007287423,
+    "stop" : 1633007288584,
+    "duration" : 1161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed57be43ef593b20",
+  "name" : "must determine hidden buttons",
+  "time" : {
+    "start" : 1633007285449,
+    "stop" : 1633007287086,
+    "duration" : 1637
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdf84b63e60718ec",
+  "name" : "waiting for a page to load",
+  "time" : {
+    "start" : 1633007286665,
+    "stop" : 1633007293633,
+    "duration" : 6968
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63fefc458ccdcf1",
+  "name" : "appears error when clicking on login with username doesnt match password",
+  "time" : {
+    "start" : 1633007307850,
+    "stop" : 1633007310344,
+    "duration" : 2494
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "658f89ed071e69b",
+  "name" : "input fields are editable",
+  "time" : {
+    "start" : 1633007311273,
+    "stop" : 1633007313214,
+    "duration" : 1941
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca180ed63f389746",
+  "name" : "login status",
+  "time" : {
+    "start" : 1633007284932,
+    "stop" : 1633007286435,
+    "duration" : 1503
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9c18e24fbe8af06",
+  "name" : "demonstrating error when password is incorrect, login correct",
+  "time" : {
+    "start" : 1633007279324,
+    "stop" : 1633007281743,
+    "duration" : 2419
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37c47f15206e3630",
+  "name" : "click count increased",
+  "time" : {
+    "start" : 1633007283281,
+    "stop" : 1633007284895,
+    "duration" : 1614
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efc370b0f7908825",
+  "name" : "demonstrate error when password is empty",
+  "time" : {
+    "start" : 1633007280160,
+    "stop" : 1633007283275,
+    "duration" : 3115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cdf29647776c464",
+  "name" : "appears error when clicking on login with only username entered",
+  "time" : {
+    "start" : 1633007306739,
+    "stop" : 1633007309184,
+    "duration" : 2445
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "771e064ab5326558",
+  "name" : "the button name is changing",
+  "time" : {
+    "start" : 1633007281833,
+    "stop" : 1633007283755,
+    "duration" : 1922
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a323cefb090071c1",
+  "name" : "h3 tag",
+  "time" : {
+    "start" : 1633007281785,
+    "stop" : 1633007283460,
+    "duration" : 1675
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f8a095bb5d70b36",
+  "name" : "demonstration warning when all fields are empty",
+  "time" : {
+    "start" : 1633007278772,
+    "stop" : 1633007281408,
+    "duration" : 2636
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97748a98bc69b8c2",
+  "name" : "waiting for an element to show up after AJAX",
+  "time" : {
+    "start" : 1633007286572,
+    "stop" : 1633007303326,
+    "duration" : 16754
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f45da4f53eba9a15",
+  "name" : "[name=\"UserName\"] input",
+  "time" : {
+    "start" : 1633007286436,
+    "stop" : 1633007287421,
+    "duration" : 985
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18258020afaf74e3",
+  "name" : "the button name is changing",
+  "time" : {
+    "start" : 1633007284979,
+    "stop" : 1633007286657,
+    "duration" : 1678
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d44dd8337ece92f1",
+  "name" : "demonstrate error when login is empty",
+  "time" : {
+    "start" : 1633007281416,
+    "stop" : 1633007283139,
+    "duration" : 1723
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "486452c59575991a",
+  "name" : "Elements should be on page like on the \"golden\" screenshot",
+  "time" : {
+    "start" : 1633007310348,
+    "stop" : 1633007313286,
+    "duration" : 2938
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a2aa243b4b74271",
+  "name" : "appears error when clicking on login with username doesnt match password",
+  "time" : {
+    "start" : 1633007305812,
+    "stop" : 1633007307733,
+    "duration" : 1921
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c11af9e5f88637df",
+  "name" : "Elements on the main page should be like on the \"golden\" screenshot",
+  "time" : {
+    "start" : 1633007313228,
+    "stop" : 1633007315493,
+    "duration" : 2265
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6d3b81092fffdfc",
+  "name" : "it is able to click the button",
+  "time" : {
+    "start" : 1633007283143,
+    "stop" : 1633007284975,
+    "duration" : 1832
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee2e5cc55228b3d4",
+  "name" : "value of cpu in table that each reload renders equals to text",
+  "time" : {
+    "start" : 1633007283759,
+    "stop" : 1633007285442,
+    "duration" : 1683
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24059ea84b1bec4c",
+  "name" : "find an element with Welcome text",
+  "time" : {
+    "start" : 1633007284899,
+    "stop" : 1633007286566,
+    "duration" : 1667
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd10525ce6843618",
+  "name" : "login button is enabled",
+  "time" : {
+    "start" : 1633007312237,
+    "stop" : 1633007313787,
+    "duration" : 1550
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86271c94786c86fe",
+  "name" : "appears message about locked user",
+  "time" : {
+    "start" : 1633007309188,
+    "stop" : 1633007312235,
+    "duration" : 3047
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95f882c0cca1d69d",
+  "name" : "appears error when clicking on login without filling any input",
+  "time" : {
+    "start" : 1633007305203,
+    "stop" : 1633007306988,
+    "duration" : 1785
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
