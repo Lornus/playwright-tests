@@ -1,0 +1,156 @@
+{
+  "uid" : "41eab134db1ecadb",
+  "name" : "appears message about locked user",
+  "fullName" : "appears message about locked user",
+  "historyId" : " specs.sauce-labs/login/positive.cases/login.locked.user.test.ts appears message about locked user",
+  "time" : {
+    "start" : 1633006364017,
+    "stop" : 1633006365732,
+    "duration" : 1715
+  },
+  "status" : "failed",
+  "statusMessage" : "elementHandle.fill: value: expected string, got undefined",
+  "statusTrace" : "elementHandle.fill: value: expected string, got undefined\n    at Object.typeInput (/home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/helpers/elements.manipulation.ts:11:19)\n    at LoginPage.loginAsBlockedUser (/home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/pages/login.page.ts:60:9)\n    at /home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/specs.sauce-labs/login/positive.cases/login.locked.user.test.ts:9:5\n    at WorkerRunner._runTestWithBeforeHooks (/home/runner/work/playwright-tests/playwright-tests/node_modules/@playwright/test/lib/test/workerRunner.js:449:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "elementHandle.fill: value: expected string, got undefined",
+    "statusTrace" : "elementHandle.fill: value: expected string, got undefined\n    at Object.typeInput (/home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/helpers/elements.manipulation.ts:11:19)\n    at LoginPage.loginAsBlockedUser (/home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/pages/login.page.ts:60:9)\n    at /home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/specs.sauce-labs/login/positive.cases/login.locked.user.test.ts:9:5\n    at WorkerRunner._runTestWithBeforeHooks (/home/runner/work/playwright-tests/playwright-tests/node_modules/@playwright/test/lib/test/workerRunner.js:449:7)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "video",
+      "type" : "video/webm",
+      "size" : 0
+    }, {
+      "name" : "screenshot",
+      "type" : "image/png",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.sauce-labs/login/positive.cases/login.locked.user.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 7,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "8ccadf861061e415",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/36//#testresult/8ccadf861061e415",
+        "status" : "failed",
+        "statusDetails" : "elementHandle.fill: value: expected string, got undefined",
+        "time" : {
+          "start" : 1633005789711,
+          "stop" : 1633005791989,
+          "duration" : 2278
+        }
+      }, {
+        "uid" : "9b93e1f727ba6902",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/34//#testresult/9b93e1f727ba6902",
+        "status" : "failed",
+        "statusDetails" : "elementHandle.fill: value: expected string, got undefined",
+        "time" : {
+          "start" : 1633005158135,
+          "stop" : 1633005160047,
+          "duration" : 1912
+        }
+      }, {
+        "uid" : "af50b5c49756f390",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/33//#testresult/af50b5c49756f390",
+        "status" : "failed",
+        "statusDetails" : "elementHandle.fill: value: expected string, got undefined",
+        "time" : {
+          "start" : 1633004168303,
+          "stop" : 1633004169694,
+          "duration" : 1391
+        }
+      }, {
+        "uid" : "e405401f640ccac0",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/32//#testresult/e405401f640ccac0",
+        "status" : "failed",
+        "statusDetails" : "elementHandle.fill: value: expected string, got undefined",
+        "time" : {
+          "start" : 1633002980224,
+          "stop" : 1633002982327,
+          "duration" : 2103
+        }
+      }, {
+        "uid" : "d8566999200663b8",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/31//#testresult/d8566999200663b8",
+        "status" : "failed",
+        "statusDetails" : "elementHandle.fill: value: expected string, got undefined",
+        "time" : {
+          "start" : 1633001710605,
+          "stop" : 1633001712678,
+          "duration" : 2073
+        }
+      }, {
+        "uid" : "a8324708e0df7500",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/30//#testresult/a8324708e0df7500",
+        "status" : "failed",
+        "statusDetails" : "elementHandle.fill: value: expected string, got undefined",
+        "time" : {
+          "start" : 1633000126910,
+          "stop" : 1633000128458,
+          "duration" : 1548
+        }
+      }, {
+        "uid" : "9df8b6d4a65b67bf",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/29//#testresult/9df8b6d4a65b67bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632999552448,
+          "stop" : 1632999554963,
+          "duration" : 2515
+        }
+      }, {
+        "uid" : "f684ec046f4c3844",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/28//#testresult/f684ec046f4c3844",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632996327809,
+          "stop" : 1632996330239,
+          "duration" : 2430
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "41eab134db1ecadb.json",
+  "parameterValues" : [ ]
+}
