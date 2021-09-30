@@ -1,4 +1,6 @@
-# Repo with playwright tests 
+##Repo with playwright tests 
+
+![workflow](https://img.shields.io/github/workflow/status/Lornus/playwright-tests/ci/master)
 
 # What is here: 
 1. almost all tasks from http://uitestingplayground.com/ done

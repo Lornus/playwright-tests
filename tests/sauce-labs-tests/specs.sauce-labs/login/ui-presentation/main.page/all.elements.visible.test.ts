@@ -6,7 +6,7 @@ import * as expects from "../../../../helpers/expects";
 
 test.use({storageState: 'tests/sauce-labs-tests/specs.sauce-labs/login/states/state.standard.json'})
 
-test('Elements on the main page should be like on the "golden" screenshot', async function ({page, context}) {
+test.only('Elements on the main page should be like on the "golden" screenshot', async function ({page, context}) {
     const mainPage = new MainPage(page, context);
 
     await mainPage.openUrl();
@@ -15,9 +15,9 @@ test('Elements on the main page should be like on the "golden" screenshot', asyn
 
     //------------------------------------------------FD - For Debugging -----------------------------------------------
 
-    // await page.screenshot({path: 'tests/sauce-labs-tests/golden-screenshots/main-page.png'});
+     // await page.screenshot({path: 'tests/sauce-labs-tests/golden-screenshots/main-page.png'});
 
-    //console.dir(await context.cookies());
+    // console.dir(await context.cookies());
 
     //------------------------------------------------FD - For Debugging -----------------------------------------------
 
