@@ -1,0 +1,93 @@
+{
+  "uid" : "b9bb499e5e692eb9",
+  "name" : "Elements on the main page should be like on the \"golden\" screenshot",
+  "fullName" : "Elements on the main page should be like on the \"golden\" screenshot",
+  "historyId" : " specs.sauce-labs/login/ui-presentation/main.page/all.elements.visible.test.ts Elements on the main page should be like on the \"golden\" screenshot",
+  "time" : {
+    "start" : 1632964614499,
+    "stop" : 1632964615781,
+    "duration" : 1282
+  },
+  "status" : "failed",
+  "statusMessage" : "Cannot read property 'click' of null",
+  "statusTrace" : "TypeError: Cannot read property 'click' of null\n    at /home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/specs.sauce-labs/login/ui-presentation/main.page/all.elements.visible.test.ts:26:18\n    at WorkerRunner._runTestWithBeforeHooks (/home/runner/work/playwright-tests/playwright-tests/node_modules/@playwright/test/lib/test/workerRunner.js:449:7)",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Cannot read property 'click' of null",
+    "statusTrace" : "TypeError: Cannot read property 'click' of null\n    at /home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/specs.sauce-labs/login/ui-presentation/main.page/all.elements.visible.test.ts:26:18\n    at WorkerRunner._runTestWithBeforeHooks (/home/runner/work/playwright-tests/playwright-tests/node_modules/@playwright/test/lib/test/workerRunner.js:449:7)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "video",
+      "type" : "video/webm",
+      "size" : 0
+    }, {
+      "name" : "screenshot",
+      "type" : "image/png",
+      "size" : 0
+    }, {
+      "uid" : "8203cc3afc41ab25",
+      "name" : "stdout",
+      "source" : "8203cc3afc41ab25.txt",
+      "type" : "text/plain",
+      "size" : 233
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.sauce-labs/login/ui-presentation/main.page/all.elements.visible.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "480de782147f91e",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/21//#testresult/480de782147f91e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632937272594,
+          "stop" : 1632937274398,
+          "duration" : 1804
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b9bb499e5e692eb9.json",
+  "parameterValues" : [ ]
+}

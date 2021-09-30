@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Cannot read property 'click' of null",
+      "children" : [ {
+        "name" : "Elements on the main page should be like on the \"golden\" screenshot",
+        "uid" : "b9bb499e5e692eb9",
+        "parentUid" : "c072ea7711350c5a1ce95d6a17853c94",
+        "status" : "failed",
+        "time" : {
+          "start" : 1632964614499,
+          "stop" : 1632964615781,
+          "duration" : 1282
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c072ea7711350c5a1ce95d6a17853c94"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
