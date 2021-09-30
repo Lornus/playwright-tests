@@ -12,8 +12,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: |
-          echo $SECRET_PASSWORD
+          echo $SECRET_PASSWORD > .env
           echo HEREEE
+          cat .env
       env: 
           SECRET_PASSWORD: ${{  secrets.SECRET_PASSWORD  }}
     - name: Use Node.js
