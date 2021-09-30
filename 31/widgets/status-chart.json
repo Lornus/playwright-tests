@@ -1,0 +1,191 @@
+[ {
+  "uid" : "1e761b53924a8026",
+  "name" : "the button name is changing",
+  "time" : {
+    "start" : 1633001478202,
+    "stop" : 1633001479574,
+    "duration" : 1372
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "212c3e642cdd2547",
+  "name" : "[name=\"UserName\"] input",
+  "time" : {
+    "start" : 1633001479216,
+    "stop" : 1633001481080,
+    "duration" : 1864
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f89033b8672b154",
+  "name" : "the button name is changing",
+  "time" : {
+    "start" : 1633001474109,
+    "stop" : 1633001476543,
+    "duration" : 2434
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa3303a16b499f41",
+  "name" : "value of cpu in table that each reload renders equals to text",
+  "time" : {
+    "start" : 1633001477290,
+    "stop" : 1633001479496,
+    "duration" : 2206
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fa12cffff01f25",
+  "name" : "demonstrate error when password is empty",
+  "time" : {
+    "start" : 1633001472558,
+    "stop" : 1633001474060,
+    "duration" : 1502
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10bc7653860dffee",
+  "name" : "waiting for a page to load",
+  "time" : {
+    "start" : 1633001479578,
+    "stop" : 1633001486431,
+    "duration" : 6853
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c88263d8f82e5f7",
+  "name" : "login status",
+  "time" : {
+    "start" : 1633001477676,
+    "stop" : 1633001479215,
+    "duration" : 1539
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df826ed1101a0c5b",
+  "name" : "demonstrating error when password is incorrect, login correct",
+  "time" : {
+    "start" : 1633001472633,
+    "stop" : 1633001475450,
+    "duration" : 2817
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0c9c6fa67944851",
+  "name" : "click count increased",
+  "time" : {
+    "start" : 1633001476548,
+    "stop" : 1633001478198,
+    "duration" : 1650
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "296c2231d8ffb925",
+  "name" : "h3 tag",
+  "time" : {
+    "start" : 1633001474117,
+    "stop" : 1633001476049,
+    "duration" : 1932
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d957c1f85ee86aaa",
+  "name" : "demonstration warning when all fields are empty",
+  "time" : {
+    "start" : 1633001471450,
+    "stop" : 1633001473547,
+    "duration" : 2097
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ecaafd4a9e804ddd",
+  "name" : "waiting for an element to show up after AJAX",
+  "time" : {
+    "start" : 1633001479503,
+    "stop" : 1633001482082,
+    "duration" : 2579
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d836f8512c80c09",
+  "name" : "description",
+  "time" : {
+    "start" : 1633001476051,
+    "stop" : 1633001477675,
+    "duration" : 1624
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "820b212f9b846378",
+  "name" : "login with correct login and password",
+  "time" : {
+    "start" : 1633001470878,
+    "stop" : 1633001472338,
+    "duration" : 1460
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ff1465cea2e7f4d",
+  "name" : "[name=\"Password\"] input",
+  "time" : {
+    "start" : 1633001481082,
+    "stop" : 1633001482227,
+    "duration" : 1145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f4db3579e7bc749",
+  "name" : "must determine hidden buttons",
+  "time" : {
+    "start" : 1633001479400,
+    "stop" : 1633001481829,
+    "duration" : 2429
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36da79f0e055b02e",
+  "name" : "find an element with Welcome text",
+  "time" : {
+    "start" : 1633001477455,
+    "stop" : 1633001479390,
+    "duration" : 1935
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68c8aeb39586f578",
+  "name" : "demonstrate error when login is empty",
+  "time" : {
+    "start" : 1633001474161,
+    "stop" : 1633001477435,
+    "duration" : 3274
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1eb0d2236313d494",
+  "name" : "it is able to click the button",
+  "time" : {
+    "start" : 1633001475469,
+    "stop" : 1633001477287,
+    "duration" : 1818
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
