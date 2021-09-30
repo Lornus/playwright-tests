@@ -3,22 +3,35 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Cannot read property 'click' of null",
+      "name" : "elementHandle.fill: value: expected string, got undefined",
       "children" : [ {
-        "name" : "waiting for an element to show up after AJAX",
-        "uid" : "ecaafd4a9e804ddd",
-        "parentUid" : "c072ea7711350c5a1ce95d6a17853c94",
+        "name" : "appears message about locked user",
+        "uid" : "d8566999200663b8",
+        "parentUid" : "91f96e5e7f1f2400422c50865391a4ce",
         "status" : "failed",
         "time" : {
-          "start" : 1633001479503,
-          "stop" : 1633001482082,
-          "duration" : 2579
+          "start" : 1633001710605,
+          "stop" : 1633001712678,
+          "duration" : 2073
         },
         "flaky" : false,
-        "newFailed" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "login as standard user if username and password is for standard",
+        "uid" : "a1afa1986291092a",
+        "parentUid" : "91f96e5e7f1f2400422c50865391a4ce",
+        "status" : "failed",
+        "time" : {
+          "start" : 1633001710938,
+          "stop" : 1633001712830,
+          "duration" : 1892
+        },
+        "flaky" : false,
+        "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c072ea7711350c5a1ce95d6a17853c94"
+      "uid" : "91f96e5e7f1f2400422c50865391a4ce"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
