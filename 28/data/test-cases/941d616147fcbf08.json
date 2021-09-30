@@ -1,0 +1,122 @@
+{
+  "uid" : "941d616147fcbf08",
+  "name" : "Elements on the main page should be like on the \"golden\" screenshot",
+  "fullName" : "Elements on the main page should be like on the \"golden\" screenshot",
+  "historyId" : " specs.sauce-labs/login/ui-presentation/main.page/all.elements.visible.test.ts Elements on the main page should be like on the \"golden\" screenshot",
+  "time" : {
+    "start" : 1632996330526,
+    "stop" : 1632996332622,
+    "duration" : 2096
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "screenshot",
+      "type" : "image/png",
+      "size" : 0
+    }, {
+      "uid" : "5bc60c65607f4c9e",
+      "name" : "stdout",
+      "source" : "5bc60c65607f4c9e.txt",
+      "type" : "text/plain",
+      "size" : 233
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.sauce-labs/login/ui-presentation/main.page/all.elements.visible.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "1f55362919d163e",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/27//#testresult/1f55362919d163e",
+        "status" : "failed",
+        "statusDetails" : "Cannot read property 'click' of null",
+        "time" : {
+          "start" : 1632995957418,
+          "stop" : 1632995958125,
+          "duration" : 707
+        }
+      }, {
+        "uid" : "dd1cad3e6483b7bf",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/26//#testresult/dd1cad3e6483b7bf",
+        "status" : "failed",
+        "statusDetails" : "Cannot read property 'click' of null",
+        "time" : {
+          "start" : 1632995940896,
+          "stop" : 1632995941920,
+          "duration" : 1024
+        }
+      }, {
+        "uid" : "9037985f7c4b1652",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/25//#testresult/9037985f7c4b1652",
+        "status" : "failed",
+        "statusDetails" : "Cannot read property 'click' of null",
+        "time" : {
+          "start" : 1632995881678,
+          "stop" : 1632995882417,
+          "duration" : 739
+        }
+      }, {
+        "uid" : "41cd4937dd1b2aa3",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/24//#testresult/41cd4937dd1b2aa3",
+        "status" : "failed",
+        "statusDetails" : "Cannot read property 'click' of null",
+        "time" : {
+          "start" : 1632995861531,
+          "stop" : 1632995862565,
+          "duration" : 1034
+        }
+      }, {
+        "uid" : "92f13e1e0612c617",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/23//#testresult/92f13e1e0612c617",
+        "status" : "failed",
+        "statusDetails" : "Cannot read property 'click' of null",
+        "time" : {
+          "start" : 1632995823122,
+          "stop" : 1632995824148,
+          "duration" : 1026
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "941d616147fcbf08.json",
+  "parameterValues" : [ ]
+}

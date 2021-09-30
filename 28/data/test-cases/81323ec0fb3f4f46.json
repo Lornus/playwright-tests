@@ -1,0 +1,55 @@
+{
+  "uid" : "81323ec0fb3f4f46",
+  "name" : "appears error when unregistered user clicking on login",
+  "fullName" : "appears error when unregistered user clicking on login",
+  "historyId" : " specs.sauce-labs/login/negative.cases/unregistered.user.login.test.ts appears error when unregistered user clicking on login",
+  "time" : {
+    "start" : 1632996326196,
+    "stop" : 1632996328745,
+    "duration" : 2549
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "screenshot",
+      "type" : "image/png",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.sauce-labs/login/negative.cases/unregistered.user.login.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "81323ec0fb3f4f46.json",
+  "parameterValues" : [ ]
+}

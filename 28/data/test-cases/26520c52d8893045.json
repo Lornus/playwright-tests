@@ -1,0 +1,61 @@
+{
+  "uid" : "26520c52d8893045",
+  "name" : "Elements should be on page like on the \"golden\" screenshot",
+  "fullName" : "Elements should be on page like on the \"golden\" screenshot",
+  "historyId" : " specs.sauce-labs/login/ui-presentation/login.page/all.elements.visible.test.ts Elements should be on page like on the \"golden\" screenshot",
+  "time" : {
+    "start" : 1632996328261,
+    "stop" : 1632996330520,
+    "duration" : 2259
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "screenshot",
+      "type" : "image/png",
+      "size" : 0
+    }, {
+      "uid" : "c6e5c97a6803cabc",
+      "name" : "stdout",
+      "source" : "c6e5c97a6803cabc.txt",
+      "type" : "text/plain",
+      "size" : 226
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.sauce-labs/login/ui-presentation/login.page/all.elements.visible.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "26520c52d8893045.json",
+  "parameterValues" : [ ]
+}
