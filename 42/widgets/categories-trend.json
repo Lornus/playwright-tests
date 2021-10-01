@@ -2,6 +2,11 @@
   "buildOrder" : 42,
   "reportUrl" : "https://Lornus.github.io/playwright-tests/42/",
   "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
+  "buildOrder" : 42,
+  "reportUrl" : "https://Lornus.github.io/playwright-tests/42/",
+  "reportName" : "Allure Report with history",
   "data" : {
     "Product defects" : 1
   }
@@ -119,13 +124,6 @@
 }, {
   "buildOrder" : 25,
   "reportUrl" : "https://Lornus.github.io/playwright-tests/25/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "Product defects" : 1
-  }
-}, {
-  "buildOrder" : 24,
-  "reportUrl" : "https://Lornus.github.io/playwright-tests/24/",
   "reportName" : "Allure Report with history",
   "data" : {
     "Product defects" : 1
