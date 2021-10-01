@@ -9,13 +9,15 @@ test('appears error when clicking on login with username doesnt match password',
     await loginPage.openUrl();
 
 
-    await manipulations.typeInput(page, '[data-test="username"]', 'standard_user');
-    await manipulations.typeInput(page, '[data-test="password"]', 'secret_sauce_');
+    await manipulations.typeInput(page, loginPage.inputUserNameField, `randUser_${Date.now()}`);
 
+    await loginPage.fillSecretPassword();
 
     const loginBtn = await loginPage.getLoginBtn();
+    // @ts-ignore
     await loginBtn.click();
 
-    await expects.checkText(page, '[data-test="error"]', 'Epic sadface: Username and password do not match any user in this service');
+
+    await expects.checkText(page, loginPage.errorArea, 'Epic sadface: Username and password do not match any user in this service');
 
 })

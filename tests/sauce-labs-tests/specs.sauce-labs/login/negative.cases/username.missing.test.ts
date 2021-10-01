@@ -9,11 +9,12 @@ test('appears error when clicking on login with only password entered', async fu
     await loginPage.openUrl();
 
 
-    await manipulations.typeInput(page, '[data-test="password"]', 'test_password');
+    await manipulations.typeInput(page, loginPage.inputPasswordField, 'test_password');
 
     const loginBtn = await loginPage.getLoginBtn();
+    // @ts-ignore
     await loginBtn.click();
 
-    await expects.checkText(page, '[data-test="error"]', 'Epic sadface: Username is required');
+    await expects.checkText(page, loginPage.errorArea, 'Epic sadface: Username is required');
 
 })

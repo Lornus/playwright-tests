@@ -5,7 +5,7 @@ const config: PlaywrightTestConfig = {
     testDir: ".",
 
     use: {
-        screenshot: "on",
+        screenshot: "only-on-failure",
         video: "retain-on-failure",
         baseURL: "https://www.saucedemo.com/",
         browserName: 'chromium',

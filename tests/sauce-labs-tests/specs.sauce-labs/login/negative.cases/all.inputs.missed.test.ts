@@ -1,4 +1,4 @@
-import {test} from '@playwright/test';
+import {ElementHandle, test} from '@playwright/test';
 import {LoginPage} from "../../../pages/login.page";
 import * as expects from "../../../helpers/expects";
 
@@ -8,8 +8,9 @@ test('appears error when clicking on login without filling any input', async fun
     await loginPage.openUrl();
 
     const loginBtn = await loginPage.getLoginBtn();
+    // @ts-ignore
     await loginBtn.click();
 
-    await expects.checkText(page, '[data-test="error"]', 'Epic sadface: Username is required');
+    await expects.checkText(page, loginPage.errorArea, 'Epic sadface: Username is required');
 
 })

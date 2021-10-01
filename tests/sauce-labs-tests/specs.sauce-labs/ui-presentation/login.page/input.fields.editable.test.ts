@@ -7,8 +7,12 @@ test('input fields are editable', async function ({page}) {
     await loginPage.openUrl();
 
     const fields = [loginPage.inputUserNameField, loginPage.inputPasswordField];
-    fields.map(async field => {
-        await checkElementEditable(page, field);
-    })
+
+    await Promise.all(
+        [fields.map(async field => {
+                await checkElementEditable(page, field);
+            }
+        )]
+    )
 
 })

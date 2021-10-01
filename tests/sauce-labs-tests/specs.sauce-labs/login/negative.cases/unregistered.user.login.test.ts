@@ -8,12 +8,13 @@ test('appears error when unregistered user clicking on login', async function ({
     const loginPage = new LoginPage(page);
     await loginPage.openUrl();
 
-    await manipulations.typeInput(page, '[data-test="username"]', `randName${Date.now()}`);
-    await manipulations.typeInput(page, '[data-test="password"]', `randPassword${Date.now()}`);
+    await manipulations.typeInput(page, loginPage.inputUserNameField, `randName${Date.now()}`);
+    await manipulations.typeInput(page, loginPage.inputPasswordField, `randPassword${Date.now()}`);
 
     const loginBtn = await loginPage.getLoginBtn();
+    // @ts-ignore
     await loginBtn.click();
 
-    await expects.checkText(page, '[data-test="error"]', 'Epic sadface: Username and password do not match any user in this service');
+    await expects.checkText(page, loginPage.errorArea, 'Epic sadface: Username and password do not match any user in this service');
 
 })
