@@ -1,0 +1,191 @@
+[ {
+  "uid" : "51ee956f9a96c0ba",
+  "name" : "description",
+  "time" : {
+    "start" : 1633621686727,
+    "stop" : 1633621688055,
+    "duration" : 1328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99fed04170207a60",
+  "name" : "demonstration warning when all fields are empty",
+  "time" : {
+    "start" : 1633621678944,
+    "stop" : 1633621682720,
+    "duration" : 3776
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55fc93f03395a1d6",
+  "name" : "click count increased",
+  "time" : {
+    "start" : 1633621686868,
+    "stop" : 1633621688230,
+    "duration" : 1362
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a4ddf9735e0065d",
+  "name" : "value of cpu in table that each reload renders equals to text",
+  "time" : {
+    "start" : 1633621686897,
+    "stop" : 1633621688249,
+    "duration" : 1352
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "541c477ebb03f5a9",
+  "name" : "must determine hidden buttons",
+  "time" : {
+    "start" : 1633621688254,
+    "stop" : 1633621691124,
+    "duration" : 2870
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bbaa152bcbcf93b6",
+  "name" : "the addToCart name is changing",
+  "time" : {
+    "start" : 1633621688233,
+    "stop" : 1633621689505,
+    "duration" : 1272
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a7c5f97f0c7a958",
+  "name" : "it is able to click the addToCart",
+  "time" : {
+    "start" : 1633621686843,
+    "stop" : 1633621688197,
+    "duration" : 1354
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ecb4c914dc1f33",
+  "name" : "demonstrate error when password is empty",
+  "time" : {
+    "start" : 1633621681672,
+    "stop" : 1633621686892,
+    "duration" : 5220
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "291154913a542dab",
+  "name" : "login with correct login and password",
+  "time" : {
+    "start" : 1633621678582,
+    "stop" : 1633621683019,
+    "duration" : 4437
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56bdc229d280309a",
+  "name" : "[name=\"UserName\"] input",
+  "time" : {
+    "start" : 1633621689329,
+    "stop" : 1633621692416,
+    "duration" : 3087
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "125e7cecb76255e3",
+  "name" : "the addToCart name is changing",
+  "time" : {
+    "start" : 1633621683079,
+    "stop" : 1633621686865,
+    "duration" : 3786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30fc9e807d6b696a",
+  "name" : "waiting for an element to show up after AJAX",
+  "time" : {
+    "start" : 1633621689495,
+    "stop" : 1633621692796,
+    "duration" : 3301
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "30552711c5262361",
+  "name" : "[name=\"Password\"] input",
+  "time" : {
+    "start" : 1633621692416,
+    "stop" : 1633621693185,
+    "duration" : 769
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45f7ec59d7384e44",
+  "name" : "h3 tag",
+  "time" : {
+    "start" : 1633621683027,
+    "stop" : 1633621686726,
+    "duration" : 3699
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77073811d019862d",
+  "name" : "demonstrating error when password is incorrect, login correct",
+  "time" : {
+    "start" : 1633621679464,
+    "stop" : 1633621683073,
+    "duration" : 3609
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcace51fa3ba9f72",
+  "name" : "demonstrate error when login is empty",
+  "time" : {
+    "start" : 1633621682750,
+    "stop" : 1633621686839,
+    "duration" : 4089
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd9464fc74a62f55",
+  "name" : "waiting for a page to load",
+  "time" : {
+    "start" : 1633621689512,
+    "stop" : 1633621721662,
+    "duration" : 32150
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "29a5eb2e0e647c56",
+  "name" : "find an element with Welcome text",
+  "time" : {
+    "start" : 1633621688200,
+    "stop" : 1633621689491,
+    "duration" : 1291
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6379198bc90bc9",
+  "name" : "login status",
+  "time" : {
+    "start" : 1633621688056,
+    "stop" : 1633621689328,
+    "duration" : 1272
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

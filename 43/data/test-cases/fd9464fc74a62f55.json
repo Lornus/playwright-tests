@@ -1,0 +1,258 @@
+{
+  "uid" : "fd9464fc74a62f55",
+  "name" : "waiting for a page to load",
+  "fullName" : "waiting for a page to load",
+  "historyId" : " specs.ui-testing-playground/wait.for.load.page.test.ts waiting for a page to load",
+  "time" : {
+    "start" : 1633621689512,
+    "stop" : 1633621721662,
+    "duration" : 32150
+  },
+  "status" : "broken",
+  "statusMessage" : "Pending operations:\n  - page.waitForSelector at tests/ui-tetsing-playground/pages/base.page.ts:23:32\n\npage.waitForSelector: Target closed\n=========================== logs ===========================\nwaiting for selector \"div addToCart\" to be visible\n============================================================",
+  "statusTrace" : "Pending operations:\n  - page.waitForSelector at tests/ui-tetsing-playground/pages/base.page.ts:23:32\n\npage.waitForSelector: Target closed\n=========================== logs ===========================\nwaiting for selector \"div addToCart\" to be visible\n============================================================\n    at BasePage.waitForVisibility (/home/runner/work/playwright-tests/playwright-tests/tests/ui-tetsing-playground/pages/base.page.ts:23:32)\n    at /home/runner/work/playwright-tests/playwright-tests/tests/ui-tetsing-playground/specs.ui-testing-playground/wait.for.load.page.test.ts:11:40\n    at WorkerRunner._runTestWithBeforeHooks (/home/runner/work/playwright-tests/playwright-tests/node_modules/@playwright/test/lib/test/workerRunner.js:449:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Pending operations:\n  - page.waitForSelector at tests/ui-tetsing-playground/pages/base.page.ts:23:32\n\npage.waitForSelector: Target closed\n=========================== logs ===========================\nwaiting for selector \"div addToCart\" to be visible\n============================================================",
+    "statusTrace" : "Pending operations:\n  - page.waitForSelector at tests/ui-tetsing-playground/pages/base.page.ts:23:32\n\npage.waitForSelector: Target closed\n=========================== logs ===========================\nwaiting for selector \"div addToCart\" to be visible\n============================================================\n    at BasePage.waitForVisibility (/home/runner/work/playwright-tests/playwright-tests/tests/ui-tetsing-playground/pages/base.page.ts:23:32)\n    at /home/runner/work/playwright-tests/playwright-tests/tests/ui-tetsing-playground/specs.ui-testing-playground/wait.for.load.page.test.ts:11:40\n    at WorkerRunner._runTestWithBeforeHooks (/home/runner/work/playwright-tests/playwright-tests/node_modules/@playwright/test/lib/test/workerRunner.js:449:7)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "video",
+      "type" : "video/webm",
+      "size" : 0
+    }, {
+      "name" : "screenshot",
+      "type" : "image/png",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.ui-testing-playground/wait.for.load.page.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 22,
+        "unknown" : 0,
+        "total" : 23
+      },
+      "items" : [ {
+        "uid" : "9a0fe6da399b953b",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/42//#testresult/9a0fe6da399b953b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633092613202,
+          "stop" : 1633092619696,
+          "duration" : 6494
+        }
+      }, {
+        "uid" : "5c8e60fb882a86ad",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/42//#testresult/5c8e60fb882a86ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633092111506,
+          "stop" : 1633092118017,
+          "duration" : 6511
+        }
+      }, {
+        "uid" : "1281429a2146432c",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/41//#testresult/1281429a2146432c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633007701126,
+          "stop" : 1633007707703,
+          "duration" : 6577
+        }
+      }, {
+        "uid" : "a7601e65c3efd8a",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/41//#testresult/a7601e65c3efd8a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633007538408,
+          "stop" : 1633007544930,
+          "duration" : 6522
+        }
+      }, {
+        "uid" : "bdf84b63e60718ec",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/40//#testresult/bdf84b63e60718ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633007286665,
+          "stop" : 1633007293633,
+          "duration" : 6968
+        }
+      }, {
+        "uid" : "1108ae709f2dc177",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/39//#testresult/1108ae709f2dc177",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633007054836,
+          "stop" : 1633007061325,
+          "duration" : 6489
+        }
+      }, {
+        "uid" : "5bcfc3721f3601b4",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/38//#testresult/5bcfc3721f3601b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633006564465,
+          "stop" : 1633006570769,
+          "duration" : 6304
+        }
+      }, {
+        "uid" : "fb1081b3c63cb21c",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/37//#testresult/fb1081b3c63cb21c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633006343726,
+          "stop" : 1633006350407,
+          "duration" : 6681
+        }
+      }, {
+        "uid" : "eb6e5d6de1b2acbe",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/36//#testresult/eb6e5d6de1b2acbe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633005769423,
+          "stop" : 1633005775780,
+          "duration" : 6357
+        }
+      }, {
+        "uid" : "92225195702a1616",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/34//#testresult/92225195702a1616",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633005137056,
+          "stop" : 1633005143580,
+          "duration" : 6524
+        }
+      }, {
+        "uid" : "d6e2320873985a67",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/33//#testresult/d6e2320873985a67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633004146988,
+          "stop" : 1633004153635,
+          "duration" : 6647
+        }
+      }, {
+        "uid" : "5bd506eea5e7c2ab",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/32//#testresult/5bd506eea5e7c2ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633002958788,
+          "stop" : 1633002965338,
+          "duration" : 6550
+        }
+      }, {
+        "uid" : "555fa672bddd6cfc",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/31//#testresult/555fa672bddd6cfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633001689252,
+          "stop" : 1633001695650,
+          "duration" : 6398
+        }
+      }, {
+        "uid" : "10bc7653860dffee",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/31//#testresult/10bc7653860dffee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633001479578,
+          "stop" : 1633001486431,
+          "duration" : 6853
+        }
+      }, {
+        "uid" : "7f98fba37ed6a843",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/30//#testresult/7f98fba37ed6a843",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633000104856,
+          "stop" : 1633000111678,
+          "duration" : 6822
+        }
+      }, {
+        "uid" : "46cdce051e156874",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/29//#testresult/46cdce051e156874",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632999530197,
+          "stop" : 1632999536812,
+          "duration" : 6615
+        }
+      }, {
+        "uid" : "d8c38d2297939449",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/28//#testresult/d8c38d2297939449",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632996307495,
+          "stop" : 1632996313544,
+          "duration" : 6049
+        }
+      }, {
+        "uid" : "8b8bd0b9f6a39661",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/27//#testresult/8b8bd0b9f6a39661",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632995940483,
+          "stop" : 1632995946572,
+          "duration" : 6089
+        }
+      }, {
+        "uid" : "cedf8507e3537a38",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/26//#testresult/cedf8507e3537a38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632995923483,
+          "stop" : 1632995929992,
+          "duration" : 6509
+        }
+      }, {
+        "uid" : "60b8a0247bebe0e9",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/25//#testresult/60b8a0247bebe0e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632995864232,
+          "stop" : 1632995870887,
+          "duration" : 6655
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fd9464fc74a62f55.json",
+  "parameterValues" : [ ]
+}
