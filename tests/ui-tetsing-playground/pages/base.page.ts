@@ -3,7 +3,7 @@ import {ElementHandle, Page} from "@playwright/test";
 export class BasePage {
     private page: Page;
 
-    constructor(page) {
+    constructor(page: Page) {
         this.page = page
     }
 
@@ -20,10 +20,10 @@ export class BasePage {
     }
 
     async waitForVisibility(selector: string): Promise<ElementHandle<SVGElement | HTMLElement>> {
-      return(  await this.page.waitForSelector(selector, {
-            state: "visible"
-        })
-      )
+        return (await this.page.waitForSelector(selector, {
+                state: "visible"
+            })
+        )
     }
 
 }
