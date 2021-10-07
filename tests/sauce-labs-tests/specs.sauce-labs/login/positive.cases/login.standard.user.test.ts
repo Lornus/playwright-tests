@@ -1,4 +1,4 @@
-import {test, expect} from '@playwright/test';
+import {test, expect, ElementHandle} from '@playwright/test';
 import {LoginPage} from "../../../pages/login.page";
 import * as manipulations from "../../../helpers/elements.manipulation"
 
@@ -8,9 +8,8 @@ test('login as standard user if username and password is for standard', async fu
 
     await loginPage.loginAsStandardUser();
 
-    const logo = await manipulations.getElement(page, ".app_logo");
+    const logo: ElementHandle<Node> | null = await manipulations.getElementHandle(page, ".app_logo");
 
-    // @ts-ignore
     expect(await logo.isVisible()).toBeTruthy();
 
     await context.storageState({path: 'tests/sauce-labs-tests/specs.sauce-labs/login/states/state.standard.json'});

@@ -1,7 +1,7 @@
 import {test, expect} from '@playwright/test';
 import {BasePage} from "../pages/base.page";
 
-test('the button name is changing', async function ({page}) {
+test('the addToCart name is changing', async function ({page}) {
     const basePage = new BasePage(page);
     await basePage.goto('/textinput?');
 

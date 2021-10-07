@@ -11,7 +11,7 @@ test('waiting for an element to show up after AJAX', async function ({page}) {
 
     await requiredLink.click();
 
-    const foundButton = await mainPage.selectElement('div button');
+    const foundButton = await mainPage.selectElement('div addToCart');
 
     await foundButton.click();
 

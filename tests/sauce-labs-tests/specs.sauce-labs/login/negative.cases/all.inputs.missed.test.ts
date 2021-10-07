@@ -8,9 +8,8 @@ test('appears error when clicking on login without filling any input', async fun
     await loginPage.openUrl();
 
     const loginBtn = await loginPage.getLoginBtn();
-    // @ts-ignore
     await loginBtn.click();
 
-    await expects.checkText(page, loginPage.errorArea, 'Epic sadface: Username is required');
+    await expects.checkInnerText(page, loginPage.errorArea, 'Epic sadface: Username is required');
 
 })

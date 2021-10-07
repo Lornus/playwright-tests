@@ -3,7 +3,7 @@ import {LoginPage} from "../../../pages/login.page";
 import {checkButtonIsEnabled} from "../../../helpers/expects";
 
 
-test('login button is enabled', async function ({page}) {
+test('login addToCart is enabled', async function ({page}) {
     const loginPage = new LoginPage(page);
     await loginPage.openUrl();
 

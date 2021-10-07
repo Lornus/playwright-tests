@@ -47,19 +47,17 @@ export class LoginPage extends BasePage {
     }
 
     async loginAsStandardUser(): Promise<void> {
-        const loginBtn: ElementHandle<Node> | null = await manipulations.getElement(this.page, this.loginBtn);
+        const loginBtn: ElementHandle<Node> | null = await manipulations.getElementHandle(this.page, this.loginBtn);
         await manipulations.typeInput(this.page, this.inputUserNameField, this.standardUser);
         await manipulations.typeInput(this.page, this.inputPasswordField, process.env.SECRET_PASSWORD);
-        // @ts-ignore
-        await loginBtn.click();
+        await loginBtn!.click();
     }
 
     async loginAsBlockedUser(): Promise<void> {
-        const loginBtn: ElementHandle<Node> | null = await manipulations.getElement(this.page, this.loginBtn);
+        const loginBtn: ElementHandle<Node> | null = await manipulations.getElementHandle(this.page, this.loginBtn);
         await manipulations.typeInput(this.page, this.inputUserNameField, this.lockedOutUser);
         await manipulations.typeInput(this.page, this.inputPasswordField, process.env.SECRET_PASSWORD);
-        // @ts-ignore
-        await loginBtn.click();
+        await loginBtn!.click();
     }
 
     async fillSecretPassword(): Promise<void> {
@@ -67,7 +65,7 @@ export class LoginPage extends BasePage {
     }
 
     async getLoginBtn(): Promise<ElementHandle<Node> | null> {
-        return await manipulations.getElement(this.page, this.loginBtn);
+        return await manipulations.getElementHandle(this.page, this.loginBtn);
     }
 
 }
