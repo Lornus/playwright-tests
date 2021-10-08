@@ -13,6 +13,7 @@ test('waiting for a page to load', async function ({page}) {
     const afterWaitingButton = await basePage.selectElement('.btn-primary');
 
     await expect(afterWaitingButton.isVisible()).toBeTruthy();
+
 })
 
 

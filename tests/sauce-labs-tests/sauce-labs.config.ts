@@ -13,7 +13,7 @@ const config: PlaywrightTestConfig = {
     },
 
     grepInvert: [new RegExp("@flaky")],
-    workers: 4,
+    workers: 3,
     preserveOutput: "always",
     updateSnapshots: "all",
 };

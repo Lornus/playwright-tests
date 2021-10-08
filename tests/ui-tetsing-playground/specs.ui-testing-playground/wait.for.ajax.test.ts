@@ -11,8 +11,6 @@ test('waiting for an element to show up after AJAX', async function ({page}) {
 
     await requiredLink.click();
 
-    await page.screenshot({path: 'ajax.png'})
-
     const button = await mainPage.selectElement('#ajaxButton');
     await button.click();
 
