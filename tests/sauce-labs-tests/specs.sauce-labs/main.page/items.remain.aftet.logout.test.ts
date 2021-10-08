@@ -6,7 +6,7 @@ import * as expects from "../../helpers/expects";
 
 test.use({storageState: 'tests/sauce-labs-tests/specs.sauce-labs/states/state.item.chosen.json'})
 
-test.only('items remain in cart ', async function ({page, context}) {
+test('items remain in cart ', async function ({page, context}) {
 
     const mainPage = new MainPage(page, context);
 
