@@ -1,0 +1,12 @@
+COOKIES ->>> [
+  {
+    sameSite: 'Lax',
+    name: 'session-username',
+    value: 'standard_user',
+    domain: 'www.saucedemo.com',
+    path: '/',
+    expires: 1633706954,
+    httpOnly: false,
+    secure: false
+  }
+]
