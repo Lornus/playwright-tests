@@ -6,10 +6,20 @@
       "value": "standard_user",
       "domain": "www.saucedemo.com",
       "path": "/",
-      "expires": 1633706179,
+      "expires": 1633705958,
       "httpOnly": false,
       "secure": false
     }
   ],
-  "origins": []
+  "origins": [
+    {
+      "origin": "https://www.saucedemo.com",
+      "localStorage": [
+        {
+          "name": "cart-contents",
+          "value": "[4,0]"
+        }
+      ]
+    }
+  ]
 }

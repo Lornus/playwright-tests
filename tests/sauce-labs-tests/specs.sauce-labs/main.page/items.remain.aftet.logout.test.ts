@@ -6,11 +6,11 @@ import * as expects from "../../helpers/expects";
 
 test.use({storageState: 'tests/sauce-labs-tests/specs.sauce-labs/states/state.item.chosen.json'})
 
-test('items remain in cart ', async function ({page, context}) {
+test.only('items remain in cart ', async function ({page, context}) {
 
     const mainPage = new MainPage(page, context);
 
-   // console.log("COOKIES ON NEW LOG IN ->>>", await context.cookies());
+    console.log("COOKIES ON NEW LOG IN ->>>", await context.cookies());
 
     await mainPage.openUrl();
 

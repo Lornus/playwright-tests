@@ -16,6 +16,7 @@ const config: PlaywrightTestConfig = {
     workers: 3,
     preserveOutput: "always",
     updateSnapshots: "all",
+    retries: 1
 };
 
 export default config;
