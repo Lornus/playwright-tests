@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Cannot read property 'click' of null",
+      "children" : [ {
+        "name" : "items remain in cart ",
+        "uid" : "b1a6d5258f22546f",
+        "parentUid" : "c072ea7711350c5a1ce95d6a17853c94",
+        "status" : "failed",
+        "time" : {
+          "start" : 1633706185468,
+          "stop" : 1633706186475,
+          "duration" : 1007
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c072ea7711350c5a1ce95d6a17853c94"
+    }, {
+      "name" : "Cannot read property 'click' of undefined",
+      "children" : [ {
+        "name" : "user can add item to the cart",
+        "uid" : "e686400c235518b0",
+        "parentUid" : "ca8c7906dd90d7cf95a77729885cafd3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1633706185935,
+          "stop" : 1633706186812,
+          "duration" : 877
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca8c7906dd90d7cf95a77729885cafd3"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
