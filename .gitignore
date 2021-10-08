@@ -5,5 +5,3 @@
 /allure-report/
 .DS_Store
 /.env
-/tests/sauce-labs-tests/specs.sauce-labs/login/states/
-/tests/sauce-labs-tests/golden-screenshots/

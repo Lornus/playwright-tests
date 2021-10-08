@@ -4,7 +4,7 @@ import * as elementsManipulations from "../../helpers/elements.manipulation";
 import * as expects from "../../helpers/expects";
 
 
-test.use({storageState: 'tests/sauce-labs-tests/specs.sauce-labs/login/states/state.item.chosen.json'})
+test.use({storageState: 'tests/sauce-labs-tests/specs.sauce-labs/states/state.item.chosen.json'})
 
 test('items remain in cart ', async function ({page, context}) {
 
