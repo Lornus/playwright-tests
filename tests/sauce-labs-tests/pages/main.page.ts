@@ -3,17 +3,20 @@ import {BasePage} from "./base.page";
 
 import * as elementsManipulations from "../helpers/elements.manipulation";
 
-
 export class MainPage extends BasePage {
 
     page: Page;
     readonly context: BrowserContext;
+    readonly endpoint: string = 'inventory.html';
     readonly addToCart: string;
     readonly item: string
     readonly cartLink: string;
     readonly itemInCart: string;
     readonly burgerMenu: string;
     readonly logoutLink: string;
+    readonly removeItem: string;
+    readonly continueShopping: string;
+    readonly checkout: string;
 
     constructor(page: Page, context: BrowserContext) {
         super(page);
@@ -25,11 +28,14 @@ export class MainPage extends BasePage {
         this.itemInCart = '.inventory_item_name';
         this.burgerMenu = '.bm-burger-button';
         this.logoutLink = '#logout_sidebar_link';
+        this.removeItem = '.cart_button';
+        this.continueShopping = '[data-test="continue-shopping"]';
+        this.checkout = '[data-test="checkout"]'
     }
 
 
     async openUrl() {
-        await super.openUrls('inventory.html');
+        await super.openUrls(this.endpoint);
     }
 
     async clickOnAddToCartButton(index: number) {
@@ -38,11 +44,8 @@ export class MainPage extends BasePage {
     }
 
     async logOut() {
-        const burgerMenu = await elementsManipulations.getElementHandle(this.page, this.burgerMenu);
-        await burgerMenu.click();
-
-        const logoutLink = await elementsManipulations.getElementHandle(this.page, this.logoutLink);
-        await logoutLink.click();
+        await elementsManipulations.elementClick(this.page, this.burgerMenu);
+        await elementsManipulations.elementClick(this.page, this.logoutLink);
     }
 
     async getItemLabel(index: number): Promise<string> {
@@ -51,7 +54,10 @@ export class MainPage extends BasePage {
     }
 
     async goToCart(): Promise<void> {
-        const cartLink = await elementsManipulations.getElementHandle(this.page, this.cartLink);
-        await cartLink.click();
+        await elementsManipulations.elementClick(this.page, this.cartLink);
+    }
+
+    async getCheckout(): Promise<void> {
+        await elementsManipulations.elementClick(this.page, this.checkout);
     }
 }

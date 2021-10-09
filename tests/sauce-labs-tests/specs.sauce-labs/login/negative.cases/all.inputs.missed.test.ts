@@ -1,4 +1,4 @@
-import {ElementHandle, test} from '@playwright/test';
+import {test} from '@playwright/test';
 import {LoginPage} from "../../../pages/login.page";
 import * as expects from "../../../helpers/expects";
 

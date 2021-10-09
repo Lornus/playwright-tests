@@ -22,3 +22,8 @@ export async function getInputValue(page: Page, element: ElementHandle): Promise
 export async function setLocator(page: Page, selector: string) {
     return page.locator(selector);
 }
+
+export async function elementClick(page: Page, selector: string) {
+    const element: ElementHandle<Node> | null = await getElementHandle(page, selector)
+    await element.click();
+}
