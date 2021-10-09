@@ -8,6 +8,6 @@ test('Elements should be on page like on the "golden" screenshot', async functio
     await loginPage.openUrl();
 
     await expects.compareWithScreenshot(page, "tests/sauce-labs-tests/golden-screenshots/login-page.png",
-        'login-page.png')
+        'login-page.png');
 
 })
