@@ -3,6 +3,13 @@
   "reportUrl" : "https://Lornus.github.io/playwright-tests/51/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 47096
+  }
+}, {
+  "buildOrder" : 51,
+  "reportUrl" : "https://Lornus.github.io/playwright-tests/51/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 48677
   }
 }, {
@@ -130,12 +137,5 @@
   "reportName" : "Allure Report with history",
   "data" : {
     "duration" : 36619
-  }
-}, {
-  "buildOrder" : 33,
-  "reportUrl" : "https://Lornus.github.io/playwright-tests/33/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 35024
   }
 } ]

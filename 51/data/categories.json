@@ -6,16 +6,16 @@
       "name" : "Cannot read property 'click' of null",
       "children" : [ {
         "name" : "continue shopping returns on the inventory page",
-        "uid" : "63e2037a3de90ff8",
+        "uid" : "9bdee6d310ff6360",
         "parentUid" : "c072ea7711350c5a1ce95d6a17853c94",
         "status" : "failed",
         "time" : {
-          "start" : 1633794785413,
-          "stop" : 1633794788021,
-          "duration" : 2608
+          "start" : 1633794921652,
+          "stop" : 1633794923300,
+          "duration" : 1648
         },
         "flaky" : false,
-        "newFailed" : true,
+        "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "c072ea7711350c5a1ce95d6a17853c94"
