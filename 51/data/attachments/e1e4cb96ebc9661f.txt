@@ -1,0 +1,12 @@
+WOW COOKIES ->>> [
+  {
+    sameSite: 'Lax',
+    name: 'session-username',
+    value: 'standard_user',
+    domain: 'www.saucedemo.com',
+    path: '/',
+    expires: 1633795381,
+    httpOnly: false,
+    secure: false
+  }
+]
