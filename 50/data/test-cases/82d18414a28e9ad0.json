@@ -1,0 +1,77 @@
+{
+  "uid" : "82d18414a28e9ad0",
+  "name" : "prices are in order from low to high after filtration from low to high",
+  "fullName" : "prices are in order from low to high after filtration from low to high",
+  "historyId" : " specs.sauce-labs/main.page/filtration.on.price.to.high.test.ts prices are in order from low to high after filtration from low to high",
+  "time" : {
+    "start" : 1633793194246,
+    "stop" : 1633793199876,
+    "duration" : 5630
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8d6baceb922dd1bf",
+      "name" : "stdout",
+      "source" : "8d6baceb922dd1bf.txt",
+      "type" : "text/plain",
+      "size" : 216
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.sauce-labs/main.page/filtration.on.price.to.high.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a17803e38a71e40e",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/49//#testresult/a17803e38a71e40e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633765752405,
+          "stop" : 1633765755231,
+          "duration" : 2826
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "82d18414a28e9ad0.json",
+  "parameterValues" : [ ]
+}

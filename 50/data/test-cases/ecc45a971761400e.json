@@ -1,0 +1,63 @@
+{
+  "uid" : "ecc45a971761400e",
+  "name" : "Elements on the checkout page should be like on the \"golden\" screenshot ",
+  "fullName" : "Elements on the checkout page should be like on the \"golden\" screenshot ",
+  "historyId" : " specs.sauce-labs/ui-presentation/checkout.page/all.elements.visible.test.ts Elements on the checkout page should be like on the \"golden\" screenshot ",
+  "time" : {
+    "start" : 1633793199436,
+    "stop" : 1633793202246,
+    "duration" : 2810
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c63dd2721f0b1bf2",
+      "name" : "stdout",
+      "source" : "c63dd2721f0b1bf2.txt",
+      "type" : "text/plain",
+      "size" : 235
+    }, {
+      "uid" : "b6fba5d3560f284c",
+      "name" : "stdout",
+      "source" : "b6fba5d3560f284c.txt",
+      "type" : "text/plain",
+      "size" : 216
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.sauce-labs/ui-presentation/checkout.page/all.elements.visible.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ecc45a971761400e.json",
+  "parameterValues" : [ ]
+}

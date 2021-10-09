@@ -1,0 +1,57 @@
+{
+  "uid" : "79167a4ef9fe5614",
+  "name" : "items remain in cart",
+  "fullName" : "items remain in cart",
+  "historyId" : " specs.sauce-labs/main.page/items.remain.aftet.logout.test.ts items remain in cart",
+  "time" : {
+    "start" : 1633793194920,
+    "stop" : 1633793200044,
+    "duration" : 5124
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "eb3ab4e2d3a45354",
+      "name" : "stdout",
+      "source" : "eb3ab4e2d3a45354.txt",
+      "type" : "text/plain",
+      "size" : 230
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.sauce-labs/main.page/items.remain.aftet.logout.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "79167a4ef9fe5614.json",
+  "parameterValues" : [ ]
+}
