@@ -1,1 +1,0 @@
-/home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/specs.sauce-labs/login/ui-presentation/login.page/all.elements.visible.test.ts-snapshots/login-page-linux.png is missing in snapshots, writing actual.

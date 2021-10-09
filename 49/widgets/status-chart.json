@@ -1,0 +1,351 @@
+[ {
+  "uid" : "8c8d8cf17881eae0",
+  "name" : "click count increased",
+  "time" : {
+    "start" : 1633765726544,
+    "stop" : 1633765727840,
+    "duration" : 1296
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e8eecd29a3f9611",
+  "name" : "it is able to click the addToCart",
+  "time" : {
+    "start" : 1633765725412,
+    "stop" : 1633765726541,
+    "duration" : 1129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a0652ffe41d67db",
+  "name" : "items are in order from z to a after filtration from z to a",
+  "time" : {
+    "start" : 1633765750933,
+    "stop" : 1633765753124,
+    "duration" : 2191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70e1831350a820d3",
+  "name" : "appears error when clicking on login with only password entered",
+  "time" : {
+    "start" : 1633765748029,
+    "stop" : 1633765749243,
+    "duration" : 1214
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fa229de03bd501a",
+  "name" : "appears error when clicking on login with username doesnt match password",
+  "time" : {
+    "start" : 1633765746607,
+    "stop" : 1633765748023,
+    "duration" : 1416
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9dbe0b33095aade",
+  "name" : "the addToCart name is changing",
+  "time" : {
+    "start" : 1633765725358,
+    "stop" : 1633765726889,
+    "duration" : 1531
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fa576016e1cf35c",
+  "name" : "value of cpu in table that each reload renders equals to text",
+  "time" : {
+    "start" : 1633765726776,
+    "stop" : 1633765727888,
+    "duration" : 1112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45fae9129eb84708",
+  "name" : "appears error when clicking on login without filling any input",
+  "time" : {
+    "start" : 1633765746211,
+    "stop" : 1633765747763,
+    "duration" : 1552
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7637620185cb398",
+  "name" : "appears error when unregistered user clicking on login",
+  "time" : {
+    "start" : 1633765747769,
+    "stop" : 1633765749238,
+    "duration" : 1469
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "96da3a28cd5fa07",
+  "name" : "must determine hidden buttons",
+  "time" : {
+    "start" : 1633765727891,
+    "stop" : 1633765729497,
+    "duration" : 1606
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae33b0b682438d8f",
+  "name" : "input fields are editable",
+  "time" : {
+    "start" : 1633765755394,
+    "stop" : 1633765756191,
+    "duration" : 797
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d021f69822790a01",
+  "name" : "demonstrate error when password is empty",
+  "time" : {
+    "start" : 1633765724157,
+    "stop" : 1633765726771,
+    "duration" : 2614
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cec10585fa2fb109",
+  "name" : "waiting for an element to show up after AJAX",
+  "time" : {
+    "start" : 1633765727909,
+    "stop" : 1633765744607,
+    "duration" : 16698
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75d0968fc215c7da",
+  "name" : "login addToCart is enabled",
+  "time" : {
+    "start" : 1633765756194,
+    "stop" : 1633765756753,
+    "duration" : 559
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba2253197ce68646",
+  "name" : "login as standard user if username and password is for standard",
+  "time" : {
+    "start" : 1633765749247,
+    "stop" : 1633765752400,
+    "duration" : 3153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9cef18fa35358b98",
+  "name" : "[name=\"Password\"] input",
+  "time" : {
+    "start" : 1633765729155,
+    "stop" : 1633765729878,
+    "duration" : 723
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "deb82cfae656d644",
+  "name" : "login with correct login and password",
+  "time" : {
+    "start" : 1633765722268,
+    "stop" : 1633765723662,
+    "duration" : 1394
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe5a29dff75a0553",
+  "name" : "demonstrating error when password is incorrect, login correct",
+  "time" : {
+    "start" : 1633765723346,
+    "stop" : 1633765725404,
+    "duration" : 2058
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "931f704849bd7c33",
+  "name" : "h3 tag",
+  "time" : {
+    "start" : 1633765724218,
+    "stop" : 1633765725415,
+    "duration" : 1197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a17803e38a71e40e",
+  "name" : "prices are in order from low to high after filtration from low to high",
+  "time" : {
+    "start" : 1633765752405,
+    "stop" : 1633765755231,
+    "duration" : 2826
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "842b4c424af6296d",
+  "name" : "items remain in cart ",
+  "time" : {
+    "start" : 1633765753128,
+    "stop" : 1633765756413,
+    "duration" : 3285
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25979d26d9393111",
+  "name" : "Elements on the main page should be like on the \"golden\" screenshot ",
+  "time" : {
+    "start" : 1633765756406,
+    "stop" : 1633765757711,
+    "duration" : 1305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a23b0d87e7d1d3ae",
+  "name" : "description",
+  "time" : {
+    "start" : 1633765725415,
+    "stop" : 1633765726860,
+    "duration" : 1445
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c0805299bbcab04",
+  "name" : "appears error when clicking on login with only username entered",
+  "time" : {
+    "start" : 1633765747155,
+    "stop" : 1633765749223,
+    "duration" : 2068
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31fbb3816df8127d",
+  "name" : "demonstrate error when login is empty",
+  "time" : {
+    "start" : 1633765724063,
+    "stop" : 1633765725355,
+    "duration" : 1292
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ec79d0a26f3e762",
+  "name" : "user can add item to the cart",
+  "time" : {
+    "start" : 1633765749262,
+    "stop" : 1633765752708,
+    "duration" : 3446
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cda713cc170af278",
+  "name" : "demonstration warning when all fields are empty",
+  "time" : {
+    "start" : 1633765722691,
+    "stop" : 1633765724209,
+    "duration" : 1518
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2893409b646227d",
+  "name" : "appears message about locked user",
+  "time" : {
+    "start" : 1633765749226,
+    "stop" : 1633765750920,
+    "duration" : 1694
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52410f6352955c0",
+  "name" : "waiting for a page to load",
+  "time" : {
+    "start" : 1633765729030,
+    "stop" : 1633765735499,
+    "duration" : 6469
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a86df2002faf500",
+  "name" : "Elements should be on page like on the \"golden\" screenshot",
+  "time" : {
+    "start" : 1633765755233,
+    "stop" : 1633765756403,
+    "duration" : 1170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34471dc864371e15",
+  "name" : "prices are in order from high to low after filtration from high to low",
+  "time" : {
+    "start" : 1633765752712,
+    "stop" : 1633765755391,
+    "duration" : 2679
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "987ba6ba5332d402",
+  "name" : "[name=\"UserName\"] input",
+  "time" : {
+    "start" : 1633765727756,
+    "stop" : 1633765729153,
+    "duration" : 1397
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2cc998f93c0da574",
+  "name" : "find an element with Welcome text",
+  "time" : {
+    "start" : 1633765726892,
+    "stop" : 1633765727903,
+    "duration" : 1011
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3cfa0ac1c4796895",
+  "name" : "login status",
+  "time" : {
+    "start" : 1633765726861,
+    "stop" : 1633765727755,
+    "duration" : 894
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57f603ffba8a0e72",
+  "name" : "the addToCart name is changing",
+  "time" : {
+    "start" : 1633765727843,
+    "stop" : 1633765729018,
+    "duration" : 1175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
