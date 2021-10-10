@@ -1,6 +1,7 @@
 import {expect, test} from '@playwright/test';
 import {MainPage} from "../../pages/main.page";
 import * as elementsManipulations from "../../helpers/elements.manipulation";
+import {checkCookies} from "../../helpers/empty.cookies.detector";
 
 test.use({storageState: 'tests/sauce-labs-tests/specs.sauce-labs/states/state.standard.json'})
 
@@ -9,8 +10,7 @@ test('items are in order from z to a after filtration from z to a', async functi
 
     await mainPage.openUrl();
 
-    // DEBUG
-    console.log("COOKIES ->>>", await context.cookies());
+    await checkCookies(context);
 
     const dropDown = await elementsManipulations.getElementHandle(page, '.product_sort_container');
     await dropDown.selectOption('za');

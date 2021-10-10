@@ -12,8 +12,6 @@ test('login as standard user if username and password is for standard', async fu
 
     expect(await logo.isVisible()).toBeTruthy();
 
-    console.log("WOW COOKIES ->>>", await context.cookies());
-
     await context.storageState({path: 'tests/sauce-labs-tests/specs.sauce-labs/states/state.standard.json'});
 
 })

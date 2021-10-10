@@ -1,6 +1,7 @@
 import {expect, test} from '@playwright/test';
 import {MainPage} from "../../pages/main.page";
 import * as elementsManipulations from "../../helpers/elements.manipulation";
+import {checkCookies} from "../../helpers/empty.cookies.detector";
 
 
 test.use({storageState: 'tests/sauce-labs-tests/specs.sauce-labs/states/state.item.chosen.json'})
@@ -9,7 +10,7 @@ test('items remain in cart', async function ({page, context}) {
 
     const mainPage = new MainPage(page, context);
 
-    console.log("COOKIES ON NEW LOG IN ->>>", await context.cookies());
+    await checkCookies(context);
 
     await mainPage.openUrl();
 
