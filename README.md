@@ -1,6 +1,6 @@
 # Repo with playwright tests 
 
- ![workflow](https://img.shields.io/github/workflow/status/Lornus/playwright-tests/ci/master)
+ ![workflow](https://img.shields.io/github/workflow/status/Lornus/playwright-tests/ci?label=tests&style=flat-square)
 
 ---
 
