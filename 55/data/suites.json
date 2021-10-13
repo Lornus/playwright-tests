@@ -1,0 +1,792 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "sample-app/functional/login.positive.test.ts",
+    "children" : [ {
+      "name" : "login with correct login and password",
+      "uid" : "4af06c1a16de3a25",
+      "parentUid" : "bd04146d0aa32e27cfbd5cfb572a9a97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107122230,
+        "stop" : 1634107124900,
+        "duration" : 2670
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bd04146d0aa32e27cfbd5cfb572a9a97"
+  }, {
+    "name" : "sample-app/functional/negative.cases/all.fields.empty.test.ts",
+    "children" : [ {
+      "name" : "demonstration warning when all fields are empty",
+      "uid" : "c0545c46ea2ee2ca",
+      "parentUid" : "b6eec75fcf7b4d91182989a55acedcf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107122618,
+        "stop" : 1634107124531,
+        "duration" : 1913
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b6eec75fcf7b4d91182989a55acedcf5"
+  }, {
+    "name" : "sample-app/functional/negative.cases/incorrect.password.case.test.ts",
+    "children" : [ {
+      "name" : "demonstrating error when password is incorrect, login correct",
+      "uid" : "810a964bcb63f1ab",
+      "parentUid" : "78193897c5d9e2ea195faa6eaac1d098",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107123208,
+        "stop" : 1634107125168,
+        "duration" : 1960
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "78193897c5d9e2ea195faa6eaac1d098"
+  }, {
+    "name" : "sample-app/functional/negative.cases/username.empty.test.ts",
+    "children" : [ {
+      "name" : "demonstrate error when login is empty",
+      "uid" : "e1077f2b155ba25c",
+      "parentUid" : "bbf127c9a1ee1f923c5d37f4c93fca5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107124548,
+        "stop" : 1634107126343,
+        "duration" : 1795
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bbf127c9a1ee1f923c5d37f4c93fca5c"
+  }, {
+    "name" : "sample-app/functional/negative.cases/password.empty.test.ts",
+    "children" : [ {
+      "name" : "demonstrate error when password is empty",
+      "uid" : "88ddba487b959eae",
+      "parentUid" : "dc6ac4d1f77dc4f0b2fbc304c824d206",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107124554,
+        "stop" : 1634107127163,
+        "duration" : 2609
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "dc6ac4d1f77dc4f0b2fbc304c824d206"
+  }, {
+    "name" : "sample-app/ui/all.elements.visible.test.ts",
+    "children" : [ {
+      "name" : "On page are visible:",
+      "children" : [ {
+        "name" : "h3 tag",
+        "uid" : "fe9df71388820103",
+        "parentUid" : "faf106a235e87d36119bea397efbe94b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634107124925,
+          "stop" : 1634107126412,
+          "duration" : 1487
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "description",
+        "uid" : "ad74236b4041236d",
+        "parentUid" : "faf106a235e87d36119bea397efbe94b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634107126414,
+          "stop" : 1634107127545,
+          "duration" : 1131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "login status",
+        "uid" : "808a87a98bd33e32",
+        "parentUid" : "faf106a235e87d36119bea397efbe94b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634107127547,
+          "stop" : 1634107128764,
+          "duration" : 1217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[name=\"UserName\"] input",
+        "uid" : "b4700ae07d0e85f2",
+        "parentUid" : "faf106a235e87d36119bea397efbe94b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634107128765,
+          "stop" : 1634107130061,
+          "duration" : 1296
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[name=\"Password\"] input",
+        "uid" : "613f2bca3729aa3",
+        "parentUid" : "faf106a235e87d36119bea397efbe94b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634107130063,
+          "stop" : 1634107131071,
+          "duration" : 1008
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "faf106a235e87d36119bea397efbe94b"
+    } ],
+    "uid" : "77ed2aa794b31773da4fc6dc61a2cacc"
+  }, {
+    "name" : "specs.ui-testing-playground/check.button.innerText.test.ts",
+    "children" : [ {
+      "name" : "the addToCart name is changing",
+      "uid" : "3d40891773ff2969",
+      "parentUid" : "fe5c1708b99181e1d55eec76f8333280",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107125174,
+        "stop" : 1634107127450,
+        "duration" : 2276
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fe5c1708b99181e1d55eec76f8333280"
+  }, {
+    "name" : "specs.ui-testing-playground/check.click.test.ts",
+    "children" : [ {
+      "name" : "it is able to click the addToCart",
+      "uid" : "911a0a73371879e",
+      "parentUid" : "9f153e0e21de395818b7f22d2e6a2d64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107126346,
+        "stop" : 1634107127676,
+        "duration" : 1330
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9f153e0e21de395818b7f22d2e6a2d64"
+  }, {
+    "name" : "specs.ui-testing-playground/click.count.test.ts",
+    "children" : [ {
+      "name" : "click count increased",
+      "uid" : "d6fb21f12b0b487f",
+      "parentUid" : "5d8b05b751f56d2f12a7e82a45386f0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107127168,
+        "stop" : 1634107128576,
+        "duration" : 1408
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5d8b05b751f56d2f12a7e82a45386f0d"
+  }, {
+    "name" : "specs.ui-testing-playground/find.column.after.reload.test.ts",
+    "children" : [ {
+      "name" : "value of cpu in table that each reload renders equals to text",
+      "uid" : "596a65509a51ef94",
+      "parentUid" : "a27a2266f397005ba15309f1f72adae0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107127454,
+        "stop" : 1634107128871,
+        "duration" : 1417
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a27a2266f397005ba15309f1f72adae0"
+  }, {
+    "name" : "specs.ui-testing-playground/find.text.out.of.tags.test.ts",
+    "children" : [ {
+      "name" : "find an element with Welcome text",
+      "uid" : "f3eeb601e06c4868",
+      "parentUid" : "60f66a5a14099d9c1889fb0bfa518f37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107127679,
+        "stop" : 1634107128925,
+        "duration" : 1246
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "60f66a5a14099d9c1889fb0bfa518f37"
+  }, {
+    "name" : "specs.ui-testing-playground/scroll.to.button.test.ts",
+    "children" : [ {
+      "name" : "the addToCart name is changing",
+      "uid" : "3b3b1071796fd336",
+      "parentUid" : "b98b1d3052165bd953dc1cfbd1dc1ab8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107128579,
+        "stop" : 1634107130298,
+        "duration" : 1719
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b98b1d3052165bd953dc1cfbd1dc1ab8"
+  }, {
+    "name" : "specs.ui-testing-playground/visibility.buttons.test.ts",
+    "children" : [ {
+      "name" : "must determine hidden buttons",
+      "uid" : "5d626924f7ee6579",
+      "parentUid" : "6f3877b7372b2e73e8ed7a6fb3f6adb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107128879,
+        "stop" : 1634107130813,
+        "duration" : 1934
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6f3877b7372b2e73e8ed7a6fb3f6adb0"
+  }, {
+    "name" : "specs.ui-testing-playground/wait.for.ajax.test.ts",
+    "children" : [ {
+      "name" : "waiting for an element to show up after AJAX",
+      "uid" : "f9dcb89dbc44e204",
+      "parentUid" : "f43930f11b709c157d558d7b93781b92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107128929,
+        "stop" : 1634107145859,
+        "duration" : 16930
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f43930f11b709c157d558d7b93781b92"
+  }, {
+    "name" : "specs.ui-testing-playground/wait.for.load.page.test.ts",
+    "children" : [ {
+      "name" : "waiting for a page to load",
+      "uid" : "18e5bd9068e9ddf7",
+      "parentUid" : "1de5eb95dc61ee310f97d528d7b38691",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107130313,
+        "stop" : 1634107136750,
+        "duration" : 6437
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1de5eb95dc61ee310f97d528d7b38691"
+  }, {
+    "name" : "specs.sauce-labs/checkout.pages/step.one/negative.cases/all.inputs.missed.test.ts",
+    "children" : [ {
+      "name" : "Occurs an error when all input missed",
+      "uid" : "5a310eec7a1c5dcc",
+      "parentUid" : "420db61523a83d3e8f422bf50c51c022",
+      "status" : "failed",
+      "time" : {
+        "start" : 1634107151319,
+        "stop" : 1634107152127,
+        "duration" : 808
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "420db61523a83d3e8f422bf50c51c022"
+  }, {
+    "name" : "specs.sauce-labs/checkout.pages/step.one/negative.cases/firstName.missed.test.ts",
+    "children" : [ {
+      "name" : "Occurs an error when first name input missed",
+      "uid" : "c84a5b79f96d9b1a",
+      "parentUid" : "e8f7c2abeddc4d60f0a571f98867e2ba",
+      "status" : "failed",
+      "time" : {
+        "start" : 1634107151846,
+        "stop" : 1634107152733,
+        "duration" : 887
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e8f7c2abeddc4d60f0a571f98867e2ba"
+  }, {
+    "name" : "specs.sauce-labs/checkout.pages/step.one/negative.cases/lastName.missed.test.ts",
+    "children" : [ {
+      "name" : "Occurs an error when last name input missed",
+      "uid" : "a30e4bcb7be10939",
+      "parentUid" : "bf66916b5b56686841ed79244c6e9178",
+      "status" : "failed",
+      "time" : {
+        "start" : 1634107152467,
+        "stop" : 1634107153378,
+        "duration" : 911
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bf66916b5b56686841ed79244c6e9178"
+  }, {
+    "name" : "specs.sauce-labs/checkout.pages/step.one/negative.cases/postalCode.missed.test.ts",
+    "children" : [ {
+      "name" : "Occurs an error when postal code input missed",
+      "uid" : "cbfcd16c00226dcd",
+      "parentUid" : "f62014e260f2bbbb00235bc284b15d5e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1634107156748,
+        "stop" : 1634107157407,
+        "duration" : 659
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f62014e260f2bbbb00235bc284b15d5e"
+  }, {
+    "name" : "specs.sauce-labs/checkout.pages/step.one/positive.cases/redirects.on.step.two..test.ts",
+    "children" : [ {
+      "name" : "Redirecting on the second checkout step when all data is correct",
+      "uid" : "faaf45b83e1e849",
+      "parentUid" : "802e2eace7a8ea523b48b55c392ba37d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1634107157322,
+        "stop" : 1634107158040,
+        "duration" : 718
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "802e2eace7a8ea523b48b55c392ba37d"
+  }, {
+    "name" : "specs.sauce-labs/checkout.pages/step.two/prices.count.right.test.ts",
+    "children" : [ {
+      "name" : "Prices count right",
+      "uid" : "626151e1920fd869",
+      "parentUid" : "f7150095cc85b9692a12b2cbd8ef0796",
+      "status" : "failed",
+      "time" : {
+        "start" : 1634107157895,
+        "stop" : 1634107158521,
+        "duration" : 626
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f7150095cc85b9692a12b2cbd8ef0796"
+  }, {
+    "name" : "specs.sauce-labs/login/negative.cases/all.inputs.missed.test.ts",
+    "children" : [ {
+      "name" : "appears error when clicking on login without filling any input",
+      "uid" : "171751df3f8a5f6e",
+      "parentUid" : "2f4775888134cdb5e345c2964d62f782",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107158508,
+        "stop" : 1634107159922,
+        "duration" : 1414
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2f4775888134cdb5e345c2964d62f782"
+  }, {
+    "name" : "specs.sauce-labs/login/negative.cases/password.dosnt.match.username.test.ts",
+    "children" : [ {
+      "name" : "appears error when clicking on login with username doesnt match password",
+      "uid" : "2432901f3b655d31",
+      "parentUid" : "1c13eb60c1d9e8d47d80e1cf297bb11c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107159022,
+        "stop" : 1634107160576,
+        "duration" : 1554
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1c13eb60c1d9e8d47d80e1cf297bb11c"
+  }, {
+    "name" : "specs.sauce-labs/login/negative.cases/password.missing.test.ts",
+    "children" : [ {
+      "name" : "appears error when clicking on login with only username entered",
+      "uid" : "4032d31c87783f9a",
+      "parentUid" : "239683855c620fbd074f9eb22f6ff542",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107159929,
+        "stop" : 1634107162662,
+        "duration" : 2733
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "239683855c620fbd074f9eb22f6ff542"
+  }, {
+    "name" : "specs.sauce-labs/login/positive.cases/login.locked.user.test.ts",
+    "children" : [ {
+      "name" : "appears message about locked user",
+      "uid" : "6a4a7d22503f1786",
+      "parentUid" : "f0332ac036380c4577747f5d5c47ad29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107160825,
+        "stop" : 1634107163774,
+        "duration" : 2949
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f0332ac036380c4577747f5d5c47ad29"
+  }, {
+    "name" : "specs.sauce-labs/login/negative.cases/username.missing.test.ts",
+    "children" : [ {
+      "name" : "appears error when clicking on login with only password entered",
+      "uid" : "17aa30bef992eee4",
+      "parentUid" : "745bb573fc935fe6d4acd98c29fd6172",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107160826,
+        "stop" : 1634107162916,
+        "duration" : 2090
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "745bb573fc935fe6d4acd98c29fd6172"
+  }, {
+    "name" : "specs.sauce-labs/login/negative.cases/unregistered.user.login.test.ts",
+    "children" : [ {
+      "name" : "appears error when unregistered user clicking on login",
+      "uid" : "aada2f76b4d6fccb",
+      "parentUid" : "05b7cc353aeb923308e53a030a54edfe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107160966,
+        "stop" : 1634107164205,
+        "duration" : 3239
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "05b7cc353aeb923308e53a030a54edfe"
+  }, {
+    "name" : "specs.sauce-labs/login/positive.cases/login.standard.user.test.ts",
+    "children" : [ {
+      "name" : "login as standard user",
+      "uid" : "b05ac2f68d981fea",
+      "parentUid" : "63c1bf0fd964b030b4ff01c13eee0e99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107162673,
+        "stop" : 1634107167932,
+        "duration" : 5259
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "63c1bf0fd964b030b4ff01c13eee0e99"
+  }, {
+    "name" : "specs.sauce-labs/main.page/add.item.to.cart.test.ts",
+    "children" : [ {
+      "name" : "user can add item to the cart",
+      "uid" : "e4fa935dbc63c5cc",
+      "parentUid" : "710b7f18b5b61deeeca3a30d98b40501",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107162921,
+        "stop" : 1634107168148,
+        "duration" : 5227
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "710b7f18b5b61deeeca3a30d98b40501"
+  }, {
+    "name" : "specs.sauce-labs/main.page/filtration.on.letters.fromZ.toA.test.ts",
+    "children" : [ {
+      "name" : "items are in order from z to a after filtration from z to a",
+      "uid" : "dbb46074c5a46ee9",
+      "parentUid" : "8a8a7a3d04712392173c53b3a477a664",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107164228,
+        "stop" : 1634107167911,
+        "duration" : 3683
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8a8a7a3d04712392173c53b3a477a664"
+  }, {
+    "name" : "specs.sauce-labs/main.page/filtration.on.price.to.high.test.ts",
+    "children" : [ {
+      "name" : "prices are in order from low to high after filtration from low to high",
+      "uid" : "f6c224b90be5c648",
+      "parentUid" : "6c5fc8b4b271821d514f81bcb26a2445",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107167041,
+        "stop" : 1634107172465,
+        "duration" : 5424
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6c5fc8b4b271821d514f81bcb26a2445"
+  }, {
+    "name" : "specs.sauce-labs/main.page/continue.shopping.returns.on.inventory.page.test.ts",
+    "children" : [ {
+      "name" : "continue shopping returns on the inventory page",
+      "uid" : "fa28a8f36b37c3eb",
+      "parentUid" : "ca9c79da010f0cca229d70cb38cfe1ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107167914,
+        "stop" : 1634107173343,
+        "duration" : 5429
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ca9c79da010f0cca229d70cb38cfe1ef"
+  }, {
+    "name" : "specs.sauce-labs/main.page/filtration.on.price.to.low.test.ts",
+    "children" : [ {
+      "name" : "prices are in order from high to low after filtration from high to low",
+      "uid" : "876b753796392ee1",
+      "parentUid" : "5069f39c93282ac0c618d304e0eba691",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107167938,
+        "stop" : 1634107172441,
+        "duration" : 4503
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5069f39c93282ac0c618d304e0eba691"
+  }, {
+    "name" : "specs.sauce-labs/main.page/items.remain.aftet.logout.test.ts",
+    "children" : [ {
+      "name" : "items remain in cart",
+      "uid" : "5cf9db755989e5ed",
+      "parentUid" : "0613d521c9c6745efaa177f4a886a276",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107168152,
+        "stop" : 1634107172846,
+        "duration" : 4694
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0613d521c9c6745efaa177f4a886a276"
+  }, {
+    "name" : "specs.sauce-labs/main.page/items.remove.from.cart.test.ts",
+    "children" : [ {
+      "name" : "items remove from cart",
+      "uid" : "29549bc7d529ffdb",
+      "parentUid" : "d749eb22156c27f0a55540bfcf51f56a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107172444,
+        "stop" : 1634107177988,
+        "duration" : 5544
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d749eb22156c27f0a55540bfcf51f56a"
+  }, {
+    "name" : "specs.sauce-labs/ui-presentation/checkout.pages/step.one/all.elements.visible.test.ts",
+    "children" : [ {
+      "name" : "Elements on the checkout page should be like on the \"golden\" screenshot  ",
+      "uid" : "32f932545d1060f1",
+      "parentUid" : "8d01c75ebc5e107e89bb3ca544ccfa04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107172476,
+        "stop" : 1634107175148,
+        "duration" : 2672
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8d01c75ebc5e107e89bb3ca544ccfa04"
+  }, {
+    "name" : "specs.sauce-labs/ui-presentation/checkout.pages/step.one/all.inputs.editable.test.ts",
+    "children" : [ {
+      "name" : "input fields are editable on the checkout page",
+      "uid" : "7c720af400650b1d",
+      "parentUid" : "ed4c515b22aeef252d981aecc43002cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107172850,
+        "stop" : 1634107174996,
+        "duration" : 2146
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ed4c515b22aeef252d981aecc43002cb"
+  }, {
+    "name" : "specs.sauce-labs/ui-presentation/checkout.pages/step.two/all.labels.are.right.test.ts",
+    "children" : [ {
+      "name" : "Labels correspond to docs:",
+      "children" : [ {
+        "name" : "QTY and DESCRIPTION",
+        "uid" : "eb19021cf1d4c3d7",
+        "parentUid" : "20be28c7dada07b3167ab41305d308e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634107173349,
+          "stop" : 1634107175573,
+          "duration" : 2224
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Payment info, Shipping info",
+        "uid" : "c2aa835f851f88eb",
+        "parentUid" : "20be28c7dada07b3167ab41305d308e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634107175573,
+          "stop" : 1634107177738,
+          "duration" : 2165
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "20be28c7dada07b3167ab41305d308e1"
+    } ],
+    "uid" : "014a9ffd58cc762687ae749f1d68709b"
+  }, {
+    "name" : "specs.sauce-labs/ui-presentation/login.page/all.elements.visible.test.ts",
+    "children" : [ {
+      "name" : "Elements on the login page should be like on the \"golden\" screenshot",
+      "uid" : "ff84dab2c32ed212",
+      "parentUid" : "5cae965fc087b9594b010dd8755805ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107174998,
+        "stop" : 1634107177060,
+        "duration" : 2062
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5cae965fc087b9594b010dd8755805ce"
+  }, {
+    "name" : "specs.sauce-labs/ui-presentation/login.page/input.fields.editable.test.ts",
+    "children" : [ {
+      "name" : "input fields are editable",
+      "uid" : "7ebf994c141d0a9",
+      "parentUid" : "95d18310a6cc64699f1db6c49e0451cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107175152,
+        "stop" : 1634107176616,
+        "duration" : 1464
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "95d18310a6cc64699f1db6c49e0451cc"
+  }, {
+    "name" : "specs.sauce-labs/ui-presentation/login.page/login.button.enabled.test.ts",
+    "children" : [ {
+      "name" : "login addToCart is enabled",
+      "uid" : "5dc21575da28cde0",
+      "parentUid" : "0e7163ded2cae6df58e3e84e20c8c534",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107176618,
+        "stop" : 1634107177982,
+        "duration" : 1364
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0e7163ded2cae6df58e3e84e20c8c534"
+  }, {
+    "name" : "specs.sauce-labs/ui-presentation/main.page/all.elements.visible.test.ts",
+    "children" : [ {
+      "name" : "Elements on the main page should be like on the \"golden\" screenshot ",
+      "uid" : "78a41a4552064ef6",
+      "parentUid" : "a149b22fa5e14a2a31102565656201cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634107177064,
+        "stop" : 1634107178863,
+        "duration" : 1799
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a149b22fa5e14a2a31102565656201cd"
+  } ],
+  "name" : "suites"
+}

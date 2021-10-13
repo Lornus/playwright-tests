@@ -1,0 +1,44 @@
+{
+  "uid" : "c2aa835f851f88eb",
+  "name" : "Payment info, Shipping info",
+  "fullName" : "Payment info, Shipping info",
+  "historyId" : " specs.sauce-labs/ui-presentation/checkout.pages/step.two/all.labels.are.right.test.ts Labels correspond to docs: Payment info, Shipping info",
+  "time" : {
+    "start" : 1634107175573,
+    "stop" : 1634107177738,
+    "duration" : 2165
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.sauce-labs/ui-presentation/checkout.pages/step.two/all.labels.are.right.test.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "Labels correspond to docs:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c2aa835f851f88eb.json",
+  "parameterValues" : [ ]
+}
