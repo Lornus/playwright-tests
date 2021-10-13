@@ -1,0 +1,71 @@
+{
+  "uid" : "38b405facafe3ab6",
+  "name" : "Occurs an error when all input missed",
+  "fullName" : "Occurs an error when all input missed",
+  "historyId" : " specs.sauce-labs/checkout.pages/step.one/negative.cases/all.inputs.missed.test.ts Occurs an error when all input missed",
+  "time" : {
+    "start" : 1634124346013,
+    "stop" : 1634124347935,
+    "duration" : 1922
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.sauce-labs/checkout.pages/step.one/negative.cases/all.inputs.missed.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "1c7240e629e8b214",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/56//#testresult/1c7240e629e8b214",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634107746710,
+          "stop" : 1634107748542,
+          "duration" : 1832
+        }
+      }, {
+        "uid" : "5a310eec7a1c5dcc",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/55//#testresult/5a310eec7a1c5dcc",
+        "status" : "failed",
+        "statusDetails" : "Cookies haven't initialised re-run writing cookies ",
+        "time" : {
+          "start" : 1634107151319,
+          "stop" : 1634107152127,
+          "duration" : 808
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "38b405facafe3ab6.json",
+  "parameterValues" : [ ]
+}

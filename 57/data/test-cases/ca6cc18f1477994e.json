@@ -1,0 +1,41 @@
+{
+  "uid" : "ca6cc18f1477994e",
+  "name" : "input fields are editable on the checkout page",
+  "fullName" : "input fields are editable on the checkout page",
+  "historyId" : " specs.sauce-labs/ui-presentation/checkout.pages/step.one/all.inputs.editable.test.ts input fields are editable on the checkout page",
+  "time" : {
+    "start" : 1634124361738,
+    "stop" : 1634124363341,
+    "duration" : 1603
+  },
+  "status" : "failed",
+  "statusMessage" : "elementHandle.isEditable: Target closed",
+  "statusTrace" : "elementHandle.isEditable: Target closed\n    at checkElementEditable (/home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/helpers/expects.ts:12:33)\n    at /home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/specs.sauce-labs/ui-presentation/checkout.pages/step.one/all.inputs.editable.test.ts:19:17",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.sauce-labs/ui-presentation/checkout.pages/step.one/all.inputs.editable.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ca6cc18f1477994e.json",
+  "parameterValues" : [ ]
+}
