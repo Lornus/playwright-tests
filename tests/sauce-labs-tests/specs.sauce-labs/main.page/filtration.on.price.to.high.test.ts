@@ -8,9 +8,9 @@ test.use({storageState: 'tests/sauce-labs-tests/specs.sauce-labs/states/state.st
 test('prices are in order from low to high after filtration from low to high', async function ({page, context}) {
     const mainPage = new MainPage(page, context);
 
-    await mainPage.openUrl();
-
     await checkCookies(context);
+
+    await mainPage.openUrl();
 
     const dropDown = await elementsManipulations.getElementHandle(page, '.product_sort_container');
     await dropDown.selectOption('lohi');

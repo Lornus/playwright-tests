@@ -27,3 +27,8 @@ export async function checkVisible(page: Page, selector: string): Promise<boolea
     return expect(await element.isVisible()).toBeTruthy();
 
 }
+
+export async function checkInnerTextElementOfArray(page: Page, index: number, element: ElementHandle[], expected:string) {
+    expect(await element[index].innerText()).toEqual(expected);
+
+}

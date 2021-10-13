@@ -1,7 +1,7 @@
 import {test} from '@playwright/test';
-import {checkElementEditable} from "../../../helpers/expects";
-import {CheckoutPage} from "../../../pages/checkout.page";
-import {checkCookies} from "../../../helpers/empty.cookies.detector";
+import {checkElementEditable} from "../../../../helpers/expects";
+import {CheckoutPage} from "../../../../pages/checkout.page";
+import {checkCookies} from "../../../../helpers/empty.cookies.detector";
 
 test.use({storageState: 'tests/sauce-labs-tests/specs.sauce-labs/states/state.item.chosen.json'})
 

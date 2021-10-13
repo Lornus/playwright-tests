@@ -1,7 +1,7 @@
-import {expect, test} from '@playwright/test';
+import {test} from '@playwright/test';
 import {MainPage} from "../../pages/main.page";
-import * as elementsManipulations from "../../helpers/elements.manipulation";
 import {checkCookies} from "../../helpers/empty.cookies.detector";
+import * as fs from "fs";
 
 
 test.use({storageState: 'tests/sauce-labs-tests/specs.sauce-labs/states/state.item.chosen.json'})
@@ -16,12 +16,19 @@ test('items remain in cart', async function ({page, context}) {
 
     await mainPage.goToCart();
 
-    const itemsInCart = await elementsManipulations.getElementArrayHandle(page, mainPage.itemInCart);
+    const state = JSON.parse(fs.readFileSync('tests/sauce-labs-tests/specs.sauce-labs/states/state.item.chosen.json',
+        {encoding: 'utf-8'}));
 
-    expect(await itemsInCart[0].innerText()).toEqual(await mainPage.getItemLabel(0));
-    expect(await itemsInCart[1].innerText()).toEqual(await mainPage.getItemLabel(1));
+    const variables: string = state.origins[0].localStorage[0].value
 
+    const stringVariables: string = variables.slice(1, 10);
 
-    // await page.screenshot({path: 'tests/sauce-labs-tests/golden-screenshots/relogin-page.png', fullPage: true});
+    const arrayOfVariables: string[] = stringVariables.split(',');
+
+    const amount: number = arrayOfVariables.length;
+
+    await mainPage.checkLabelsInCart(amount);
+
+    //await page.screenshot({path: 'tests/sauce-labs-tests/golden-screenshots/relogin-page.png', fullPage: true});
 });
 

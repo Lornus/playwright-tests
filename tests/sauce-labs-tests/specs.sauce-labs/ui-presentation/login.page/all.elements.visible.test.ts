@@ -3,7 +3,7 @@ import {LoginPage} from "../../../pages/login.page";
 import * as expects from "../../../helpers/expects";
 
 
-test('Elements should be on page like on the "golden" screenshot', async function ({page}) {
+test('Elements on the login page should be like on the "golden" screenshot', async function ({page}) {
     const loginPage = new LoginPage(page);
     await loginPage.openUrl();
 

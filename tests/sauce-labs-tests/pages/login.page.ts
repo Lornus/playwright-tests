@@ -35,7 +35,7 @@ export class LoginPage extends BasePage {
         this.inputPasswordField = '[data-test="password"]';
 
         this.standardUser = 'standard_user';
-        this.lockedOutUser = 'locked_out_serve';
+        this.lockedOutUser = 'locked_out_user';
         this.errorArea = '[data-test="error"]';
 
         this.loginBtn = '[type="submit"]';
