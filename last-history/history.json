@@ -197,11 +197,20 @@
       "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "5da98a64c3d4d47",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/5da98a64c3d4d47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124579344,
+        "stop" : 1634124585707,
+        "duration" : 6363
+      }
+    }, {
       "uid" : "494232f951a1606a",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/494232f951a1606a",
       "status" : "passed",
@@ -301,11 +310,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "4f13b93f6b996dca",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/4f13b93f6b996dca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124583434,
+        "stop" : 1634124587592,
+        "duration" : 4158
+      }
+    }, {
       "uid" : "832add9e56791fd2",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/832add9e56791fd2",
       "status" : "passed",
@@ -411,11 +429,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 39,
+      "passed" : 40,
       "unknown" : 0,
-      "total" : 39
+      "total" : 40
     },
     "items" : [ {
+      "uid" : "acfcf7a64cb979ca",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/acfcf7a64cb979ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124552559,
+        "stop" : 1634124553706,
+        "duration" : 1147
+      }
+    }, {
       "uid" : "70ab702dd9f9ff29",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/70ab702dd9f9ff29",
       "status" : "passed",
@@ -586,15 +613,6 @@
         "stop" : 1633092111896,
         "duration" : 1104
       }
-    }, {
-      "uid" : "e0e8d452083c0275",
-      "reportUrl" : "https://Lornus.github.io/playwright-tests/41//#testresult/e0e8d452083c0275",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633007700955,
-        "stop" : 1633007702033,
-        "duration" : 1078
-      }
     } ]
   },
   " specs.sauce-labs/checkout.pages/step.one/positive.cases/redirects.on.step.two.test.ts Redirecting on the second checkout step when all data is correct" : {
@@ -602,11 +620,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "6c8c501802096c61",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/6c8c501802096c61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124572434,
+        "stop" : 1634124575255,
+        "duration" : 2821
+      }
+    }, {
       "uid" : "88dcf95222461356",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/88dcf95222461356",
       "status" : "passed",
@@ -631,11 +658,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 39,
+      "passed" : 40,
       "unknown" : 0,
-      "total" : 39
+      "total" : 40
     },
     "items" : [ {
+      "uid" : "232ce30e4da2d407",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/232ce30e4da2d407",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124551373,
+        "stop" : 1634124552916,
+        "duration" : 1543
+      }
+    }, {
       "uid" : "54551481c7a9cfa2",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/54551481c7a9cfa2",
       "status" : "passed",
@@ -806,15 +842,6 @@
         "stop" : 1633092112409,
         "duration" : 1636
       }
-    }, {
-      "uid" : "9a8b5b9240bbf65f",
-      "reportUrl" : "https://Lornus.github.io/playwright-tests/41//#testresult/9a8b5b9240bbf65f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633007699669,
-        "stop" : 1633007701115,
-        "duration" : 1446
-      }
     } ]
   },
   " sample-app/functional/negative.cases/all.fields.empty.test.ts demonstration warning when all fields are empty" : {
@@ -822,11 +849,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 39,
+      "passed" : 40,
       "unknown" : 0,
-      "total" : 39
+      "total" : 40
     },
     "items" : [ {
+      "uid" : "55c941179d05d218",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/55c941179d05d218",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124545731,
+        "stop" : 1634124547327,
+        "duration" : 1596
+      }
+    }, {
       "uid" : "b6250f59a3d91d3",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/b6250f59a3d91d3",
       "status" : "passed",
@@ -997,15 +1033,6 @@
         "stop" : 1633092106251,
         "duration" : 1395
       }
-    }, {
-      "uid" : "962a5fbf9a97c202",
-      "reportUrl" : "https://Lornus.github.io/playwright-tests/41//#testresult/962a5fbf9a97c202",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633007693320,
-        "stop" : 1633007694814,
-        "duration" : 1494
-      }
     } ]
   },
   " specs.sauce-labs/ui-presentation/login.page/all.elements.visible.test.ts Elements on the login page should be like on the \"golden\" screenshot" : {
@@ -1013,11 +1040,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "5aa6d4fea90b5c37",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/5aa6d4fea90b5c37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124589708,
+        "stop" : 1634124591620,
+        "duration" : 1912
+      }
+    }, {
       "uid" : "5e8d947199e6713d",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/5e8d947199e6713d",
       "status" : "passed",
@@ -1051,11 +1087,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 31,
+      "passed" : 32,
       "unknown" : 0,
-      "total" : 31
+      "total" : 32
     },
     "items" : [ {
+      "uid" : "92a0adaa8613fbad",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/92a0adaa8613fbad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124575261,
+        "stop" : 1634124577082,
+        "duration" : 1821
+      }
+    }, {
       "uid" : "f93978174482a260",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/f93978174482a260",
       "status" : "passed",
@@ -1226,15 +1271,6 @@
         "stop" : 1633007557745,
         "duration" : 1490
       }
-    }, {
-      "uid" : "1a2aa243b4b74271",
-      "reportUrl" : "https://Lornus.github.io/playwright-tests/40//#testresult/1a2aa243b4b74271",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633007305812,
-        "stop" : 1633007307733,
-        "duration" : 1921
-      }
     } ]
   },
   " sample-app/ui/all.elements.visible.test.ts On page are visible: description" : {
@@ -1242,11 +1278,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 39,
+      "passed" : 40,
       "unknown" : 0,
-      "total" : 39
+      "total" : 40
     },
     "items" : [ {
+      "uid" : "ebdb6357dd4802ac",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/ebdb6357dd4802ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124548836,
+        "stop" : 1634124550133,
+        "duration" : 1297
+      }
+    }, {
       "uid" : "cc6a11915747e48",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/cc6a11915747e48",
       "status" : "passed",
@@ -1417,15 +1462,6 @@
         "stop" : 1633092108760,
         "duration" : 1098
       }
-    }, {
-      "uid" : "c159672323ed920a",
-      "reportUrl" : "https://Lornus.github.io/playwright-tests/41//#testresult/c159672323ed920a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633007696547,
-        "stop" : 1633007698089,
-        "duration" : 1542
-      }
     } ]
   },
   " specs.sauce-labs/ui-presentation/login.page/login.button.enabled.test.ts login button is enabled" : {
@@ -1579,11 +1615,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "971ef32f942a7b7",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/971ef32f942a7b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124570647,
+        "stop" : 1634124572959,
+        "duration" : 2312
+      }
+    }, {
       "uid" : "5388df07f4500d07",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/5388df07f4500d07",
       "status" : "passed",
@@ -1618,11 +1663,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 39,
+      "passed" : 40,
       "unknown" : 0,
-      "total" : 39
+      "total" : 40
     },
     "items" : [ {
+      "uid" : "6034d7d4b3c3bb8c",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/6034d7d4b3c3bb8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124547307,
+        "stop" : 1634124549964,
+        "duration" : 2657
+      }
+    }, {
       "uid" : "a9126fc7697571b",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/a9126fc7697571b",
       "status" : "passed",
@@ -1793,15 +1847,6 @@
         "stop" : 1633092109015,
         "duration" : 2559
       }
-    }, {
-      "uid" : "103b6037897823b8",
-      "reportUrl" : "https://Lornus.github.io/playwright-tests/41//#testresult/103b6037897823b8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633007695177,
-        "stop" : 1633007698105,
-        "duration" : 2928
-      }
     } ]
   },
   " specs.sauce-labs/login/negative.cases/password.missing.test.ts appears error when clicking on login with only username entered" : {
@@ -1809,11 +1854,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 31,
+      "passed" : 32,
       "unknown" : 0,
-      "total" : 31
+      "total" : 32
     },
     "items" : [ {
+      "uid" : "2b3449d0ac910409",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/2b3449d0ac910409",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124576328,
+        "stop" : 1634124578316,
+        "duration" : 1988
+      }
+    }, {
       "uid" : "46e3816b49dde9d4",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/46e3816b49dde9d4",
       "status" : "passed",
@@ -1983,15 +2037,6 @@
         "start" : 1633007557043,
         "stop" : 1633007559178,
         "duration" : 2135
-      }
-    }, {
-      "uid" : "7cdf29647776c464",
-      "reportUrl" : "https://Lornus.github.io/playwright-tests/40//#testresult/7cdf29647776c464",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633007306739,
-        "stop" : 1633007309184,
-        "duration" : 2445
       }
     } ]
   },
@@ -2211,11 +2256,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 31,
+      "passed" : 32,
       "unknown" : 0,
-      "total" : 31
+      "total" : 32
     },
     "items" : [ {
+      "uid" : "74b461ef49b05719",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/74b461ef49b05719",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124574723,
+        "stop" : 1634124576689,
+        "duration" : 1966
+      }
+    }, {
       "uid" : "6ccd6c07e1f2ff26",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/6ccd6c07e1f2ff26",
       "status" : "passed",
@@ -2386,15 +2440,6 @@
         "stop" : 1633007557224,
         "duration" : 1436
       }
-    }, {
-      "uid" : "95f882c0cca1d69d",
-      "reportUrl" : "https://Lornus.github.io/playwright-tests/40//#testresult/95f882c0cca1d69d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633007305203,
-        "stop" : 1633007306988,
-        "duration" : 1785
-      }
     } ]
   },
   " specs.sauce-labs/main.page/filtration.on.letters.fromZ.toA.test.ts items are in order from z to a after filtration from z to a" : {
@@ -2402,11 +2447,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "56bc04385638e07e",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/56bc04385638e07e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124579802,
+        "stop" : 1634124584098,
+        "duration" : 4296
+      }
+    }, {
       "uid" : "341cdbd103d5aaec",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/341cdbd103d5aaec",
       "status" : "passed",
@@ -2512,11 +2566,20 @@
       "failed" : 8,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 23,
+      "passed" : 24,
       "unknown" : 0,
-      "total" : 31
+      "total" : 32
     },
     "items" : [ {
+      "uid" : "71c98aec9c941f81",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/71c98aec9c941f81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124577467,
+        "stop" : 1634124579797,
+        "duration" : 2330
+      }
+    }, {
       "uid" : "aa04f4a1604bc677",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/aa04f4a1604bc677",
       "status" : "passed",
@@ -2687,15 +2750,6 @@
         "stop" : 1633007562478,
         "duration" : 3297
       }
-    }, {
-      "uid" : "86271c94786c86fe",
-      "reportUrl" : "https://Lornus.github.io/playwright-tests/40//#testresult/86271c94786c86fe",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633007309188,
-        "stop" : 1633007312235,
-        "duration" : 3047
-      }
     } ]
   },
   " specs.sauce-labs/login/negative.cases/username.doesnt.match.password.test.ts appears error when clicking on login with username doesnt match password" : {
@@ -2840,11 +2894,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "b0a3bb3f05fe4273",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/b0a3bb3f05fe4273",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124585718,
+        "stop" : 1634124589706,
+        "duration" : 3988
+      }
+    }, {
       "uid" : "2ce3dfcb9f31b195",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/2ce3dfcb9f31b195",
       "status" : "passed",
@@ -2941,11 +3004,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "e038bd20d113e4df",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/e038bd20d113e4df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124584102,
+        "stop" : 1634124588378,
+        "duration" : 4276
+      }
+    }, {
       "uid" : "324feefd2e147f35",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/324feefd2e147f35",
       "status" : "passed",
@@ -3042,11 +3114,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "fd78845835e39457",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/fd78845835e39457",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124587596,
+        "stop" : 1634124589891,
+        "duration" : 2295
+      }
+    }, {
       "uid" : "1f6b6579fa7ba87b",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/1f6b6579fa7ba87b",
       "status" : "passed",
@@ -3080,11 +3161,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "34ee88ab065ef901",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/34ee88ab065ef901",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124570160,
+        "stop" : 1634124572332,
+        "duration" : 2172
+      }
+    }, {
       "uid" : "38b405facafe3ab6",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/38b405facafe3ab6",
       "status" : "passed",
@@ -3310,11 +3400,20 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 38,
+      "passed" : 39,
       "unknown" : 0,
-      "total" : 39
+      "total" : 40
     },
     "items" : [ {
+      "uid" : "5e44ede03fe0bc51",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/5e44ede03fe0bc51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124552576,
+        "stop" : 1634124558895,
+        "duration" : 6319
+      }
+    }, {
       "uid" : "aeef29c11ad1b9ff",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/aeef29c11ad1b9ff",
       "status" : "passed",
@@ -3486,15 +3585,6 @@
         "stop" : 1633092118017,
         "duration" : 6511
       }
-    }, {
-      "uid" : "1281429a2146432c",
-      "reportUrl" : "https://Lornus.github.io/playwright-tests/41//#testresult/1281429a2146432c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633007701126,
-        "stop" : 1633007707703,
-        "duration" : 6577
-      }
     } ]
   },
   " specs.ui-testing-playground/click.count.test.ts click count increased" : {
@@ -3502,11 +3592,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 39,
+      "passed" : 40,
       "unknown" : 0,
-      "total" : 39
+      "total" : 40
     },
     "items" : [ {
+      "uid" : "3ed6e3d1b44afd88",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/3ed6e3d1b44afd88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124549970,
+        "stop" : 1634124551370,
+        "duration" : 1400
+      }
+    }, {
       "uid" : "130f38f3c55de22",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/130f38f3c55de22",
       "status" : "passed",
@@ -3677,15 +3776,6 @@
         "stop" : 1633092110369,
         "duration" : 1342
       }
-    }, {
-      "uid" : "14de7c7cc6509de4",
-      "reportUrl" : "https://Lornus.github.io/playwright-tests/41//#testresult/14de7c7cc6509de4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633007698053,
-        "stop" : 1633007699658,
-        "duration" : 1605
-      }
     } ]
   },
   " specs.sauce-labs/checkout.pages/step.one/negative.cases/postalCode.missed.test.ts Occurs an error when postal code input missed" : {
@@ -3693,11 +3783,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "2f81175a975633f5",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/2f81175a975633f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124572578,
+        "stop" : 1634124576308,
+        "duration" : 3730
+      }
+    }, {
       "uid" : "f00c940e6f44e4e6",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/f00c940e6f44e4e6",
       "status" : "passed",
@@ -3732,11 +3831,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "52f3e29858fd831",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/52f3e29858fd831",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124578320,
+        "stop" : 1634124583431,
+        "duration" : 5111
+      }
+    }, {
       "uid" : "2798d80419345f15",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/2798d80419345f15",
       "status" : "passed",
@@ -3770,11 +3878,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 39,
+      "passed" : 40,
       "unknown" : 0,
-      "total" : 39
+      "total" : 40
     },
     "items" : [ {
+      "uid" : "cae6d626d4369806",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/cae6d626d4369806",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124545288,
+        "stop" : 1634124546650,
+        "duration" : 1362
+      }
+    }, {
       "uid" : "2c105df2ee340491",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/2c105df2ee340491",
       "status" : "passed",
@@ -3945,15 +4062,6 @@
         "stop" : 1633092106074,
         "duration" : 1621
       }
-    }, {
-      "uid" : "519f2d3c621d9f87",
-      "reportUrl" : "https://Lornus.github.io/playwright-tests/41//#testresult/519f2d3c621d9f87",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633007692776,
-        "stop" : 1633007694838,
-        "duration" : 2062
-      }
     } ]
   },
   " specs.sauce-labs/ui-presentation/login.page/login.button.enabled.test.ts login addToCart is enabled" : {
@@ -3961,11 +4069,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "c88f57e9f30c3315",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/c88f57e9f30c3315",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124589991,
+        "stop" : 1634124591475,
+        "duration" : 1484
+      }
+    }, {
       "uid" : "2896b336556ebe05",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/2896b336556ebe05",
       "status" : "passed",
@@ -4107,11 +4224,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 17,
+      "passed" : 18,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "7d4fd3a6f4cc95e2",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/7d4fd3a6f4cc95e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124548848,
+        "stop" : 1634124550226,
+        "duration" : 1378
+      }
+    }, {
       "uid" : "5806dad4b8c65cdc",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/5806dad4b8c65cdc",
       "status" : "passed",
@@ -4271,11 +4397,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "acbda3f5e103836e",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/acbda3f5e103836e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124583885,
+        "stop" : 1634124587811,
+        "duration" : 3926
+      }
+    }, {
       "uid" : "6631a22e809911db",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/6631a22e809911db",
       "status" : "passed",
@@ -4381,11 +4516,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "13809076ae38e686",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/13809076ae38e686",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124588383,
+        "stop" : 1634124590304,
+        "duration" : 1921
+      }
+    }, {
       "uid" : "4bf4187ce6937d1c",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/4bf4187ce6937d1c",
       "status" : "passed",
@@ -4439,11 +4583,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 17,
+      "passed" : 18,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "5437a65656dfbc77",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/5437a65656dfbc77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124548662,
+        "stop" : 1634124550112,
+        "duration" : 1450
+      }
+    }, {
       "uid" : "37976651c01591c2",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/37976651c01591c2",
       "status" : "passed",
@@ -4603,11 +4756,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 39,
+      "passed" : 40,
       "unknown" : 0,
-      "total" : 39
+      "total" : 40
     },
     "items" : [ {
+      "uid" : "7502ea0cace89150",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/7502ea0cace89150",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124547249,
+        "stop" : 1634124548843,
+        "duration" : 1594
+      }
+    }, {
       "uid" : "fddf41186091eca0",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/fddf41186091eca0",
       "status" : "passed",
@@ -4778,15 +4940,6 @@
         "stop" : 1633092108025,
         "duration" : 1638
       }
-    }, {
-      "uid" : "dc24f59117d41f7b",
-      "reportUrl" : "https://Lornus.github.io/playwright-tests/41//#testresult/dc24f59117d41f7b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633007695085,
-        "stop" : 1633007696549,
-        "duration" : 1464
-      }
     } ]
   },
   " specs.sauce-labs/ui-presentation/checkout.page/all.inputs.editable.test.ts input fields are editable on the checkout page" : {
@@ -4868,11 +5021,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 31,
+      "passed" : 32,
       "unknown" : 0,
-      "total" : 31
+      "total" : 32
     },
     "items" : [ {
+      "uid" : "44c8a7d1487b7d44",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/44c8a7d1487b7d44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124576693,
+        "stop" : 1634124578431,
+        "duration" : 1738
+      }
+    }, {
       "uid" : "9b3d64761ba8ed63",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/9b3d64761ba8ed63",
       "status" : "passed",
@@ -5043,15 +5205,6 @@
         "stop" : 1633007560713,
         "duration" : 2668
       }
-    }, {
-      "uid" : "785f17654438bc1d",
-      "reportUrl" : "https://Lornus.github.io/playwright-tests/40//#testresult/785f17654438bc1d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633007307984,
-        "stop" : 1633007311269,
-        "duration" : 3285
-      }
     } ]
   },
   " specs.sauce-labs/checkout.pages/step.one/negative.cases/lastName.missed.test.ts Occurs an error when last name input missed" : {
@@ -5059,11 +5212,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "6f1d868312322fec",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/6f1d868312322fec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124571285,
+        "stop" : 1634124574709,
+        "duration" : 3424
+      }
+    }, {
       "uid" : "a021f19baa03f40c",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/a021f19baa03f40c",
       "status" : "passed",
@@ -5098,11 +5260,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "f0b589884818f8aa",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/f0b589884818f8aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124572963,
+        "stop" : 1634124577462,
+        "duration" : 4499
+      }
+    }, {
       "uid" : "5bb3402c58ae8029",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/5bb3402c58ae8029",
       "status" : "passed",
@@ -5207,11 +5378,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 39,
+      "passed" : 40,
       "unknown" : 0,
-      "total" : 39
+      "total" : 40
     },
     "items" : [ {
+      "uid" : "1ef77bcd98d67684",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/1ef77bcd98d67684",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124550116,
+        "stop" : 1634124551370,
+        "duration" : 1254
+      }
+    }, {
       "uid" : "5b29e198c22e7ec8",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/5b29e198c22e7ec8",
       "status" : "passed",
@@ -5382,15 +5562,6 @@
         "stop" : 1633092110816,
         "duration" : 1374
       }
-    }, {
-      "uid" : "da34f15a7e016b33",
-      "reportUrl" : "https://Lornus.github.io/playwright-tests/41//#testresult/da34f15a7e016b33",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633007698113,
-        "stop" : 1633007699572,
-        "duration" : 1459
-      }
     } ]
   },
   " specs.ui-testing-playground/wait.for.ajax.test.ts waiting for an element to show up after AJAX" : {
@@ -5398,11 +5569,20 @@
       "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 37,
+      "passed" : 38,
       "unknown" : 0,
-      "total" : 39
+      "total" : 40
     },
     "items" : [ {
+      "uid" : "e8981d2b98bbd6f3",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/e8981d2b98bbd6f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124551376,
+        "stop" : 1634124568341,
+        "duration" : 16965
+      }
+    }, {
       "uid" : "6d9aeb869bf49610",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/6d9aeb869bf49610",
       "status" : "passed",
@@ -5574,15 +5754,6 @@
         "stop" : 1633092127593,
         "duration" : 16771
       }
-    }, {
-      "uid" : "964b360dcc72a86b",
-      "reportUrl" : "https://Lornus.github.io/playwright-tests/41//#testresult/964b360dcc72a86b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633007699995,
-        "stop" : 1633007716681,
-        "duration" : 16686
-      }
     } ]
   },
   " specs.sauce-labs/checkout.pages/step.one/positive.cases/redirects.on.step.two..test.ts Redirecting on the second checkout step when all data is correct" : {
@@ -5611,11 +5782,20 @@
       "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 27,
+      "passed" : 28,
       "unknown" : 0,
-      "total" : 30
+      "total" : 31
     },
     "items" : [ {
+      "uid" : "bdb53b95863d2271",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/bdb53b95863d2271",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124589894,
+        "stop" : 1634124591302,
+        "duration" : 1408
+      }
+    }, {
       "uid" : "64e9195ca0da142a",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/64e9195ca0da142a",
       "status" : "passed",
@@ -5787,15 +5967,6 @@
         "stop" : 1633007562883,
         "duration" : 2167
       }
-    }, {
-      "uid" : "658f89ed071e69b",
-      "reportUrl" : "https://Lornus.github.io/playwright-tests/40//#testresult/658f89ed071e69b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633007311273,
-        "stop" : 1633007313214,
-        "duration" : 1941
-      }
     } ]
   },
   " specs.sauce-labs/ui-presentation/checkout.pages/step.one/all.inputs.editable.test.ts input fields are editable on the checkout page" : {
@@ -5803,11 +5974,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "bcd122194642bd3b",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/bcd122194642bd3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124587815,
+        "stop" : 1634124589986,
+        "duration" : 2171
+      }
+    }, {
       "uid" : "f356ecc15fb2e35f",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/f356ecc15fb2e35f",
       "status" : "passed",
@@ -5841,11 +6021,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "22cb781fdf9dadab",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/22cb781fdf9dadab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124590304,
+        "stop" : 1634124591932,
+        "duration" : 1628
+      }
+    }, {
       "uid" : "80c8fb1c9038f339",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/80c8fb1c9038f339",
       "status" : "passed",
@@ -6033,11 +6222,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 39,
+      "passed" : 40,
       "unknown" : 0,
-      "total" : 39
+      "total" : 40
     },
     "items" : [ {
+      "uid" : "d28c1eb71475a568",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/d28c1eb71475a568",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124547349,
+        "stop" : 1634124548834,
+        "duration" : 1485
+      }
+    }, {
       "uid" : "58bf098a413903ba",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/58bf098a413903ba",
       "status" : "passed",
@@ -6208,15 +6406,6 @@
         "stop" : 1633092107661,
         "duration" : 1269
       }
-    }, {
-      "uid" : "8751f22ec8af9584",
-      "reportUrl" : "https://Lornus.github.io/playwright-tests/41//#testresult/8751f22ec8af9584",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633007695088,
-        "stop" : 1633007696547,
-        "duration" : 1459
-      }
     } ]
   },
   " specs.sauce-labs/ui-presentation/main.page/all.elements.visible.test.ts Elements on the main page should be like on the \"golden\" screenshot " : {
@@ -6224,11 +6413,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "d01538f6a0afb498",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/d01538f6a0afb498",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124591304,
+        "stop" : 1634124592783,
+        "duration" : 1479
+      }
+    }, {
       "uid" : "c077678583d3ee8e",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/c077678583d3ee8e",
       "status" : "passed",
@@ -6370,11 +6568,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 39,
+      "passed" : 40,
       "unknown" : 0,
-      "total" : 39
+      "total" : 40
     },
     "items" : [ {
+      "uid" : "cb6e02254290c0ca",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/cb6e02254290c0ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124550135,
+        "stop" : 1634124551323,
+        "duration" : 1188
+      }
+    }, {
       "uid" : "a656955d59f7a2b1",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/a656955d59f7a2b1",
       "status" : "passed",
@@ -6545,15 +6752,6 @@
         "stop" : 1633092109836,
         "duration" : 1075
       }
-    }, {
-      "uid" : "cb076e3e6a04e0f8",
-      "reportUrl" : "https://Lornus.github.io/playwright-tests/41//#testresult/cb076e3e6a04e0f8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633007698089,
-        "stop" : 1633007699329,
-        "duration" : 1240
-      }
     } ]
   },
   " sample-app/functional/negative.cases/incorrect.password.case.test.ts demonstrating error when password is incorrect, login correct" : {
@@ -6561,11 +6759,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 39,
+      "passed" : 40,
       "unknown" : 0,
-      "total" : 39
+      "total" : 40
     },
     "items" : [ {
+      "uid" : "a361ee42882a48e4",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/a361ee42882a48e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124546600,
+        "stop" : 1634124548653,
+        "duration" : 2053
+      }
+    }, {
       "uid" : "85925ab24571c610",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/85925ab24571c610",
       "status" : "passed",
@@ -6735,15 +6942,6 @@
         "start" : 1633092105694,
         "stop" : 1633092107753,
         "duration" : 2059
-      }
-    }, {
-      "uid" : "6a55adc91bc34323",
-      "reportUrl" : "https://Lornus.github.io/playwright-tests/41//#testresult/6a55adc91bc34323",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633007694245,
-        "stop" : 1633007696537,
-        "duration" : 2292
       }
     } ]
   },
@@ -7002,11 +7200,20 @@
       "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 14,
+      "passed" : 15,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "a5c3ac6d6440f438",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/a5c3ac6d6440f438",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124578435,
+        "stop" : 1634124583882,
+        "duration" : 5447
+      }
+    }, {
       "uid" : "fac2b81bf4878263",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/fac2b81bf4878263",
       "status" : "passed",
@@ -7159,11 +7366,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 31,
+      "passed" : 32,
       "unknown" : 0,
-      "total" : 31
+      "total" : 32
     },
     "items" : [ {
+      "uid" : "7c3f77d0e487ee0d",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/7c3f77d0e487ee0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124577085,
+        "stop" : 1634124579338,
+        "duration" : 2253
+      }
+    }, {
       "uid" : "112cd2f582877923",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/112cd2f582877923",
       "status" : "passed",
@@ -7333,15 +7549,6 @@
         "start" : 1633007557931,
         "stop" : 1633007559878,
         "duration" : 1947
-      }
-    }, {
-      "uid" : "cd2da2ceaeab0b3f",
-      "reportUrl" : "https://Lornus.github.io/playwright-tests/40//#testresult/cd2da2ceaeab0b3f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633007307844,
-        "stop" : 1633007310187,
-        "duration" : 2343
       }
     } ]
   },
@@ -7541,11 +7748,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 17,
+      "passed" : 18,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "1d0fc6a3985af6dd",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/1d0fc6a3985af6dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124551330,
+        "stop" : 1634124552564,
+        "duration" : 1234
+      }
+    }, {
       "uid" : "cf50188f43b8cec6",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/cf50188f43b8cec6",
       "status" : "passed",
@@ -7705,11 +7921,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 39,
+      "passed" : 40,
       "unknown" : 0,
-      "total" : 39
+      "total" : 40
     },
     "items" : [ {
+      "uid" : "5d7e77eb63cd5661",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/5d7e77eb63cd5661",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124550236,
+        "stop" : 1634124551327,
+        "duration" : 1091
+      }
+    }, {
       "uid" : "995762aa06a360d7",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/995762aa06a360d7",
       "status" : "passed",
@@ -7880,15 +8105,6 @@
         "stop" : 1633092110766,
         "duration" : 1197
       }
-    }, {
-      "uid" : "7a875096be6bf8d1",
-      "reportUrl" : "https://Lornus.github.io/playwright-tests/41//#testresult/7a875096be6bf8d1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633007698454,
-        "stop" : 1633007699990,
-        "duration" : 1536
-      }
     } ]
   },
   " specs.sauce-labs/ui-presentation/checkout.page/all.elements.visible.test.ts Elements on the checkout page should be like on the \"golden\" screenshot " : {
@@ -7990,11 +8206,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 39,
+      "passed" : 40,
       "unknown" : 0,
-      "total" : 39
+      "total" : 40
     },
     "items" : [ {
+      "uid" : "ef5a4249bc6fb388",
+      "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/ef5a4249bc6fb388",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634124551324,
+        "stop" : 1634124552558,
+        "duration" : 1234
+      }
+    }, {
       "uid" : "95cbea3a97aed042",
       "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/95cbea3a97aed042",
       "status" : "passed",
@@ -8164,15 +8389,6 @@
         "start" : 1633092109838,
         "stop" : 1633092110792,
         "duration" : 954
-      }
-    }, {
-      "uid" : "7bed17cac4ab1bf0",
-      "reportUrl" : "https://Lornus.github.io/playwright-tests/41//#testresult/7bed17cac4ab1bf0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633007699330,
-        "stop" : 1633007700954,
-        "duration" : 1624
       }
     } ]
   }
