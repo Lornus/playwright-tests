@@ -1,0 +1,61 @@
+{
+  "uid" : "3d34d5b8f4e03c53",
+  "name" : "login as standard user",
+  "fullName" : "login as standard user",
+  "historyId" : " specs.sauce-labs/login/positive.cases/login.standard.user.test.ts login as standard user",
+  "time" : {
+    "start" : 1634107755935,
+    "stop" : 1634107762708,
+    "duration" : 6773
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.sauce-labs/login/positive.cases/login.standard.user.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b05ac2f68d981fea",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/55//#testresult/b05ac2f68d981fea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634107162673,
+          "stop" : 1634107167932,
+          "duration" : 5259
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3d34d5b8f4e03c53.json",
+  "parameterValues" : [ ]
+}
