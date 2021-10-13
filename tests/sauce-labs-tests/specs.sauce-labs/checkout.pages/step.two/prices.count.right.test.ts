@@ -15,7 +15,6 @@ test('Prices count right', async function ({page, context}) {
 
     await checkoutPage.checkTotalPrice();
 
-
     await page.screenshot({path: 'tests/sauce-labs-tests/golden-screenshots/total-sum-page.png', fullPage: true});
 
 

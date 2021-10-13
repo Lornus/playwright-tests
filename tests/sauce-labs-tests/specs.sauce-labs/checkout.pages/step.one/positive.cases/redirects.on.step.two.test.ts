@@ -13,11 +13,7 @@ test('Redirecting on the second checkout step when all data is correct', async f
 
     await checkoutPage.openUrl();
 
-    await checkoutPage.firstNameFill(`testUser${Date.now()}`);
-    await checkoutPage.lastNameFill(`testUser${Date.now()}`);
-    await checkoutPage.postalCodeFill('0000');
-
-    await checkoutPage.clickOnContinue();
+    await checkoutPage.goContinue();
 
     expect(page.url()).toContain(checkoutPage.stepTwo);
 
