@@ -29,6 +29,6 @@ test('items remain in cart', async function ({page, context}) {
 
     await mainPage.checkLabelsInCart(amount);
 
-    //await page.screenshot({path: 'tests/sauce-labs-tests/golden-screenshots/relogin-page.png', fullPage: true});
+    await page.screenshot({path: 'tests/sauce-labs-tests/golden-screenshots/relogin-page.png', fullPage: true});
 });
 
