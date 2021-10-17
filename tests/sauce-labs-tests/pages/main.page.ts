@@ -58,31 +58,25 @@ export class MainPage extends BasePage {
     }
 
     setAmount(num: number): number[] {
-        const array: Array<number> = [];
-
-        for (let i = 0; i < num; i++) {
-            array.push(i);
-        }
-        return array;
+        return new Array<number>(num).fill(num);
     }
 
     async clickOnAddToCartButton(howManyElementsAdd: number) {
         const addToCartButtons = await elementsManipulations.getElementArrayHandle(this.page, this.addToCart);
         const indexes = this.setAmount(howManyElementsAdd);
 
-        for (let index in indexes) {
-            const num: number = +index;
-            await addToCartButtons[num].click();
-        }
+        indexes.map(async (el, index) => {
+            await addToCartButtons[index].click();
+        })
     }
 
     async checkLabelsInCart(howManyItemsInCart: number) {
         const itemsInCart = await elementsManipulations.getElementArrayHandle(this.page, this.itemInCart);
         const amountOfLabels = this.setAmount(howManyItemsInCart);
 
-        for (let index in amountOfLabels) {
-            const num: number = +index;
-            await checkInnerTextElementOfArray(this.page, num, itemsInCart, await this.getItemLabel(num));
-        }
+        amountOfLabels.map(async (el, index) => {
+            await checkInnerTextElementOfArray(this.page, index, itemsInCart, await this.getItemLabel(index));
+
+        })
     }
 }
