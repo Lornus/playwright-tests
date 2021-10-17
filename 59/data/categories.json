@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Cannot read property 'localStorage' of undefined",
+      "children" : [ {
+        "name" : "items remain in cart",
+        "uid" : "cde8cbc934a5e0b",
+        "parentUid" : "023789fbd493241b58afd4e3c8d082dc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1634477750012,
+          "stop" : 1634477751513,
+          "duration" : 1501
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "023789fbd493241b58afd4e3c8d082dc"
+    }, {
+      "name" : "Cannot read property 'click' of null",
+      "children" : [ {
+        "name" : "items remove from cart",
+        "uid" : "3417399d0e2fa56d",
+        "parentUid" : "c072ea7711350c5a1ce95d6a17853c94",
+        "status" : "failed",
+        "time" : {
+          "start" : 1634477750013,
+          "stop" : 1634477751728,
+          "duration" : 1715
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c072ea7711350c5a1ce95d6a17853c94"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
