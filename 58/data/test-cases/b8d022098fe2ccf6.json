@@ -1,0 +1,89 @@
+{
+  "uid" : "b8d022098fe2ccf6",
+  "name" : "Occurs an error when postal code input missed",
+  "fullName" : "Occurs an error when postal code input missed",
+  "historyId" : " specs.sauce-labs/checkout.pages/step.one/negative.cases/postalCode.missed.test.ts Occurs an error when postal code input missed",
+  "time" : {
+    "start" : 1634476903970,
+    "stop" : 1634476908542,
+    "duration" : 4572
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.sauce-labs/checkout.pages/step.one/negative.cases/postalCode.missed.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "2f81175a975633f5",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/2f81175a975633f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634124572578,
+          "stop" : 1634124576308,
+          "duration" : 3730
+        }
+      }, {
+        "uid" : "f00c940e6f44e4e6",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/f00c940e6f44e4e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634124347990,
+          "stop" : 1634124351038,
+          "duration" : 3048
+        }
+      }, {
+        "uid" : "c17bdd5015247af1",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/56//#testresult/c17bdd5015247af1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634107749670,
+          "stop" : 1634107754018,
+          "duration" : 4348
+        }
+      }, {
+        "uid" : "cbfcd16c00226dcd",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/55//#testresult/cbfcd16c00226dcd",
+        "status" : "failed",
+        "statusDetails" : "Cookies haven't initialised re-run writing cookies ",
+        "time" : {
+          "start" : 1634107156748,
+          "stop" : 1634107157407,
+          "duration" : 659
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b8d022098fe2ccf6.json",
+  "parameterValues" : [ ]
+}

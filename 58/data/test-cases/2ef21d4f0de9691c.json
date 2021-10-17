@@ -1,0 +1,41 @@
+{
+  "uid" : "2ef21d4f0de9691c",
+  "name" : "user can add item to the cart",
+  "fullName" : "user can add item to the cart",
+  "historyId" : " specs.sauce-labs/main.page/add.item.to.cart.test.ts user can add item to the cart",
+  "time" : {
+    "start" : 1634476911147,
+    "stop" : 1634476916529,
+    "duration" : 5382
+  },
+  "status" : "failed",
+  "statusMessage" : "elementHandle.click: Target closed\n=========================== logs ===========================\nattempting click action\n  waiting for element to be visible, enabled and stable\n  element is visible, enabled and stable\n  scrolling into view if needed\n  done scrolling\n  checking that element receives pointer events at (525.48,395.87)\n  element does receive pointer events\n  performing click action\n============================================================",
+  "statusTrace" : "elementHandle.click: Target closed\n=========================== logs ===========================\nattempting click action\n  waiting for element to be visible, enabled and stable\n  element is visible, enabled and stable\n  scrolling into view if needed\n  done scrolling\n  checking that element receives pointer events at (525.48,395.87)\n  element does receive pointer events\n  performing click action\n============================================================\n    at /home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/pages/main.page.ts:69:43\n    at MainPage.clickOnAddToCartButton (/home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/pages/main.page.ts:68:17)\n    at /home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/specs.sauce-labs/main.page/add.item.to.cart.test.ts:15:5\n    at WorkerRunner._runTestWithBeforeHooks (/home/runner/work/playwright-tests/playwright-tests/node_modules/@playwright/test/lib/test/workerRunner.js:449:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.sauce-labs/main.page/add.item.to.cart.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2ef21d4f0de9691c.json",
+  "parameterValues" : [ ]
+}
