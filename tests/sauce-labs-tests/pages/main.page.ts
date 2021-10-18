@@ -3,6 +3,7 @@ import {BasePage} from "./base.page";
 
 import * as elementsManipulations from "../helpers/elements.manipulation";
 import {checkInnerTextElementOfArray} from "../helpers/expects";
+import path from "path";
 
 export class MainPage extends BasePage {
 
@@ -46,7 +47,8 @@ export class MainPage extends BasePage {
 
     async getItemLabel(index: number): Promise<string> {
         const itemLabels = await elementsManipulations.getElementArrayHandle(this.page, this.item)
-        return await itemLabels[index].innerText();
+        const text = await itemLabels[index].innerText();
+        return text;
     }
 
     async goToCart(): Promise<void> {
@@ -65,18 +67,17 @@ export class MainPage extends BasePage {
         const addToCartButtons = await elementsManipulations.getElementArrayHandle(this.page, this.addToCart);
         const indexes = this.setAmount(howManyElementsAdd);
 
-        indexes.map(async (el, index) => {
+        await Promise.all(indexes.map(async (el, index) => {
             await addToCartButtons[index].click();
-        })
+        }))
     }
 
     async checkLabelsInCart(howManyItemsInCart: number) {
         const itemsInCart = await elementsManipulations.getElementArrayHandle(this.page, this.itemInCart);
         const amountOfLabels = this.setAmount(howManyItemsInCart);
 
-        amountOfLabels.map(async (el, index) => {
+        await Promise.all(amountOfLabels.map(async (el, index) => {
             await checkInnerTextElementOfArray(this.page, index, itemsInCart, await this.getItemLabel(index));
-
-        })
+        }))
     }
 }

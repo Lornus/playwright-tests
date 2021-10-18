@@ -74,12 +74,14 @@ export class CheckoutPage extends BasePage {
     }
 
     async countTotalItemSum(): Promise<number> {
-        let itemTotalSum: number = 0;
+        let itemTotalSum: number = null;
         const prices = await getElementArrayHandle(this.page, this.priceOfItem);
-        for (let index in prices) {
+        await Promise.all(prices.map(async (el, index) => {
             let price = await prices[index].innerText();
             itemTotalSum += +price.slice(1, 6);
-        }
+            return itemTotalSum;
+        }));
+
         return itemTotalSum;
     }
 
@@ -98,11 +100,10 @@ export class CheckoutPage extends BasePage {
     async checkTotalPrice(): Promise<boolean> {
         const expectedPrice = this.countTotal(await this.countTotalItemSum());
         const totalPrice = await this.getTotalPrice();
-        let result: boolean = true;
+
         if (expectedPrice !== totalPrice) {
-            console.log('Prices arent equal');
-            result = false;
+            throw new Error('Prices are not equal');
         }
-        return result;
+        return true;
     }
 }

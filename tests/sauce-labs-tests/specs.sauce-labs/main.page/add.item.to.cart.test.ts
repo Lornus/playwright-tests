@@ -1,8 +1,9 @@
 import {test} from '@playwright/test';
 import {MainPage} from "../../pages/main.page";
 import {checkCookies} from "../../helpers/empty.cookies.detector";
+import {pathToItemsStates, pathToLoginStates} from "../../helpers/paths";
 
-test.use({storageState: 'tests/sauce-labs-tests/specs.sauce-labs/states/state.standard.json'})
+test.use({storageState: pathToLoginStates})
 
 test('user can add item to the cart', async function ({page, context}) {
     const mainPage = new MainPage(page, context);
@@ -16,8 +17,8 @@ test('user can add item to the cart', async function ({page, context}) {
 
     await mainPage.checkLabelsInCart(amount);
 
-   // await page.screenshot({path: 'tests/sauce-labs-tests/golden-screenshots/add-item.png', fullPage: true});
+    //await page.screenshot({path: 'tests/sauce-labs-tests/golden-screenshots/add-item.png', fullPage: true});
 
-    await context.storageState({path: 'tests/sauce-labs-tests/specs.sauce-labs/states/state.item.chosen.json'});
+    await context.storageState({path: pathToItemsStates});
 
 })

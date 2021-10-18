@@ -1,0 +1,2 @@
+export const pathToLoginStates = 'tests/sauce-labs-tests/specs.sauce-labs/states/state.standard.json';
+export const pathToItemsStates = 'tests/sauce-labs-tests/specs.sauce-labs/states/state.item.chosen.json';

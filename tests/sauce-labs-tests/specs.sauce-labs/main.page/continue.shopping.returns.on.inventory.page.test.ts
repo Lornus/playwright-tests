@@ -3,9 +3,10 @@ import {MainPage} from "../../pages/main.page";
 import * as elementsManipulations from "../../helpers/elements.manipulation";
 import config from "../../sauce-labs.config";
 import {checkCookies} from "../../helpers/empty.cookies.detector";
+import {pathToLoginStates} from "../../helpers/paths";
 
 
-test.use({storageState: 'tests/sauce-labs-tests/specs.sauce-labs/states/state.item.chosen.json'})
+test.use({storageState: pathToLoginStates})
 
 test('continue shopping returns on the inventory page', async function ({page, context}) {
 

@@ -1,6 +1,7 @@
 import {test, expect, ElementHandle} from '@playwright/test';
 import {LoginPage} from "../../../pages/login.page";
 import * as manipulations from "../../../helpers/elements.manipulation"
+import {pathToLoginStates} from "../../../helpers/paths";
 
 test('login as standard user', async function ({page, context}) {
     const loginPage = new LoginPage(page);
@@ -12,6 +13,6 @@ test('login as standard user', async function ({page, context}) {
 
     expect(await logo.isVisible()).toBeTruthy();
 
-    await context.storageState({path: 'tests/sauce-labs-tests/specs.sauce-labs/states/state.standard.json'});
+    await context.storageState({path: pathToLoginStates});
 
 })

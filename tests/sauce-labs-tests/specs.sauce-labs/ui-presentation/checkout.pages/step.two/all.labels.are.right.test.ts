@@ -3,8 +3,9 @@ import {test} from "@playwright/test";
 import {checkCookies} from "../../../../helpers/empty.cookies.detector";
 import {getElementArrayHandle} from "../../../../helpers/elements.manipulation";
 import {checkInnerTextElementOfArray} from "../../../../helpers/expects";
+import {pathToItemsStates} from "../../../../helpers/paths";
 
-test.use({storageState: 'tests/sauce-labs-tests/specs.sauce-labs/states/state.standard.json'})
+test.use({storageState: pathToItemsStates})
 test.describe('Labels correspond to docs:', function () {
 
     test('QTY and DESCRIPTION', async function ({page, context}) {

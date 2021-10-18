@@ -25,7 +25,6 @@ export class LoginPage extends BasePage {
 
     readonly loginBtn: string;
 
-
     constructor(page: Page) {
         super(page);
 
@@ -64,7 +63,7 @@ export class LoginPage extends BasePage {
     }
 
     async getLoginBtn(): Promise<ElementHandle<Node> | null> {
-        return await manipulations.getElementHandle(this.page, this.loginBtn);
+       const loginBtn =  await manipulations.getElementHandle(this.page, this.loginBtn);
+       return loginBtn;
     }
-
 }

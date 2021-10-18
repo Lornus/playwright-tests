@@ -2,9 +2,9 @@ import {test} from '@playwright/test';
 import {MainPage} from "../../pages/main.page";
 import {checkCookies} from "../../helpers/empty.cookies.detector";
 import * as fs from "fs";
+import {pathToItemsStates} from "../../helpers/paths";
 
-
-test.use({storageState: 'tests/sauce-labs-tests/specs.sauce-labs/states/state.item.chosen.json'})
+test.use({storageState: pathToItemsStates})
 
 test('items remain in cart', async function ({page, context}) {
 
@@ -19,6 +19,7 @@ test('items remain in cart', async function ({page, context}) {
     const state = JSON.parse(fs.readFileSync('tests/sauce-labs-tests/specs.sauce-labs/states/state.item.chosen.json',
         {encoding: 'utf-8'}));
 
+
     const variables: string = state.origins[0].localStorage[0].value
 
     const stringVariables: string = variables.slice(1, 10);
@@ -29,6 +30,6 @@ test('items remain in cart', async function ({page, context}) {
 
     await mainPage.checkLabelsInCart(amount);
 
-    await page.screenshot({path: 'tests/sauce-labs-tests/golden-screenshots/relogin-page.png', fullPage: true});
+    //await page.screenshot({path: 'tests/sauce-labs-tests/golden-screenshots/relogin-page.png', fullPage: true});
 });
 

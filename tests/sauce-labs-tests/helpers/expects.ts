@@ -7,14 +7,14 @@ export async function checkInnerText(page: Page, selector: string, expected: str
     expect(await element.innerText()).toEqual(expected);
 }
 
-export async function checkElementEditable(page: Page, selector: string): Promise<boolean> {
+export async function checkElementEditable(page: Page, selector: string): Promise<void> {
     const element: ElementHandle = await elementManipulation.getElementHandle(page, selector);
-    return await expect(element.isEditable()).toBeTruthy();
+    await expect(element.isEditable()).toBeTruthy();
 }
 
-export async function checkButtonIsEnabled(page: Page, selector: string): Promise<boolean> {
+export async function checkButtonIsEnabled(page: Page, selector: string): Promise<void> {
     const element: ElementHandle = await elementManipulation.getElementHandle(page, selector);
-    return await expect(element.isEnabled()).toBeTruthy();
+    await expect(element.isEnabled()).toBeTruthy();
 }
 
 export async function compareWithScreenshot(page: Page, pathToScreenshot: string, nameSnapshot: string) {
@@ -28,7 +28,7 @@ export async function checkVisible(page: Page, selector: string): Promise<boolea
 
 }
 
-export async function checkInnerTextElementOfArray(page: Page, index: number, element: ElementHandle[], expected:string) {
+export async function checkInnerTextElementOfArray(page: Page, index: number, element: ElementHandle[], expected: string) {
     expect(await element[index].innerText()).toEqual(expected);
 
 }

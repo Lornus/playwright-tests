@@ -2,9 +2,10 @@ import {expect, test} from '@playwright/test';
 import {MainPage} from "../../pages/main.page";
 import * as elementsManipulations from "../../helpers/elements.manipulation";
 import {checkCookies} from "../../helpers/empty.cookies.detector";
+import {pathToItemsStates} from "../../helpers/paths";
 
 
-test.use({storageState: 'tests/sauce-labs-tests/specs.sauce-labs/states/state.item.chosen.json'})
+test.use({storageState: pathToItemsStates})
 
 test('items remove from cart', async function ({page, context}) {
 
