@@ -17,11 +17,11 @@ test('items remove from cart', async function ({page, context}) {
 
     await mainPage.goToCart();
 
-    const arrayOfItemsBeforeDeleting = await elementsManipulations.getElementArrayHandle(page, mainPage.item);
+    const arrayOfItemsBeforeDeleting = await elementsManipulations.getElementArrayHandle(page, mainPage.itemName);
 
     await elementsManipulations.elementClick(page, mainPage.removeItem);
 
-    const arrayOfItemsAfterDeleting = await elementsManipulations.getElementArrayHandle(page, mainPage.item);
+    const arrayOfItemsAfterDeleting = await elementsManipulations.getElementArrayHandle(page, mainPage.itemName);
 
     expect(arrayOfItemsBeforeDeleting !== arrayOfItemsAfterDeleting).toBeTruthy();
 

@@ -3,7 +3,6 @@ import {BasePage} from "./base.page";
 
 import * as elementsManipulations from "../helpers/elements.manipulation";
 import {checkInnerTextElementOfArray} from "../helpers/expects";
-import path from "path";
 
 export class MainPage extends BasePage {
 
@@ -11,9 +10,8 @@ export class MainPage extends BasePage {
     readonly context: BrowserContext;
     readonly endpoint: string = 'inventory.html';
     readonly addToCart: string;
-    readonly item: string
+    readonly itemName: string
     readonly cartLink: string;
-    readonly itemInCart: string;
     readonly burgerMenu: string;
     readonly logoutLink: string;
     readonly removeItem: string;
@@ -24,10 +22,10 @@ export class MainPage extends BasePage {
         super(page);
         this.page = page;
         this.context = context;
+
         this.addToCart = '.btn';
-        this.item = '.inventory_item_name';
+        this.itemName = '.inventory_item_name';
         this.cartLink = '.shopping_cart_link';
-        this.itemInCart = '.inventory_item_name';
         this.burgerMenu = '.bm-burger-button';
         this.logoutLink = '#logout_sidebar_link';
         this.removeItem = '.cart_button';
@@ -46,7 +44,7 @@ export class MainPage extends BasePage {
     }
 
     async getItemLabel(index: number): Promise<string> {
-        const itemLabels = await elementsManipulations.getElementArrayHandle(this.page, this.item)
+        const itemLabels = await elementsManipulations.getElementArrayHandle(this.page, this.itemName)
         const text = await itemLabels[index].innerText();
         return text;
     }
@@ -73,7 +71,7 @@ export class MainPage extends BasePage {
     }
 
     async checkLabelsInCart(howManyItemsInCart: number) {
-        const itemsInCart = await elementsManipulations.getElementArrayHandle(this.page, this.itemInCart);
+        const itemsInCart = await elementsManipulations.getElementArrayHandle(this.page, this.itemName);
         const amountOfLabels = this.setAmount(howManyItemsInCart);
 
         await Promise.all(amountOfLabels.map(async (el, index) => {

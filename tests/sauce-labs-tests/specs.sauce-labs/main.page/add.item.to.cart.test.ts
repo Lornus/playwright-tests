@@ -2,10 +2,12 @@ import {test} from '@playwright/test';
 import {MainPage} from "../../pages/main.page";
 import {checkCookies} from "../../helpers/empty.cookies.detector";
 import {pathToItemsStates, pathToLoginStates} from "../../helpers/paths";
+import {LoginPage} from "../../pages/login.page";
 
 test.use({storageState: pathToLoginStates})
 
 test('user can add item to the cart', async function ({page, context}) {
+
     const mainPage = new MainPage(page, context);
 
     await checkCookies(context);

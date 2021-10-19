@@ -15,9 +15,9 @@ test('input fields are editable on the checkout page', async function ({page, co
 
     const fields = [checkoutPage.firstNameInput, checkoutPage.lastNameInput, checkoutPage.postalCodeInput];
 
-    fields.map(async field => {
+    await Promise.all(fields.map(async field => {
             await checkElementEditable(page, field);
         }
-    )
+    ))
 
 })

@@ -1,7 +1,8 @@
-import {ElementHandle, Page} from "@playwright/test";
+import {BrowserContext, ElementHandle, Page} from "@playwright/test";
 import {BasePage} from "./base.page";
 import * as manipulations from "../helpers/elements.manipulation";
 import * as dotenv from 'dotenv';
+import {pathToLoginStates} from "../helpers/paths";
 
 dotenv.config();
 
@@ -15,6 +16,8 @@ export class LoginPage extends BasePage {
 
 
     readonly page: Page;
+    private contexT: BrowserContext;
+
 
     readonly inputUserNameField: string;
     readonly inputPasswordField: string;
@@ -45,10 +48,12 @@ export class LoginPage extends BasePage {
         await super.openUrls('/');
     }
 
-    async loginAsStandardUser(): Promise<void> {
+    async loginAsStandardUser(context:BrowserContext): Promise<void> {
         await manipulations.typeInput(this.page, this.inputUserNameField, this.standardUser);
         await manipulations.typeInput(this.page, this.inputPasswordField, process.env.SECRET_PASSWORD);
         await manipulations.elementClick(this.page, this.loginBtn);
+        this.contexT = context;
+        await context.storageState({path: pathToLoginStates})
 
     }
 
