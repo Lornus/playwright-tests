@@ -1,0 +1,91 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Cookies haven't initialised re-run writing cookies ",
+      "children" : [ {
+        "name" : "Occurs an error when first name input missed",
+        "uid" : "70df706fe22a4f76",
+        "parentUid" : "2468d779f4111b6a4f82ff9e2e9867c7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1634727143538,
+          "stop" : 1634727144304,
+          "duration" : 766
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Occurs an error when last name input missed",
+        "uid" : "a0a1d605712b6a0d",
+        "parentUid" : "2468d779f4111b6a4f82ff9e2e9867c7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1634727143994,
+          "stop" : 1634727144761,
+          "duration" : 767
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Occurs an error when all input missed",
+        "uid" : "732d70523559ef37",
+        "parentUid" : "2468d779f4111b6a4f82ff9e2e9867c7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1634727145118,
+          "stop" : 1634727145788,
+          "duration" : 670
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Occurs an error when postal code input missed",
+        "uid" : "573e92f1328d633b",
+        "parentUid" : "2468d779f4111b6a4f82ff9e2e9867c7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1634727146230,
+          "stop" : 1634727147090,
+          "duration" : 860
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Redirecting on the second checkout step when all data is correct",
+        "uid" : "482abb4a4f21eada",
+        "parentUid" : "2468d779f4111b6a4f82ff9e2e9867c7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1634727149355,
+          "stop" : 1634727150055,
+          "duration" : 700
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Prices count right",
+        "uid" : "42fcca76483b73af",
+        "parentUid" : "2468d779f4111b6a4f82ff9e2e9867c7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1634727149902,
+          "stop" : 1634727150339,
+          "duration" : 437
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2468d779f4111b6a4f82ff9e2e9867c7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

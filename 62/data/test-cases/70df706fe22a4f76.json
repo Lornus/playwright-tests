@@ -1,0 +1,169 @@
+{
+  "uid" : "70df706fe22a4f76",
+  "name" : "Occurs an error when first name input missed",
+  "fullName" : "Occurs an error when first name input missed",
+  "historyId" : " specs.sauce-labs/checkout.pages/step.one/negative.cases/firstName.missed.test.ts Occurs an error when first name input missed",
+  "time" : {
+    "start" : 1634727143538,
+    "stop" : 1634727144304,
+    "duration" : 766
+  },
+  "status" : "failed",
+  "statusMessage" : "Cookies haven't initialised re-run writing cookies ",
+  "statusTrace" : "\n    at checkCookies (/home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/helpers/empty.cookies.detector.ts:6:15)\n    at /home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/specs.sauce-labs/checkout.pages/step.one/negative.cases/firstName.missed.test.ts:13:5\n    at WorkerRunner._runTestWithBeforeHooks (/home/runner/work/playwright-tests/playwright-tests/node_modules/@playwright/test/lib/test/workerRunner.js:449:7)",
+  "flaky" : true,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Cookies haven't initialised re-run writing cookies ",
+    "statusTrace" : "\n    at checkCookies (/home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/helpers/empty.cookies.detector.ts:6:15)\n    at /home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/specs.sauce-labs/checkout.pages/step.one/negative.cases/firstName.missed.test.ts:13:5\n    at WorkerRunner._runTestWithBeforeHooks (/home/runner/work/playwright-tests/playwright-tests/node_modules/@playwright/test/lib/test/workerRunner.js:449:7)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "video",
+      "type" : "video/webm",
+      "size" : 0
+    }, {
+      "name" : "screenshot",
+      "type" : "image/png",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.sauce-labs/checkout.pages/step.one/negative.cases/firstName.missed.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b03aa276dda9cd1a",
+      "status" : "failed",
+      "statusDetails" : "Cookies haven't initialised re-run writing cookies ",
+      "time" : {
+        "start" : 1634727141823,
+        "stop" : 1634727142712,
+        "duration" : 889
+      }
+    }, {
+      "uid" : "594d0e1e6ff19b93",
+      "status" : "failed",
+      "statusDetails" : "Cookies haven't initialised re-run writing cookies ",
+      "time" : {
+        "start" : 1634727140165,
+        "stop" : 1634727140776,
+        "duration" : 611
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "8a93ef710496ac62",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/61//#testresult/8a93ef710496ac62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634674957178,
+          "stop" : 1634674958939,
+          "duration" : 1761
+        }
+      }, {
+        "uid" : "9a71ede76260962b",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/60//#testresult/9a71ede76260962b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634544326709,
+          "stop" : 1634544328970,
+          "duration" : 2261
+        }
+      }, {
+        "uid" : "3895c99a3aea848d",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/59//#testresult/3895c99a3aea848d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477727358,
+          "stop" : 1634477729088,
+          "duration" : 1730
+        }
+      }, {
+        "uid" : "8e99391ef4e3ac5f",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/58//#testresult/8e99391ef4e3ac5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634476901412,
+          "stop" : 1634476903840,
+          "duration" : 2428
+        }
+      }, {
+        "uid" : "971ef32f942a7b7",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/971ef32f942a7b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634124570647,
+          "stop" : 1634124572959,
+          "duration" : 2312
+        }
+      }, {
+        "uid" : "5388df07f4500d07",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/57//#testresult/5388df07f4500d07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634124346473,
+          "stop" : 1634124348937,
+          "duration" : 2464
+        }
+      }, {
+        "uid" : "7a188c9b11af5ba3",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/56//#testresult/7a188c9b11af5ba3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634107747307,
+          "stop" : 1634107749487,
+          "duration" : 2180
+        }
+      }, {
+        "uid" : "c84a5b79f96d9b1a",
+        "reportUrl" : "https://Lornus.github.io/playwright-tests/55//#testresult/c84a5b79f96d9b1a",
+        "status" : "failed",
+        "statusDetails" : "Cookies haven't initialised re-run writing cookies ",
+        "time" : {
+          "start" : 1634107151846,
+          "stop" : 1634107152733,
+          "duration" : 887
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "70df706fe22a4f76.json",
+  "parameterValues" : [ ]
+}
