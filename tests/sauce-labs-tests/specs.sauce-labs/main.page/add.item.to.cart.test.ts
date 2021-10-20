@@ -6,7 +6,7 @@ import {LoginPage} from "../../pages/login.page";
 
 test.use({storageState: pathToLoginStates})
 
-test('user can add item to the cart', async function ({page, context}) {
+test('@cookiesWriter user can add item to the cart', async function ({page, context}) {
 
     const mainPage = new MainPage(page, context);
 

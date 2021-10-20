@@ -18,9 +18,9 @@
 2. npm i 
 ```
 
-##Running with docker 
+## Running with docker 
 ```
-docker pull lornus/playwight-tests:v1.4
+docker pull lornus/playwight-tests
 ```
 ```
 Run image
