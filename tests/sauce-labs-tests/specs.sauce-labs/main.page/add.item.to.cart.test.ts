@@ -4,7 +4,7 @@ import {checkCookies} from "../../helpers/empty.cookies.detector";
 import {pathToItemsStates, pathToLoginStates} from "../../helpers/paths";
 import {LoginPage} from "../../pages/login.page";
 
-test.use({storageState: pathToLoginStates})
+test.use({storageState:  pathToLoginStates})
 
 test('@cookiesWriter user can add item to the cart', async function ({page, context}) {
 
