@@ -10,12 +10,20 @@
 2. for sample app created isolated directory 
 3. tests for https://www.saucedemo.com/
 
-## Installation 
+## Installation
 ```
 1. git clone 
 ```
 ```
 2. npm i 
+```
+
+##Running with docker 
+```
+docker pull lornus/playwight-tests:v1.4
+```
+```
+Run image
 ```
 
 ### For running in headless tests for [Ui Playground](http://uitestingplayground.com/)

@@ -13,5 +13,4 @@ test('input fields are editable', async function ({page}) {
             }
         )
     )
-
 })

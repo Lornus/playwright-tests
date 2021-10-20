@@ -2,7 +2,7 @@ import {test, expect, ElementHandle} from '@playwright/test';
 import {LoginPage} from "../../../pages/login.page";
 import * as manipulations from "../../../helpers/elements.manipulation"
 
-test('login as standard user', async function ({page, context}) {
+test('@cookiesWriter login as standard user', async function ({page, context}) {
     const loginPage = new LoginPage(page);
     await loginPage.openUrl();
 

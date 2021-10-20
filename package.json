@@ -6,6 +6,7 @@
     "sauce-labs-tests-headed": "npx playwright test --headed --reporter=line,experimental-allure-playwright --config=tests/sauce-labs-tests/sauce-labs.config.ts",
     "allure-generate": "npx allure generate ./allure-results --clean",
     "allure-open": "npx allure open ./allure-report",
+    "pretest": "npx playwright test --reporter=list --grep @cookiesWriter --config=tests/sauce-labs-tests/sauce-labs.config.ts",
     "test": "npm run ui-playground-tests-headless && npm run sauce-labs-tests-headless"
   },
   "devDependencies": {

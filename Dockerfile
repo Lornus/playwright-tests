@@ -14,5 +14,5 @@ RUN npx playwright install
 
 COPY . .
 
-CMD ["npm", "run", "ui-playground-tests-headless"]
+CMD ["npm", "test"]
 
