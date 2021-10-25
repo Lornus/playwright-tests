@@ -1,16 +1,18 @@
 {
   "scripts": {
-    "ui-playground-tests-headless": "npx playwright test --reporter=list,experimental-allure-playwright --config=tests/ui-tetsing-playground/ui-test-playground.config.ts",
-    "ui-playground-tests-headed": "npx playwright test --headed --reporter=line,experimental-allure-playwright --config=tests/ui-testing-playground/ui-test-playground.config.ts",
-    "sauce-labs-tests-headless": "npx playwright test --reporter=list,experimental-allure-playwright --config=tests/sauce-labs-tests/sauce-labs.config.ts",
-    "sauce-labs-tests-headed": "npx playwright test --headed --reporter=line,experimental-allure-playwright --config=tests/sauce-labs-tests/sauce-labs.config.ts",
+    "ui-playground-tests-headless": "npx playwright test --config=tests/ui-tetsing-playground/ui-test-playground.config.ts",
+    "ui-playground-tests-headed": "npx playwright test --headed --config=tests/ui-testing-playground/ui-test-playground.config.ts",
+    "sauce-labs-tests-headless": "npx playwright test --config=tests/sauce-labs-tests/sauce-labs.config.ts",
+    "sauce-labs-tests-headed": "npx playwright test --headed --config=tests/sauce-labs-tests/sauce-labs.config.ts",
     "allure-generate": "npx allure generate ./allure-results --clean",
     "allure-open": "npx allure open ./allure-report",
-    "pretest": "npx playwright test --reporter=list --grep @cookiesWriter --config=tests/sauce-labs-tests/sauce-labs.config.ts",
+    "pw-report-sauce-labs": "npx playwright show-report phtml-sl",
+    "pw-report-ui-playground": "npx playwright show-report phtml-utp",
+    "pretest": "npx playwright test --reporter=line --grep @cookiesWriter --config=tests/sauce-labs-tests/sauce-labs.config.ts",
     "test": "npm run ui-playground-tests-headless && npm run sauce-labs-tests-headless"
   },
   "devDependencies": {
-    "@playwright/test": "^1.15.0",
+    "@playwright/test": "^1.16.0",
     "allure-commandline": "^2.13.8",
     "experimental-allure-playwright": "^0.0.3",
     "ts-node": "^10.2.1",
@@ -23,7 +25,6 @@
     "test": "tests"
   },
   "dependencies": {
-    "@types/mocha": "^9.0.0",
     "@types/node": "^16.10.1",
     "agent-base": "^6.0.2",
     "ansi-regex": "^5.0.1",

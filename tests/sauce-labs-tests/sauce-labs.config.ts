@@ -12,8 +12,13 @@ const config: PlaywrightTestConfig = {
         colorScheme: "dark",
     },
 
+    reporter: [
+        ['html', { outputFolder: 'phtml-sl'}],
+        ['list'],
+        ['experimental-allure-playwright']
+    ],
     grepInvert: [new RegExp("@flaky")],
-    workers: 4,
+    workers: 2,
     preserveOutput: "always",
     updateSnapshots: "all",
     retries: 2
