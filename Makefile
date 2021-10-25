@@ -1,5 +1,5 @@
 run:
-	docker run --rm --name pwt lornus/playwright-tests:v1.4
+	docker run --rm --env-file .env --name pwt lornus/playwright-tests
 stop:
 	docker stop pwt
 deleteContainers:
