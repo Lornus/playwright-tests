@@ -13,7 +13,6 @@ const config: PlaywrightTestConfig = {
     },
 
     reporter: [
-        ['html', { outputFolder: 'phtml-sl'}],
         ['list'],
         ['experimental-allure-playwright']
     ],

@@ -12,7 +12,6 @@ const config: PlaywrightTestConfig = {
 
     },
     reporter: [
-        ['html', { outputFolder: 'phtml-utp'}],
         ['list'],
         ['experimental-allure-playwright']
     ],
