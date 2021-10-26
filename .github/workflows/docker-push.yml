@@ -33,7 +33,7 @@ jobs:
           file: ./Dockerfile
           builder: ${{ steps.buildx.outputs.name }}
           push: true
-          tags:  ${{ secrets.DOCKER_USER NAME }}/playwright-tests:latest
+          tags:  ${{ secrets.DOCKER_USER_NAME }}/playwright-tests:latest
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
     - name: Image digest
