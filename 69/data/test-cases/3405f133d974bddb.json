@@ -1,0 +1,61 @@
+{
+  "uid" : "3405f133d974bddb",
+  "name" : "Elements on the main page should be like on the \"golden\" screenshot ",
+  "fullName" : "Elements on the main page should be like on the \"golden\" screenshot ",
+  "historyId" : " specs.sauce-labs/ui-presentation/main.page/all.elements.visible.test.ts Elements on the main page should be like on the \"golden\" screenshot ",
+  "time" : {
+    "start" : 1635261040071,
+    "stop" : 1635261041628,
+    "duration" : 1557
+  },
+  "status" : "failed",
+  "statusMessage" : "/home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/specs.sauce-labs/ui-presentation/main.page/all.elements.visible.test.ts-snapshots/main-page-snapshot-linux.png is missing in snapshots.",
+  "statusTrace" : "\n    at Object.compareWithScreenshot (/home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/helpers/expects.ts:21:61)\n    at /home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/specs.sauce-labs/ui-presentation/main.page/all.elements.visible.test.ts:18:5\n    at WorkerRunner._runTestWithBeforeHooks (/home/runner/work/playwright-tests/playwright-tests/node_modules/@playwright/test/lib/workerRunner.js:478:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "/home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/specs.sauce-labs/ui-presentation/main.page/all.elements.visible.test.ts-snapshots/main-page-snapshot-linux.png is missing in snapshots.",
+    "statusTrace" : "\n    at Object.compareWithScreenshot (/home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/helpers/expects.ts:21:61)\n    at /home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/specs.sauce-labs/ui-presentation/main.page/all.elements.visible.test.ts:18:5\n    at WorkerRunner._runTestWithBeforeHooks (/home/runner/work/playwright-tests/playwright-tests/node_modules/@playwright/test/lib/workerRunner.js:478:7)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "video",
+      "type" : "video/webm",
+      "size" : 0
+    }, {
+      "name" : "screenshot",
+      "type" : "image/png",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.sauce-labs/ui-presentation/main.page/all.elements.visible.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3405f133d974bddb.json",
+  "parameterValues" : [ ]
+}
