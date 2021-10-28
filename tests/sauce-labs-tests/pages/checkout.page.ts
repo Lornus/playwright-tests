@@ -20,7 +20,7 @@ export class CheckoutPage extends BasePage {
     readonly cartList: string;
     readonly summaryInfo: string;
     readonly priceOfItem: string;
-    private tax: number;
+    private readonly tax: number;
 
 
     constructor(page: Page, context: BrowserContext) {
