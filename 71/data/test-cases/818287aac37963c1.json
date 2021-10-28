@@ -1,0 +1,61 @@
+{
+  "uid" : "818287aac37963c1",
+  "name" : "appears message about locked user",
+  "fullName" : "appears message about locked user",
+  "historyId" : " specs.sauce-labs/login/positive.cases/login.locked.user.test.ts appears message about locked user",
+  "time" : {
+    "start" : 1635413100000,
+    "stop" : 1635413101243,
+    "duration" : 1243
+  },
+  "status" : "failed",
+  "statusMessage" : "/home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/specs.sauce-labs/login/positive.cases/login.locked.user.test.ts-snapshots/blocked-user-page-linux.png is missing in snapshots.",
+  "statusTrace" : "\n    at Object.compareWithScreenshot (/home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/helpers/expects.ts:21:61)\n    at /home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/specs.sauce-labs/login/positive.cases/login.locked.user.test.ts:11:5\n    at WorkerRunner._runTestWithBeforeHooks (/home/runner/work/playwright-tests/playwright-tests/node_modules/@playwright/test/lib/workerRunner.js:478:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "/home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/specs.sauce-labs/login/positive.cases/login.locked.user.test.ts-snapshots/blocked-user-page-linux.png is missing in snapshots.",
+    "statusTrace" : "\n    at Object.compareWithScreenshot (/home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/helpers/expects.ts:21:61)\n    at /home/runner/work/playwright-tests/playwright-tests/tests/sauce-labs-tests/specs.sauce-labs/login/positive.cases/login.locked.user.test.ts:11:5\n    at WorkerRunner._runTestWithBeforeHooks (/home/runner/work/playwright-tests/playwright-tests/node_modules/@playwright/test/lib/workerRunner.js:478:7)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "name" : "video",
+      "type" : "video/webm",
+      "size" : 0
+    }, {
+      "name" : "screenshot",
+      "type" : "image/png",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "specs.sauce-labs/login/positive.cases/login.locked.user.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "818287aac37963c1.json",
+  "parameterValues" : [ ]
+}
