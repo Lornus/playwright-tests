@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://Lornus.github.io/playwright-tests",
+  "buildOrder" : 72,
+  "buildName" : "GitHub Actions Run #1440551947",
+  "buildUrl" : "https://github.com/Lornus/playwright-tests/actions/runs/1440551947",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://Lornus.github.io/playwright-tests/72/"
+} ]
