@@ -1,248 +1,248 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "must determine hidden buttons",
-    "uid" : "1f1de844adc76876",
+    "name" : "[name=\"Password\"] input",
+    "uid" : "5f396f8119748044",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1653175082093,
-      "stop" : 1653175082901,
-      "duration" : 808
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "waiting for a page to load",
-    "uid" : "898b0cb81e0b7d90",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1653175082906,
-      "stop" : 1653175088684,
-      "duration" : 5778
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "h3 tag",
-    "uid" : "652200d675d88d6e",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1653175078290,
-      "stop" : 1653175078978,
-      "duration" : 688
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "demonstrate error when login is empty",
-    "uid" : "ad342e2676fd8d0c",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1653175078197,
-      "stop" : 1653175078938,
-      "duration" : 741
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "the addToCart name is changing",
-    "uid" : "d3d5ce830c2e3e9b",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1653175078943,
-      "stop" : 1653175079830,
-      "duration" : 887
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "demonstration warning when all fields are empty",
-    "uid" : "df2c2ae6aa846e99",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1653175076111,
-      "stop" : 1653175077360,
-      "duration" : 1249
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "it is able to click the addToCart",
-    "uid" : "49f9e08acd198606",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1653175079837,
-      "stop" : 1653175080647,
-      "duration" : 810
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "value of cpu in table that each reload renders equals to text",
-    "uid" : "120688677e5ea02a",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1653175081359,
-      "stop" : 1653175082021,
-      "duration" : 662
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "find an element with Welcome text",
-    "uid" : "7f926ed5450ac3c1",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1653175081500,
-      "stop" : 1653175082088,
-      "duration" : 588
+      "start" : 1653175257506,
+      "stop" : 1653175258182,
+      "duration" : 676
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "click count increased",
-    "uid" : "13c5f460eda280f3",
+    "uid" : "eb70bb5a560384d3",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1653175080650,
-      "stop" : 1653175081343,
-      "duration" : 693
+      "start" : 1653175257308,
+      "stop" : 1653175258260,
+      "duration" : 952
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "description",
-    "uid" : "551b5e3edf671f31",
+    "name" : "waiting for a page to load",
+    "uid" : "253a5e6257c83c66",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1653175078979,
-      "stop" : 1653175079629,
-      "duration" : 650
+      "start" : 1653175260129,
+      "stop" : 1653175266342,
+      "duration" : 6213
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "waiting for an element to show up after AJAX",
-    "uid" : "62e815b1220982bf",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1653175082838,
-      "stop" : 1653175084086,
-      "duration" : 1248
-    },
-    "flaky" : false,
-    "newFailed" : true,
-    "parameters" : [ ]
-  }, {
-    "name" : "[name=\"UserName\"] input",
-    "uid" : "4dcd91cdcc9edd98",
+    "name" : "must determine hidden buttons",
+    "uid" : "45732cefdf7b2164",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1653175080156,
-      "stop" : 1653175080850,
-      "duration" : 694
+      "start" : 1653175259029,
+      "stop" : 1653175260120,
+      "duration" : 1091
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "the addToCart name is changing",
-    "uid" : "7c5d9410a4f41196",
+    "uid" : "d5f22d786a8f5908",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1653175082023,
-      "stop" : 1653175082835,
-      "duration" : 812
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "login status",
-    "uid" : "58f2dd6cc6dea466",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1653175079630,
-      "stop" : 1653175080154,
-      "duration" : 524
+      "start" : 1653175255335,
+      "stop" : 1653175256389,
+      "duration" : 1054
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "demonstrate error when password is empty",
-    "uid" : "6b6d63e4a49d4d17",
+    "uid" : "5e051338fd31a2c3",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1653175077370,
-      "stop" : 1653175078281,
-      "duration" : 911
+      "start" : 1653175253178,
+      "stop" : 1653175254340,
+      "duration" : 1162
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "[name=\"Password\"] input",
-    "uid" : "7d47d80f3d9e97dc",
+    "name" : "[name=\"UserName\"] input",
+    "uid" : "6c00bcf9a0e69e5c",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1653175080850,
-      "stop" : 1653175081495,
-      "duration" : 645
+      "start" : 1653175256759,
+      "stop" : 1653175257506,
+      "duration" : 747
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "h3 tag",
+    "uid" : "9a1137e63cc327f4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653175254350,
+      "stop" : 1653175255208,
+      "duration" : 858
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "demonstrate error when login is empty",
+    "uid" : "bce56e11029dc89e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653175254330,
+      "stop" : 1653175255331,
+      "duration" : 1001
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "demonstrating error when password is incorrect, login correct",
-    "uid" : "23952b57ba793ceb",
+    "uid" : "b38abdc2f0158dc6",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1653175077283,
-      "stop" : 1653175078192,
-      "duration" : 909
+      "start" : 1653175253157,
+      "stop" : 1653175254326,
+      "duration" : 1169
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "login status",
+    "uid" : "5cadb6ed81eaf8ce",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653175255941,
+      "stop" : 1653175256758,
+      "duration" : 817
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "description",
+    "uid" : "a404b673e98a401c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653175255209,
+      "stop" : 1653175255941,
+      "duration" : 732
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "demonstration warning when all fields are empty",
+    "uid" : "89c5e903a139e1b5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653175251761,
+      "stop" : 1653175253149,
+      "duration" : 1388
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "waiting for an element to show up after AJAX",
+    "uid" : "da84d09bbeeb59f3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1653175260023,
+      "stop" : 1653175261410,
+      "duration" : 1387
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "login with correct login and password",
-    "uid" : "f83c3fd32bd1066",
+    "uid" : "2dceac3efd31ee93",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1653175075774,
-      "stop" : 1653175077276,
-      "duration" : 1502
+      "start" : 1653175251406,
+      "stop" : 1653175253172,
+      "duration" : 1766
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "find an element with Welcome text",
+    "uid" : "93ef92f13ddc3409",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653175258273,
+      "stop" : 1653175259019,
+      "duration" : 746
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "value of cpu in table that each reload renders equals to text",
+    "uid" : "24bbd8749cda7116",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653175258185,
+      "stop" : 1653175259016,
+      "duration" : 831
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "the addToCart name is changing",
+    "uid" : "be3e5a625ba9cb72",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653175259021,
+      "stop" : 1653175260021,
+      "duration" : 1000
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "it is able to click the addToCart",
+    "uid" : "6ad4e3331bee16c7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653175256396,
+      "stop" : 1653175257303,
+      "duration" : 907
     },
     "flaky" : false,
     "newFailed" : false,

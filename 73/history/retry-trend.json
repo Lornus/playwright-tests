@@ -7,6 +7,14 @@
     "retry" : 0
   }
 }, {
+  "buildOrder" : 73,
+  "reportUrl" : "https://Lornus.github.io/playwright-tests/73/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 19,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 72,
   "reportUrl" : "https://Lornus.github.io/playwright-tests/72/",
   "reportName" : "Allure Report with history",
@@ -149,13 +157,5 @@
   "data" : {
     "run" : 47,
     "retry" : 1
-  }
-}, {
-  "buildOrder" : 56,
-  "reportUrl" : "https://Lornus.github.io/playwright-tests/56/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 47,
-    "retry" : 0
   }
 } ]
