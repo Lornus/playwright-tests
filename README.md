@@ -12,10 +12,10 @@
 
 ## Installation
 ```
-1. git clone 
+git clone 
 ```
 ```
-2. npm i 
+npm i 
 ```
 
 ## Running with docker 
