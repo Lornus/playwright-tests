@@ -20,7 +20,7 @@ npm i
 
 ## Running with docker 
 ```
-docker pull lornus/playwight-tests
+docker pull lornus/playwright-tests
 ```
 ```
 Run image
