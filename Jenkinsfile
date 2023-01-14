@@ -1,9 +1,7 @@
 // def test_image = lornus/playwright-tests
 
 pipeline{
-  agent docker{
-    image 'lornus/playwright-tests'
-  }
+  agent any
 
 stages{
   stage("docker pull"){
