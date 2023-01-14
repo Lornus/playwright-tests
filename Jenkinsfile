@@ -14,13 +14,14 @@ stages{
         image.rm()
     }
     }
+  }
     // stage("docker run"){
     //   steps{
     //   sh "echo 'pull docker image'"
     //   sh "docker run --rm --env-file .env --name pwt lornus/playwright-tests"
     //   }
     // }
-}
+  }
   post{
     cleanup{
       script{
@@ -35,5 +36,4 @@ stages{
     }
   }
     
-  }
 }
