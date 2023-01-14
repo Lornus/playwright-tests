@@ -16,6 +16,7 @@ stages{
       sh "docker run --rm --env-file .env --name pwt ${test_image}"
       }
     }
+}
   post{
     cleanup{
       script{
@@ -30,5 +31,4 @@ stages{
     }
   }
     
-  } 
-}
+  }
