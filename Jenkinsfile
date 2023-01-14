@@ -1,4 +1,4 @@
-def test_image = lornus/playwright-tests
+// def test_image = lornus/playwright-tests
 
 pipeline{
   agent any 
@@ -7,13 +7,13 @@ stages{
   stage("docker pull"){
     steps{
       sh "echo 'pull docker image'"
-      sh "docker pull ${test_image}"
+      sh "docker pull lornus/playwright-tests"
     }
     }
     stage("docker run"){
       steps{
       sh "echo 'pull docker image'"
-      sh "docker run --rm --env-file .env --name pwt ${test_image}"
+      sh "docker run --rm --env-file .env --name pwt lornus/playwright-tests"
       }
     }
 }
