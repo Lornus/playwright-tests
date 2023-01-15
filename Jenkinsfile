@@ -10,7 +10,7 @@ stages{
     steps{
         sh "echo 'run tests'"
         script{
-            docker run --rm --name pwt lornus/playwright-tests
+           sh "docker run --rm --name pwt lornus/playwright-tests"
 
     }
     }
