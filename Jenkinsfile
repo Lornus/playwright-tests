@@ -5,13 +5,15 @@ pipeline{
 
 stages{
   stage("docker pull"){
+    agent{
+        docker{
+            image 'lornus/playwright-tests'
+        }
+    }
     steps{
         sh "echo 'pull docker'"
         script{
-        image =  docker.image('lornus/playwright-tests')
-        image.pull()
-        image.run()
-        image.rm()
+             docker image ls
     }
     }
   }
