@@ -10,7 +10,7 @@
 2. for sample app created isolated directory 
 3. tests for https://www.saucedemo.com/
 
-## Installation
+## Installation. 
 ```
 git clone 
 ```
